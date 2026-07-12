@@ -1,18 +1,36 @@
+# Python Virtual Environments
 venv/
-__pycache__/
-*.pyc
+qlib/
 
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Environment
 .env
 
-.pytest_cache/
-
+# IDE
 .idea/
 .vscode/
 
+# Logs
 logs/
-
 *.log
 
+# Alembic
 alembic.ini
 
+# OS
 .DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Local Database (if used)
+*.sqlite3
