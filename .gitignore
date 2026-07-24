@@ -20,9 +20,6 @@ __pycache__/
 logs/
 *.log
 
-# Alembic
-alembic.ini
-
 # OS
 .DS_Store
 Thumbs.db
@@ -34,3 +31,12 @@ build/
 
 # Local Database (if used)
 *.sqlite3
+
+# Raw downloaded corpus artifacts (~300M). Reproducible from the pinned
+# sources in app/pipelines/, and their SHA-256 checksums are preserved in
+# corpus/manifests/ (which IS committed), so provenance stays verifiable
+# without carrying the bulk in git. The .gitkeep placeholders remain tracked
+# so the directory layout is restored on a fresh clone.
+corpus/original/
+corpus/temp/
+corpus/cache/
