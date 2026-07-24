@@ -1,0 +1,5433 @@
+{
+  "run_id": 1,
+  "source": "quran_foundation",
+  "importer": "quran.core",
+  "importer_version": "1.0.0",
+  "status": "succeeded",
+  "started_at": "2026-07-17T06:32:38.142657+00:00",
+  "finished_at": "2026-07-17T06:35:06.827285+00:00",
+  "stats": {
+    "chapters": 114,
+    "verses": 6236,
+    "translation_resources": 2,
+    "verse_translations": 12472
+  },
+  "artifacts": [
+    {
+      "relative_path": "quran/quran_foundation/chapters/chapters.json",
+      "sha256": "ff6ef5aadcc7710271179c0f9c1519c89ae613b11c8ba3265873c6c4fc6aed0b",
+      "byte_size": 30464,
+      "endpoint": "/chapters",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:40.117545+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_001_page_001.json",
+      "sha256": "257fc0461a0d87aea9d04481d4839aa3bf3998bc76d51d6f5b3fbe175b9cb4f8",
+      "byte_size": 1975,
+      "endpoint": "/verses/by_chapter/1",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:40.413873+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_002_page_001.json",
+      "sha256": "578f3cb49cce719170fb878f1d0b293461d0f6d0e351ec76d8c57b2c4535de14",
+      "byte_size": 22409,
+      "endpoint": "/verses/by_chapter/2",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:40.769265+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_002_page_002.json",
+      "sha256": "8fec5c0b150d01778abe3a477399d3698b4a599c3737e7f1db28047424c97bb6",
+      "byte_size": 26453,
+      "endpoint": "/verses/by_chapter/2",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:41.101843+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_002_page_003.json",
+      "sha256": "6e9a77ab7abf54edfdba84796abc21f1f8991de6554cf398bed4da6f4a580cf6",
+      "byte_size": 27818,
+      "endpoint": "/verses/by_chapter/2",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:41.459344+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_002_page_004.json",
+      "sha256": "6638e8dcec47e5e4a3fdda8d0ce35a3d67d6ea3420b1a71bef9a23c105f2dc9c",
+      "byte_size": 28530,
+      "endpoint": "/verses/by_chapter/2",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 4
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:41.813370+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_002_page_005.json",
+      "sha256": "538e89c06b17a179c9a12a73a3067cf01453cf72b7f0e2a3b24b6ce6536f3a73",
+      "byte_size": 32361,
+      "endpoint": "/verses/by_chapter/2",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 5
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:42.157232+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_002_page_006.json",
+      "sha256": "91c4d2352f55867a03482bcfe8a37a9a10edbf0fe1a5b6cbfddf959571d5e9df",
+      "byte_size": 25597,
+      "endpoint": "/verses/by_chapter/2",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 6
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:42.510091+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_003_page_001.json",
+      "sha256": "d5c2ee4df98fbeaabafc997658ae10994958338830511d9b098a8e392dfa6e2e",
+      "byte_size": 25078,
+      "endpoint": "/verses/by_chapter/3",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:42.861352+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_003_page_002.json",
+      "sha256": "809fa335ff81912cac13342c60b99ac7a11eb87fe37ae502e95f01c27dd548c9",
+      "byte_size": 23929,
+      "endpoint": "/verses/by_chapter/3",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:43.205247+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_003_page_003.json",
+      "sha256": "89c7b83d60c354bef2fbeae3f77e4721c62a5d79d35f8845498b4faa002ae1ba",
+      "byte_size": 23864,
+      "endpoint": "/verses/by_chapter/3",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:43.554901+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_003_page_004.json",
+      "sha256": "69a17629b3216560c084d9f8df3b54274548cb6e40b0ba075edfe78f6c8ded2c",
+      "byte_size": 27340,
+      "endpoint": "/verses/by_chapter/3",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 4
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:43.906767+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_004_page_001.json",
+      "sha256": "f87f3ed6bcb2b3f599a2754d0351f47945a255b365fc08addfd9f331edca8bb2",
+      "byte_size": 30962,
+      "endpoint": "/verses/by_chapter/4",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:44.268895+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_004_page_002.json",
+      "sha256": "e228da2c95d1f9cb8659aaab2c4f5877648724ca8020478c338984f3a9958416",
+      "byte_size": 28603,
+      "endpoint": "/verses/by_chapter/4",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:44.609324+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_004_page_003.json",
+      "sha256": "4c76efa9f370b6c5a3195cbd8e571394481ec921a0d722295235562f03d1ac88",
+      "byte_size": 26618,
+      "endpoint": "/verses/by_chapter/4",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:44.958782+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_004_page_004.json",
+      "sha256": "b374081df7735d0342bd36933c030f2e4b942a3f22283bfd98d3fab847994244",
+      "byte_size": 14529,
+      "endpoint": "/verses/by_chapter/4",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 4
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:45.301494+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_005_page_001.json",
+      "sha256": "ddecf6ba9589a7ccbccb80cb5a86670b8aaf87957ad3b8b53eeb72cf32bcd0df",
+      "byte_size": 33059,
+      "endpoint": "/verses/by_chapter/5",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:45.640152+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_005_page_002.json",
+      "sha256": "818f150423c7f945a248980950d50c2350e208b9b16b97a7db67e2d420257bfb",
+      "byte_size": 28163,
+      "endpoint": "/verses/by_chapter/5",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:45.980036+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_005_page_003.json",
+      "sha256": "17b13dd3ffcec75154df17b1ca4c2b5bef9b33f0016ae2beb4bc5a2fe3f14075",
+      "byte_size": 12239,
+      "endpoint": "/verses/by_chapter/5",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:46.332821+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_006_page_001.json",
+      "sha256": "3b006a385bdc03f2029f9fe21beef3be7542c2dba827e5011cdef6ed07d5d989",
+      "byte_size": 23421,
+      "endpoint": "/verses/by_chapter/6",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:46.700501+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_006_page_002.json",
+      "sha256": "296c3fef289a06a4d0e987c80517e03ca8af79717d84ebaa88632a406dcf44f6",
+      "byte_size": 26579,
+      "endpoint": "/verses/by_chapter/6",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:47.159996+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_006_page_003.json",
+      "sha256": "7168a1ef68c85dac28722d395e271e68d57f2e557c088f2b7c9891a3450ad5e0",
+      "byte_size": 26989,
+      "endpoint": "/verses/by_chapter/6",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:47.424745+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_006_page_004.json",
+      "sha256": "4ddd07712dec96f3e52bc67c98c88c97a45ff10eff6df4b74af92bf460140e9d",
+      "byte_size": 8623,
+      "endpoint": "/verses/by_chapter/6",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 4
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:47.750359+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_007_page_001.json",
+      "sha256": "dc516764cdf4bc1900c52c3bf50c91cc08243c14efc9cf494fb60723d6d77b2b",
+      "byte_size": 23959,
+      "endpoint": "/verses/by_chapter/7",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:48.118903+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_007_page_002.json",
+      "sha256": "8158f8333b0660f963fed9e64da9b74c9bdbf98853a45d9350aa549dc936ebba",
+      "byte_size": 24650,
+      "endpoint": "/verses/by_chapter/7",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:48.471697+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_007_page_003.json",
+      "sha256": "39c175c89df8ad4730eadabb3d0fbe8c49eb34b242e11074e4c5ec5ba2f2dd41",
+      "byte_size": 22844,
+      "endpoint": "/verses/by_chapter/7",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:48.821404+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_007_page_004.json",
+      "sha256": "4eda155ffad745fa1f8d783e066978e561b44b472f9a149adb35dd53e339081f",
+      "byte_size": 26193,
+      "endpoint": "/verses/by_chapter/7",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 4
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:49.155148+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_007_page_005.json",
+      "sha256": "e668b7bd231bb9bdb8ab64a3ea3afc580a7873da02085ac13f37f5e9947603b7",
+      "byte_size": 2663,
+      "endpoint": "/verses/by_chapter/7",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 5
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:49.511674+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_008_page_001.json",
+      "sha256": "9b7dc9254cee1978025bc225b192d001282d5d7d8da0a816aa34a1018cb4c7da",
+      "byte_size": 24494,
+      "endpoint": "/verses/by_chapter/8",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:49.835738+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_008_page_002.json",
+      "sha256": "6174c9852dc0ec6fba65aed4fe19ee0d39e3c232048cbf52db414b4e3ce0c978",
+      "byte_size": 12508,
+      "endpoint": "/verses/by_chapter/8",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:50.193929+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_009_page_001.json",
+      "sha256": "5a0d5334e9ce9601248c1aeae824598766b52d667f6b7629842742307f6116ac",
+      "byte_size": 27723,
+      "endpoint": "/verses/by_chapter/9",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:50.568697+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_009_page_002.json",
+      "sha256": "ec8ce0e128d7d53bc39a8f49356124c26eae6e40478f248b5fe94babcd856a16",
+      "byte_size": 27096,
+      "endpoint": "/verses/by_chapter/9",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:50.917356+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_009_page_003.json",
+      "sha256": "515baa302ec07e3294ff3bd194a531827f23f1b7039d8de1b0ff0016fefd3b86",
+      "byte_size": 16102,
+      "endpoint": "/verses/by_chapter/9",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:51.260464+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_010_page_001.json",
+      "sha256": "136700fdd5abc6e072805601c555964794a86ebc240dae896b1e228193325ccf",
+      "byte_size": 25926,
+      "endpoint": "/verses/by_chapter/10",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:51.618535+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_010_page_002.json",
+      "sha256": "8727b70b8fc1397622a0ce8174692bfc1eb1c8b90213bc46812fb202314db8d9",
+      "byte_size": 23020,
+      "endpoint": "/verses/by_chapter/10",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:51.954091+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_010_page_003.json",
+      "sha256": "b5469f68ab7c2ed15e81dba35721ce4d5c37d972fb1fe67ae1031a9dd0924039",
+      "byte_size": 4288,
+      "endpoint": "/verses/by_chapter/10",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:52.316366+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_011_page_001.json",
+      "sha256": "0d6bae077be9c120707b06ef6f3a690c3105bc411860c9f2a38d8c0072c041fc",
+      "byte_size": 24169,
+      "endpoint": "/verses/by_chapter/11",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:52.679632+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_011_page_002.json",
+      "sha256": "defd2b4534bd4d82a25a899b36d51af3425afa66a5f595a90f19d409bbee6b9b",
+      "byte_size": 22977,
+      "endpoint": "/verses/by_chapter/11",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:53.010358+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_011_page_003.json",
+      "sha256": "dde4d5536deced89134d7c2b92b5e360f00dc4a423f2b5e144b994362e2426e5",
+      "byte_size": 10010,
+      "endpoint": "/verses/by_chapter/11",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:53.369157+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_012_page_001.json",
+      "sha256": "400fde80e1ed903b46b3660df884ad90f3909f8e4630bbed533492e87e622345",
+      "byte_size": 23945,
+      "endpoint": "/verses/by_chapter/12",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:53.727758+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_012_page_002.json",
+      "sha256": "deb88f27c0068b2b8d6e77d72cddac14e61b9951c078bd99c2646c1c97303838",
+      "byte_size": 23301,
+      "endpoint": "/verses/by_chapter/12",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:54.067093+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_012_page_003.json",
+      "sha256": "32ff2cb94fcf4f27ed07289e1e1555ff098a07bab4c373cbf3552f58a396073b",
+      "byte_size": 5294,
+      "endpoint": "/verses/by_chapter/12",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:54.401110+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_013_page_001.json",
+      "sha256": "c3b534dcfd5a8f3aa9f8a1471ab2b0dd56ef8328c03435c0025024ba2e3852db",
+      "byte_size": 23378,
+      "endpoint": "/verses/by_chapter/13",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:54.825468+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_014_page_001.json",
+      "sha256": "1f1d14428d7e6305bf981810c3896f02dfc6ab6e01c7a67a47b84f2b0532c397",
+      "byte_size": 24156,
+      "endpoint": "/verses/by_chapter/14",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:55.107030+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_014_page_002.json",
+      "sha256": "150252754c8945b1842cf83c702117e3bc88e50d7bbcb12dec188e949a70e620",
+      "byte_size": 921,
+      "endpoint": "/verses/by_chapter/14",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:55.449612+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_015_page_001.json",
+      "sha256": "4bd48c79b8708853fbdf4860f69246164c036c63d65d15a211d5ba4dfd170cb7",
+      "byte_size": 16360,
+      "endpoint": "/verses/by_chapter/15",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:55.822111+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_015_page_002.json",
+      "sha256": "ba76b313a9cae4b4f90c184d689275c3d0193757f55c4191d6c1ee72b9dd61c6",
+      "byte_size": 15326,
+      "endpoint": "/verses/by_chapter/15",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:56.174108+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_016_page_001.json",
+      "sha256": "f51c85feb28241f38396d690d86f54702a0f4545076be46006e263007cab77b5",
+      "byte_size": 21524,
+      "endpoint": "/verses/by_chapter/16",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:56.519372+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_016_page_002.json",
+      "sha256": "10f22254438165c0761486d970e962566f8bd9e4abd909fdc53f80e4d1d7c287",
+      "byte_size": 23919,
+      "endpoint": "/verses/by_chapter/16",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:56.866095+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_016_page_003.json",
+      "sha256": "23ce7be8eb9138fc472568ecc05ba8861a8e870069861ebb22472befd2db9c0c",
+      "byte_size": 12600,
+      "endpoint": "/verses/by_chapter/16",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:57.208076+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_017_page_001.json",
+      "sha256": "b1ff4e0d51bf52b4fa6640d34710e0612f5eae14482ced0db8cd1a235d115286",
+      "byte_size": 21953,
+      "endpoint": "/verses/by_chapter/17",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:57.558881+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_017_page_002.json",
+      "sha256": "b83f24e27a13c0ae342387fbe8a980c41caf70f1b91450d47dbc35db1e3b6226",
+      "byte_size": 22793,
+      "endpoint": "/verses/by_chapter/17",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:57.906479+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_017_page_003.json",
+      "sha256": "df16928f2dfc2775357f264c113f10ff4e8256d5925e99d9a1b95d54b57d8c90",
+      "byte_size": 4940,
+      "endpoint": "/verses/by_chapter/17",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:58.252490+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_018_page_001.json",
+      "sha256": "673b8d00290d50707f4d843372d962eb30cd87e1ca148e85ab26064350317d03",
+      "byte_size": 24033,
+      "endpoint": "/verses/by_chapter/18",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:58.614455+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_018_page_002.json",
+      "sha256": "a60ed27dbef6d16d3c4a88e7d53b7910233646384bb4e46bea132291c84a81ef",
+      "byte_size": 20815,
+      "endpoint": "/verses/by_chapter/18",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:58.955680+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_018_page_003.json",
+      "sha256": "c3dc3e97bbce4a8cfdcee0edb7396340a5d495cde1aaf2727be0849936a417d2",
+      "byte_size": 4290,
+      "endpoint": "/verses/by_chapter/18",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:59.308035+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_019_page_001.json",
+      "sha256": "590a431c7d83140ef96f7a824fbb24e661c491a8f328cedd9b31e4aa98f13afd",
+      "byte_size": 18493,
+      "endpoint": "/verses/by_chapter/19",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:32:59.706444+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_019_page_002.json",
+      "sha256": "0a5d88dbda4249d3adbf01dc37c0fc6330bebc8e12799c31d1f999e5d5c31524",
+      "byte_size": 17564,
+      "endpoint": "/verses/by_chapter/19",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:00.012453+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_020_page_001.json",
+      "sha256": "367f928f75c8104bc3604f3d5237fcf579452167d69270180d326b43a36e7028",
+      "byte_size": 15978,
+      "endpoint": "/verses/by_chapter/20",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:00.369397+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_020_page_002.json",
+      "sha256": "10c7fb0aaa20fb4633b00dd005bb497c24f4e45405d18516c092e91d9ace8a93",
+      "byte_size": 19959,
+      "endpoint": "/verses/by_chapter/20",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:00.725541+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_020_page_003.json",
+      "sha256": "09443ea6e228395d7cd8cf0df6aab8f369f4db4d697f73757dac7f9ffce2c43f",
+      "byte_size": 13823,
+      "endpoint": "/verses/by_chapter/20",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:01.071999+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_021_page_001.json",
+      "sha256": "70e74327cc54f3441dd42bcd4bef805b3d4b454249f241a7b5b87a3fe3bfa0c3",
+      "byte_size": 19686,
+      "endpoint": "/verses/by_chapter/21",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:01.485039+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_021_page_002.json",
+      "sha256": "c92d66135c9595ab0e9a4c4569f421bad20086ce536d2818d584bea295612fe2",
+      "byte_size": 19197,
+      "endpoint": "/verses/by_chapter/21",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:01.757838+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_021_page_003.json",
+      "sha256": "c3777e4510b1163f5df9161f37c89fa731b39f01de0352d37e9feb3109e0c5f2",
+      "byte_size": 4593,
+      "endpoint": "/verses/by_chapter/21",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:02.160186+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_022_page_001.json",
+      "sha256": "a3a24c97bfd701aa55b191700e97d6ff55df6dcd690efc4c97e1729883d41fdb",
+      "byte_size": 24039,
+      "endpoint": "/verses/by_chapter/22",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:02.439456+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_022_page_002.json",
+      "sha256": "958314f5dd1f5d3ebd320723ed17b2b466babc9e15fbace2f4fe7f0400fd9d31",
+      "byte_size": 13481,
+      "endpoint": "/verses/by_chapter/22",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:02.791359+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_023_page_001.json",
+      "sha256": "5f461bb2f03c70598f5f1e4fa4fa2b22c2d3bbab48bb8256d19592590b4f99fe",
+      "byte_size": 18317,
+      "endpoint": "/verses/by_chapter/23",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:03.147867+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_023_page_002.json",
+      "sha256": "100f0005d9de1e6b8fc4bf301278fce191527a5aac8df0ba88bbd15038a4d0c9",
+      "byte_size": 17396,
+      "endpoint": "/verses/by_chapter/23",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:03.493754+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_023_page_003.json",
+      "sha256": "dade3d6d5089e1391925875b4853c8113a910e88b6912c6db9e25a2379277ce3",
+      "byte_size": 6495,
+      "endpoint": "/verses/by_chapter/23",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:03.900167+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_024_page_001.json",
+      "sha256": "405ae0719c0f80e7079a504cfd4994c49aac5f1d145c010c6ff31905d9e4b7b4",
+      "byte_size": 26757,
+      "endpoint": "/verses/by_chapter/24",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:04.215599+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_024_page_002.json",
+      "sha256": "9a4295fa74a4f41195157f6ac8b53b4733234cb7908e5ebb0afe4d35e8843fb5",
+      "byte_size": 9821,
+      "endpoint": "/verses/by_chapter/24",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:04.553699+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_025_page_001.json",
+      "sha256": "6017441712aaf139cc843b6480adad828fa2c46e0bc93034fe25a2237c853ca3",
+      "byte_size": 20590,
+      "endpoint": "/verses/by_chapter/25",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:04.907913+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_025_page_002.json",
+      "sha256": "90e1758101be4628dbaf7b3715619868242eb9e1f0657825f05850ab581a717a",
+      "byte_size": 10600,
+      "endpoint": "/verses/by_chapter/25",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:05.261216+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_026_page_001.json",
+      "sha256": "5e65961e15c87845a61cf3a94fd908f2c92e35479582ff4ab81d247d29a116c0",
+      "byte_size": 16170,
+      "endpoint": "/verses/by_chapter/26",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:05.612611+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_026_page_002.json",
+      "sha256": "d20382038bbe574a001af0d4ea7b2bb619df59bc858d93ff179f02b686a758b9",
+      "byte_size": 14549,
+      "endpoint": "/verses/by_chapter/26",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:05.957055+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_026_page_003.json",
+      "sha256": "ea2b1eda4f5b69cbaef317e98050b7ec1df261fad9688b5c9217c44847306da5",
+      "byte_size": 14723,
+      "endpoint": "/verses/by_chapter/26",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:06.328576+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_026_page_004.json",
+      "sha256": "de3eece981f271e7d4fb9c0370b6a154ae987fdc36c980c3290a128da98220ce",
+      "byte_size": 15349,
+      "endpoint": "/verses/by_chapter/26",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 4
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:06.707390+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_026_page_005.json",
+      "sha256": "15b3e08b6074cfe0af74ca603a5c339c0a8ecdc0ba0e0ccd1bfbdbac18d9a854",
+      "byte_size": 8129,
+      "endpoint": "/verses/by_chapter/26",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 5
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:07.148404+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_027_page_001.json",
+      "sha256": "3404a5d1f93096ac3124a25a8146a1074832355ab0da67ed04d51bdec4535ab4",
+      "byte_size": 20978,
+      "endpoint": "/verses/by_chapter/27",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:07.380543+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_027_page_002.json",
+      "sha256": "baef7bcab35342d72096c00d9c0abd05b59555effbccf98c95a27c87ac085831",
+      "byte_size": 17506,
+      "endpoint": "/verses/by_chapter/27",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:07.743550+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_028_page_001.json",
+      "sha256": "bea837adb77c96edb20de4bcbb86ba6f011c50cf78d8068660144fe4a69b2663",
+      "byte_size": 24164,
+      "endpoint": "/verses/by_chapter/28",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:08.088983+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_028_page_002.json",
+      "sha256": "6a229debbee219d08f799c1854dc61b9253479271764ff0207ef42471e291424",
+      "byte_size": 18018,
+      "endpoint": "/verses/by_chapter/28",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:08.430841+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_029_page_001.json",
+      "sha256": "8238b5c634e9349627514f69b109fc078f91a41df6145cd2c88d07c9a178a7f1",
+      "byte_size": 23203,
+      "endpoint": "/verses/by_chapter/29",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:08.784245+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_029_page_002.json",
+      "sha256": "8b2f3bfb1267b8242d1b36afc6d9a34b24fc7c3b5e621781c0bb7d4259cdfc93",
+      "byte_size": 8381,
+      "endpoint": "/verses/by_chapter/29",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:09.132909+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_030_page_001.json",
+      "sha256": "07222699b6ea7e1cad331108dc259af77f257a99376ff8bf483655831e8674dc",
+      "byte_size": 22105,
+      "endpoint": "/verses/by_chapter/30",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:09.498186+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_030_page_002.json",
+      "sha256": "cbd39d639ef3c30db127404c7b6fe925559c64ed20776d16e6ea27a60e33a5a9",
+      "byte_size": 4379,
+      "endpoint": "/verses/by_chapter/30",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:09.844296+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_031_page_001.json",
+      "sha256": "e57d5cb4686ae05f404c217d5e9d1d79926c1bf3fe481641fd883c4374bdff30",
+      "byte_size": 15806,
+      "endpoint": "/verses/by_chapter/31",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:10.189071+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_032_page_001.json",
+      "sha256": "87f1125c461199c49fbb62c33d5167d498636e9a33d7964c7291eb3af2c001ec",
+      "byte_size": 12457,
+      "endpoint": "/verses/by_chapter/32",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:10.547063+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_033_page_001.json",
+      "sha256": "110c0da5f95b27820d9da070201afaeb87c19ad1350df1570836c77a89e4bda4",
+      "byte_size": 26281,
+      "endpoint": "/verses/by_chapter/33",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:10.891217+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_033_page_002.json",
+      "sha256": "dd42151fa58f40e22be08bdc18423c3b6b1a81424cc799dd44774d69d499bfd2",
+      "byte_size": 11793,
+      "endpoint": "/verses/by_chapter/33",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:11.240827+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_034_page_001.json",
+      "sha256": "3e0d01df79158a4648134e08a1f0c6825fd88cef6f92ce8f05b60937c81050d7",
+      "byte_size": 24138,
+      "endpoint": "/verses/by_chapter/34",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:11.583839+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_034_page_002.json",
+      "sha256": "9216d32b33298b53c4ea6822fac49ae44da62b0b3061e32354c0542b54d5f56f",
+      "byte_size": 1595,
+      "endpoint": "/verses/by_chapter/34",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:11.927247+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_035_page_001.json",
+      "sha256": "519dd7a8cbe17a42058ec0ce7486fd121f1013c7082b55f57872e13eca4a27d4",
+      "byte_size": 22305,
+      "endpoint": "/verses/by_chapter/35",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:12.305771+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_036_page_001.json",
+      "sha256": "22c58e4ec6d1ded92d91668372ecb84fc8231d829d177bd482a69a52d460e86c",
+      "byte_size": 17594,
+      "endpoint": "/verses/by_chapter/36",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:12.669469+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_036_page_002.json",
+      "sha256": "db40ed71a6fc2504c9ffad8b053a1e438d2698dfabf8967d0d70f9c53e146076",
+      "byte_size": 11637,
+      "endpoint": "/verses/by_chapter/36",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:12.993849+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_037_page_001.json",
+      "sha256": "5b359964648be7098c5d36d500e736e40197af36b035ae3005cf93a100855eaa",
+      "byte_size": 14604,
+      "endpoint": "/verses/by_chapter/37",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:13.319558+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_037_page_002.json",
+      "sha256": "46078a8daddce8dc6eeecbef5b152a73909c9dbb6df17450c520df9492a83e96",
+      "byte_size": 14280,
+      "endpoint": "/verses/by_chapter/37",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:13.672724+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_037_page_003.json",
+      "sha256": "2ef215462881299350e8c5bf00fc4b86ccb1a3c60051e08921a21e3fd1c3ed60",
+      "byte_size": 14791,
+      "endpoint": "/verses/by_chapter/37",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:14.037735+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_037_page_004.json",
+      "sha256": "83c5000ab6197f18c7bcad7e5306a39fe48751f555d8f5b56df62d59af87a399",
+      "byte_size": 9014,
+      "endpoint": "/verses/by_chapter/37",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 4
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:14.370564+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_038_page_001.json",
+      "sha256": "cc4382477e9594e997ed0e48436a5b23d3a38f05b4a2011cbc960f2d0f62734e",
+      "byte_size": 18533,
+      "endpoint": "/verses/by_chapter/38",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:14.806597+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_038_page_002.json",
+      "sha256": "c74e71e01027052b3503d408a783b75b4adaf9dd906a1551c2890380e8dbe136",
+      "byte_size": 11895,
+      "endpoint": "/verses/by_chapter/38",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:15.071259+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_039_page_001.json",
+      "sha256": "207a33e7212e28e3f9758cbc4f9f06084a49c710993979599fd2acc6c35ed3ee",
+      "byte_size": 23910,
+      "endpoint": "/verses/by_chapter/39",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:15.455274+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_039_page_002.json",
+      "sha256": "e5ca9d3913f69ff4d5c4eed69fd97e6b990ed816b51427df90f59880702c02d2",
+      "byte_size": 11334,
+      "endpoint": "/verses/by_chapter/39",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:15.792918+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_040_page_001.json",
+      "sha256": "6e2a904a3a7d86dfc498fe1fc2bf45f3f0edac67c148b555527154c0881c7d4f",
+      "byte_size": 22842,
+      "endpoint": "/verses/by_chapter/40",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:16.169158+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_040_page_002.json",
+      "sha256": "89737d607ea0e5526c272d0293eef71e7bcb0ad18a3987335c2e6df9a4051680",
+      "byte_size": 15205,
+      "endpoint": "/verses/by_chapter/40",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:16.508617+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_041_page_001.json",
+      "sha256": "404e0927773a2bc5bb72edf937fe1335abcf5fd819e7bb24efc28e91a3a76219",
+      "byte_size": 22932,
+      "endpoint": "/verses/by_chapter/41",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:16.867937+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_041_page_002.json",
+      "sha256": "c2c590f68c45069978db42b6f9e344bf34fbc7741752be0049cff5a5b14b8063",
+      "byte_size": 1854,
+      "endpoint": "/verses/by_chapter/41",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:17.216045+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_042_page_001.json",
+      "sha256": "ecf1efab9f043394025d76bb61ff6e6482dfe5c6b6bf07425ef53f82f762951f",
+      "byte_size": 23534,
+      "endpoint": "/verses/by_chapter/42",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:17.568827+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_042_page_002.json",
+      "sha256": "2b822bc69d0dcf5ce8f8bf4ca8b5d2493eba6bcde1c85abfd8e939e7cca48b76",
+      "byte_size": 1694,
+      "endpoint": "/verses/by_chapter/42",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:17.955921+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_043_page_001.json",
+      "sha256": "7ce574036e555c16242c34ee2a6e87e37dfc3d9f78864202c210aadb0b6ce41a",
+      "byte_size": 18753,
+      "endpoint": "/verses/by_chapter/43",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:18.249088+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_043_page_002.json",
+      "sha256": "88da0bdc87922ea978f35f78c5906cbeed7563bf0ac89d49bf29879d4d329bdc",
+      "byte_size": 14081,
+      "endpoint": "/verses/by_chapter/43",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:18.597440+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_044_page_001.json",
+      "sha256": "9ebbe74a7a4cd8ab3357b3490f5d191e95415a5d7d86af4bb9636f7512e5e29c",
+      "byte_size": 15218,
+      "endpoint": "/verses/by_chapter/44",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:18.944665+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_044_page_002.json",
+      "sha256": "5a0f5270c7dd2f00bd4090e55e9051f60f3bc1ac3c7df1e07feb1ffb3199f16b",
+      "byte_size": 2786,
+      "endpoint": "/verses/by_chapter/44",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:19.290134+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_045_page_001.json",
+      "sha256": "e9113d2cb27e5ffcf109652c948b385ed25d9d9b08b46c23a5d07d8355ffa538",
+      "byte_size": 16042,
+      "endpoint": "/verses/by_chapter/45",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:19.671007+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_046_page_001.json",
+      "sha256": "49cfc9136b1d303361924de661f873edb8f24c2af0d056934eba86b36ce767c0",
+      "byte_size": 18026,
+      "endpoint": "/verses/by_chapter/46",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:20.016953+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_047_page_001.json",
+      "sha256": "5e753a5260fd2137ea29517f72c9d81128fb1dca434d5b1d3ec16b901b946f4c",
+      "byte_size": 17669,
+      "endpoint": "/verses/by_chapter/47",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:20.366920+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_048_page_001.json",
+      "sha256": "6a51b6304399bb962d31698bf415881595b702569a6d97bccf69032a387e462b",
+      "byte_size": 15994,
+      "endpoint": "/verses/by_chapter/48",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:20.726903+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_049_page_001.json",
+      "sha256": "ada674c9a416ec493065bc21f1ce0455fb64a21642820daf7ba3f58bcbb7ce56",
+      "byte_size": 9964,
+      "endpoint": "/verses/by_chapter/49",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:21.067066+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_050_page_001.json",
+      "sha256": "011d74b9f04c1ebefe1f3078a7811d1175ce9fd68ef3e80d5aecc5cb75d8da1b",
+      "byte_size": 15267,
+      "endpoint": "/verses/by_chapter/50",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:21.484729+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_051_page_001.json",
+      "sha256": "15e9f45b071fd6bdeef10a7f08f3780ded68600892c23ae7c03dec9549e0e835",
+      "byte_size": 15080,
+      "endpoint": "/verses/by_chapter/51",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:21.761982+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_051_page_002.json",
+      "sha256": "ca832b35423c232d1fdb66e8d57d91c439d9c2c296a6bfe3b91aaa881cfbadd7",
+      "byte_size": 3359,
+      "endpoint": "/verses/by_chapter/51",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:22.108664+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_052_page_001.json",
+      "sha256": "e2afb10b560b5c60264cca0d2485603f8c1e4d40b34c2091235c754b17729745",
+      "byte_size": 15292,
+      "endpoint": "/verses/by_chapter/52",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:22.500932+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_053_page_001.json",
+      "sha256": "e2353ea2f38fa54678538a1b9db3d68230fc38a44fccb419497b64b466e5944a",
+      "byte_size": 15221,
+      "endpoint": "/verses/by_chapter/53",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:22.832731+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_053_page_002.json",
+      "sha256": "d1c8bb0091cf77a3e38912fc88efa07f521b068707c5d385317d1c1601806a29",
+      "byte_size": 3319,
+      "endpoint": "/verses/by_chapter/53",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:23.173368+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_054_page_001.json",
+      "sha256": "2c6fc215e136e3b9244d02609a40e866941a3f2f6406b1bed0ada50721ab5a7d",
+      "byte_size": 15737,
+      "endpoint": "/verses/by_chapter/54",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:23.601099+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_054_page_002.json",
+      "sha256": "ad04574ac945c04239f12d52c3cd241595b363af80d367cb3a821bdf4b04f5b8",
+      "byte_size": 1535,
+      "endpoint": "/verses/by_chapter/54",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:23.858317+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_055_page_001.json",
+      "sha256": "883489780fde1a31b4879970b261c0e899f4a8b923e361dc66e49ed3d621a113",
+      "byte_size": 14487,
+      "endpoint": "/verses/by_chapter/55",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:24.215792+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_055_page_002.json",
+      "sha256": "c95b17b6521bd1f6078a4b1ce1067325658877113f5a7f78b466220a9197600d",
+      "byte_size": 8113,
+      "endpoint": "/verses/by_chapter/55",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:24.559516+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_056_page_001.json",
+      "sha256": "96b66733ae0c6210f7d5f6f615043fd201d57ba39c4aa74dafe861a9f4fd3e84",
+      "byte_size": 13357,
+      "endpoint": "/verses/by_chapter/56",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:24.895671+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_056_page_002.json",
+      "sha256": "bb4cd9c9a601f80a2c0daeff4ff74d45735d0dd14255a8e4f414755169da30ca",
+      "byte_size": 13091,
+      "endpoint": "/verses/by_chapter/56",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:25.255401+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_057_page_001.json",
+      "sha256": "db7cab4143a864abd8b21a20e76192fdcdf4d24b33ae0fd16084e59176c308c7",
+      "byte_size": 16203,
+      "endpoint": "/verses/by_chapter/57",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:25.621000+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_058_page_001.json",
+      "sha256": "99e9576574bb992b9829601ee810b07a231a22a0c5d241c5fd7d68f95b9b72c6",
+      "byte_size": 12879,
+      "endpoint": "/verses/by_chapter/58",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:26.072526+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_059_page_001.json",
+      "sha256": "d018f4128d3f1fb26efa467130ac4bee6f75077669a29c141beb1e44943574c3",
+      "byte_size": 12864,
+      "endpoint": "/verses/by_chapter/59",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:26.317307+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_060_page_001.json",
+      "sha256": "e4c8fd4687e889449ef5a49ec98f051e31f7f30f0fb37a4e931a696643ce9442",
+      "byte_size": 9065,
+      "endpoint": "/verses/by_chapter/60",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:26.672408+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_061_page_001.json",
+      "sha256": "dd0ad4bff0786c4b073fc82fbe9b73a8519bc44f3018bb98e55a2daf1f5c5814",
+      "byte_size": 6793,
+      "endpoint": "/verses/by_chapter/61",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:27.042083+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_062_page_001.json",
+      "sha256": "7479e2adeb37df643c4b38e4b42e0d51594cf8633450938f42a772de3434a36d",
+      "byte_size": 5386,
+      "endpoint": "/verses/by_chapter/62",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:27.361702+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_063_page_001.json",
+      "sha256": "2e577456c5e6d985eefaab5a89172c02fe535d52d9b1f802a6d7dc8a5b0fcf22",
+      "byte_size": 5590,
+      "endpoint": "/verses/by_chapter/63",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:27.710735+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_064_page_001.json",
+      "sha256": "cf2b230a751a11aae46c91df47d60972c2b06e0c183d871abdb7cd8623a07c1a",
+      "byte_size": 8131,
+      "endpoint": "/verses/by_chapter/64",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:28.076565+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_065_page_001.json",
+      "sha256": "4c3f3129653dbf61bee1c89f31622276f86d66475d309fa82e6b4ac35899cdb0",
+      "byte_size": 7541,
+      "endpoint": "/verses/by_chapter/65",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:28.435100+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_066_page_001.json",
+      "sha256": "a1f0e90becc94e3ea4a0672e49bc17100ba990811a510d5c6c3fe00a8ab1e689",
+      "byte_size": 7003,
+      "endpoint": "/verses/by_chapter/66",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:28.767388+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_067_page_001.json",
+      "sha256": "39c75024add6dbc69bdcdc4caf94672eaeb93575d330fe30b9aacc5473e3c527",
+      "byte_size": 11586,
+      "endpoint": "/verses/by_chapter/67",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:29.120636+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_068_page_001.json",
+      "sha256": "3d20598bb47cc7f12dc6eb13e7ae51bd19d2663d78e5a9bc2ffec614a082f7c9",
+      "byte_size": 15019,
+      "endpoint": "/verses/by_chapter/68",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:29.449753+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_068_page_002.json",
+      "sha256": "c94e9688c5dff9bb7747961722798421cb03be0b8afccc6693f640394cb6efa4",
+      "byte_size": 834,
+      "endpoint": "/verses/by_chapter/68",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:29.804956+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_069_page_001.json",
+      "sha256": "fa69ed8072fec47b2e266af35fc12a7a75ee7b1242bfc0e469fa1b999eea287d",
+      "byte_size": 14528,
+      "endpoint": "/verses/by_chapter/69",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:30.168931+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_069_page_002.json",
+      "sha256": "8c5bedf576e5b325d71b3b76538e9436ded12ddfb46c68acd64d8245b5737afd",
+      "byte_size": 638,
+      "endpoint": "/verses/by_chapter/69",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:30.515180+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_070_page_001.json",
+      "sha256": "d8795b6f1b0689c8171d6aa01e9d5ca13f1fc910efbd1f1c63bf27362a0387aa",
+      "byte_size": 12830,
+      "endpoint": "/verses/by_chapter/70",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:30.878616+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_071_page_001.json",
+      "sha256": "f75178065b5b1cea0a985f818009b7f2a7f8f4c635bb730ebb324a865dd6bf68",
+      "byte_size": 9561,
+      "endpoint": "/verses/by_chapter/71",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:31.231742+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_072_page_001.json",
+      "sha256": "ba796c527ed66d433801c2b52d346ab8ee7065496570504b7806e3f329b8e329",
+      "byte_size": 10266,
+      "endpoint": "/verses/by_chapter/72",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:31.573175+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_073_page_001.json",
+      "sha256": "693aabc300cf9633c5363bc82772b0f92972985515c22889ee9a23b51e3df476",
+      "byte_size": 7541,
+      "endpoint": "/verses/by_chapter/73",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:31.937356+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_074_page_001.json",
+      "sha256": "4ed5702bd42cff4b5012bab4ec4d45904cdf28080a04c47aa10922c8fb122160",
+      "byte_size": 13827,
+      "endpoint": "/verses/by_chapter/74",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:32.277630+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_074_page_002.json",
+      "sha256": "6a29cf95f857af79a82686dcf3e5a0b2b4ab9c60f5a72e5e60ef126b2661d414",
+      "byte_size": 1845,
+      "endpoint": "/verses/by_chapter/74",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:32.616395+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_075_page_001.json",
+      "sha256": "3416ce97beab011e68764280b0e53ddbf96cfa0f298516fba79c8fc7a06ac464",
+      "byte_size": 10933,
+      "endpoint": "/verses/by_chapter/75",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:32.968901+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_076_page_001.json",
+      "sha256": "7ce225e299abc7d9975787da2ef38bd04dc5913c0207bbd7b0fdd4b7766defba",
+      "byte_size": 10614,
+      "endpoint": "/verses/by_chapter/76",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:33.319837+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_077_page_001.json",
+      "sha256": "f30c3479306b8a5ce8969f296ebb4e6c05d8ec1a63ac9a38613f2a94a62bec40",
+      "byte_size": 13500,
+      "endpoint": "/verses/by_chapter/77",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:33.682368+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_078_page_001.json",
+      "sha256": "5718b5e6f3b80a72ea7b41d1e52857d9caca0789ae79e0c4e9009391dfed904c",
+      "byte_size": 11216,
+      "endpoint": "/verses/by_chapter/78",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:34.027933+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_079_page_001.json",
+      "sha256": "730095ac19da54e6440427d28eb4ff2af41c0b093671d64b62cff8c2e6b4684b",
+      "byte_size": 12478,
+      "endpoint": "/verses/by_chapter/79",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:34.421223+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_080_page_001.json",
+      "sha256": "6a42bd7d60e4687f1777f443e8fa5ba66142af218e861188c09dec3d9e885232",
+      "byte_size": 10835,
+      "endpoint": "/verses/by_chapter/80",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:34.719888+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_081_page_001.json",
+      "sha256": "16f1a9a8948aa7783fb1c2a04b71d1613e6c54a18b3b5916a969fb376b082fe3",
+      "byte_size": 7628,
+      "endpoint": "/verses/by_chapter/81",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:35.082956+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_082_page_001.json",
+      "sha256": "8c66cfe474c1a9b3b03ece8b316098f2c366f6d755b4523c4c2a9fae7b773f62",
+      "byte_size": 5237,
+      "endpoint": "/verses/by_chapter/82",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:35.431121+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_083_page_001.json",
+      "sha256": "bca9f24dab97e8837859e238f2a7b9b519b45e7023f634bf3d7f781e48f6284c",
+      "byte_size": 10328,
+      "endpoint": "/verses/by_chapter/83",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:35.775660+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_084_page_001.json",
+      "sha256": "8a809adba0a30f54fd730a801ad79742bd60af4c1b862e2fb3432262dbfaa98b",
+      "byte_size": 6912,
+      "endpoint": "/verses/by_chapter/84",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:36.121971+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_085_page_001.json",
+      "sha256": "ecb89ef9e529474d32320666411681f0890d8f4ea113236047ab94a9b219deed",
+      "byte_size": 6353,
+      "endpoint": "/verses/by_chapter/85",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:36.472272+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_086_page_001.json",
+      "sha256": "d618eda93ca5a0c549f373eba9ad834572163e648f847a377a0a437203a28a86",
+      "byte_size": 4515,
+      "endpoint": "/verses/by_chapter/86",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:36.837020+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_087_page_001.json",
+      "sha256": "bbb958379577c56c86ced2380b333a36477766c2b54f446779601526355bd115",
+      "byte_size": 5117,
+      "endpoint": "/verses/by_chapter/87",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:37.180664+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_088_page_001.json",
+      "sha256": "3c1009d9f4cd9549e786e5ab532a068bbaae9cbd224fdd3858509b14dc352b45",
+      "byte_size": 6834,
+      "endpoint": "/verses/by_chapter/88",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:37.518350+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_089_page_001.json",
+      "sha256": "df67172e74ff78fec6e91128f2f72896d0f94160c64e285bd2707f01e6b0cfde",
+      "byte_size": 8477,
+      "endpoint": "/verses/by_chapter/89",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:37.872358+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_090_page_001.json",
+      "sha256": "0e5718429b87aba26efe1344cf469a5085390e4b27b7cac60e72da7aa4892238",
+      "byte_size": 5496,
+      "endpoint": "/verses/by_chapter/90",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:38.223567+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_091_page_001.json",
+      "sha256": "6170f0040199b30c00fc2ccc41e30eb41238bbbf23cdf17c03c2a944feb98089",
+      "byte_size": 4082,
+      "endpoint": "/verses/by_chapter/91",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:38.585599+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_092_page_001.json",
+      "sha256": "00f17c5982c4f41909ddde3c50e552d52792044ee39945b6d7d2e377e91e3d55",
+      "byte_size": 5599,
+      "endpoint": "/verses/by_chapter/92",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:38.921916+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_093_page_001.json",
+      "sha256": "36bf765801b3b1b854ace72a70d761ec3ece610fde36b768c303eb6c72c97e11",
+      "byte_size": 2982,
+      "endpoint": "/verses/by_chapter/93",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:39.250997+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_094_page_001.json",
+      "sha256": "eb8c6ff2000e8bbc71f88a8ee9a98cd82558db31ab2931d3e7838388fc60eef5",
+      "byte_size": 2110,
+      "endpoint": "/verses/by_chapter/94",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:39.648429+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_095_page_001.json",
+      "sha256": "e48bc8cea09eea7c5a18d65a1a5accc170f188e1f8824054f7d991807c4d8ba4",
+      "byte_size": 2332,
+      "endpoint": "/verses/by_chapter/95",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:39.968617+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_096_page_001.json",
+      "sha256": "fc0ad9c6cc6661071b50032d4efbd41af719465e532539c991548d95e4aa6531",
+      "byte_size": 5083,
+      "endpoint": "/verses/by_chapter/96",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:40.318807+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_097_page_001.json",
+      "sha256": "66353320b3a9179061733b3b3f4e4d8cb8757d60059aebc971cb51113e54e3e6",
+      "byte_size": 1578,
+      "endpoint": "/verses/by_chapter/97",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:40.666417+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_098_page_001.json",
+      "sha256": "cbeb55d06d7963825c57f87031188cee41e5ed1e6131da30828d9c4c609e174c",
+      "byte_size": 3365,
+      "endpoint": "/verses/by_chapter/98",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:41.037003+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_099_page_001.json",
+      "sha256": "cd621edc765887c0ba17ec2e1cc47a482d7202bf48d13e5f07d01119f81b703e",
+      "byte_size": 2331,
+      "endpoint": "/verses/by_chapter/99",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:41.381700+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_100_page_001.json",
+      "sha256": "f051f84a546a26a167fa0e474761abbcd869bc38b74e7cd24ed95dbcdb9676e1",
+      "byte_size": 2998,
+      "endpoint": "/verses/by_chapter/100",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:41.722091+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_101_page_001.json",
+      "sha256": "2f86da4244e801b230dcd96c310c2a1e6b5b3bc5e95f5262a5234895499277ed",
+      "byte_size": 2927,
+      "endpoint": "/verses/by_chapter/101",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:42.073188+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_102_page_001.json",
+      "sha256": "5cb4e218ca2c8cad253357a3737dabb76641f5b3eab125ee7976cf2365a8b25b",
+      "byte_size": 2207,
+      "endpoint": "/verses/by_chapter/102",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:42.433989+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_103_page_001.json",
+      "sha256": "4a8f693bbe0c9b16557c3d5728e71255ec3de72c1fd4a73d9dba46b775128c82",
+      "byte_size": 996,
+      "endpoint": "/verses/by_chapter/103",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:42.791685+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_104_page_001.json",
+      "sha256": "ebd4135c3a93576e8425645b15ff847fbdb306efc520fd3bc6752d2b7557b707",
+      "byte_size": 2472,
+      "endpoint": "/verses/by_chapter/104",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:43.121585+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_105_page_001.json",
+      "sha256": "4c07ee357b2dcdd25fedaa507d7f426c464a8fbc87d20871e5680ef063aeb989",
+      "byte_size": 1501,
+      "endpoint": "/verses/by_chapter/105",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:43.480826+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_106_page_001.json",
+      "sha256": "0a6ca8963c34c3f06fe40fc16622bd696d448c12cecf2a34807b061bd8f3a498",
+      "byte_size": 1224,
+      "endpoint": "/verses/by_chapter/106",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:43.818701+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_107_page_001.json",
+      "sha256": "491d103668d752f8a2c0d01d2b3708c2127892ad89c6cb3878a7e0ec9613d276",
+      "byte_size": 1953,
+      "endpoint": "/verses/by_chapter/107",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:44.167192+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_108_page_001.json",
+      "sha256": "a5e306a84f301883c7f678e2c83202cb3b7b97359a72a711d5d24a41ecb865a9",
+      "byte_size": 890,
+      "endpoint": "/verses/by_chapter/108",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:44.554528+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_109_page_001.json",
+      "sha256": "a8b68a3955be18c71c81896aace6f3040d92d28cd83e8dfdfa3d2533e78879de",
+      "byte_size": 1707,
+      "endpoint": "/verses/by_chapter/109",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:44.866525+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_110_page_001.json",
+      "sha256": "521e38b8ee7693add0aecc899288ac976a7abff6c47c07db9ac5ac42e963b096",
+      "byte_size": 1032,
+      "endpoint": "/verses/by_chapter/110",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:45.234940+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_111_page_001.json",
+      "sha256": "b4ff5714c04d0a61fced48c6fd2fb425cb8394d593192feeb9bce8fc1d19ccbf",
+      "byte_size": 1443,
+      "endpoint": "/verses/by_chapter/111",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:45.572452+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_112_page_001.json",
+      "sha256": "3d5ebcece8e1602fb738ccd1f1b06ccf150be2475d0edb6a7c0b1fc12b927cd7",
+      "byte_size": 1104,
+      "endpoint": "/verses/by_chapter/112",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:45.920615+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_113_page_001.json",
+      "sha256": "6fa36596347aa2de885113172d1180e5ce5a4b83a7efd7a4cd4c1909721ac75c",
+      "byte_size": 1405,
+      "endpoint": "/verses/by_chapter/113",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:46.272002+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/verses/chapter_114_page_001.json",
+      "sha256": "9b84c6bee6aca88cb3e75d35d089aa1ba9e0f2236c547fe71ef5f99027b74df6",
+      "byte_size": 1617,
+      "endpoint": "/verses/by_chapter/114",
+      "request_params": {
+        "fields": "text_uthmani",
+        "per_page": 50,
+        "page": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:46.634567+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/resources/translations.json",
+      "sha256": "3cd92f383a5ed1e2037a3955ffe40ee9795819d97c91a13d6d9008464425c61c",
+      "byte_size": 28771,
+      "endpoint": "/resources/translations",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:46.960126+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_001.json",
+      "sha256": "61dd4e70a6ebc077cf897f86c2b29ea5f3d69af194e21ce135b1b90d6f09eb13",
+      "byte_size": 879,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:47.304247+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_002.json",
+      "sha256": "e0f2c3ae3a45f364f52350d6043bb89089525543f3454b1615a0ad36a01a7436",
+      "byte_size": 81016,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:47.674670+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_003.json",
+      "sha256": "909bd2103faa1a78c78a45e45e02c61886aa33497075adcb59762e44d32729cf",
+      "byte_size": 47067,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:48.039798+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_004.json",
+      "sha256": "ed24dae5ca27bd9d464ef1ab697294df2b6e746cab52d2d7a2f8eb9ca7441f78",
+      "byte_size": 49233,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 4
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:48.400524+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_005.json",
+      "sha256": "7b46c3af8e9e1279585fbde665c32284cccad59783211352609a2f836a3324e5",
+      "byte_size": 36455,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 5
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:48.731278+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_006.json",
+      "sha256": "902ec98d1460a535fd11fc06fe9a05e0833440b8a03f1369fea7e0f60fec6f5b",
+      "byte_size": 41518,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 6
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:49.104311+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_007.json",
+      "sha256": "8ab22e6fbd76463a1b7c29a8a2624557e5bc50a3e84ea0089e743c2a72257748",
+      "byte_size": 45955,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 7
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:49.445483+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_008.json",
+      "sha256": "1b26a6a004a0f7116ff17dde58ebe88a0d97da04586da752813bb9b4e126de79",
+      "byte_size": 17271,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 8
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:49.774143+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_009.json",
+      "sha256": "18bce848e944dd8aa6bcfd39ef18871d885ca2947d478bca289a37095eb6475f",
+      "byte_size": 34759,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 9
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:50.132445+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_010.json",
+      "sha256": "3cf162fb08deea4482e95cdc84095800c70b8614bd41c167997c8af0a9d712c5",
+      "byte_size": 24023,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 10
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:50.479312+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_011.json",
+      "sha256": "a8c39444c139a3bddeac95e5986f65ba9518e41391d0d9ca323b1e94dc304d0d",
+      "byte_size": 26117,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 11
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:50.839155+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_012.json",
+      "sha256": "ff4889bf8577666b8b250b0f2e4b465a1a166a03ab82eb255b7ea04c2dfecc52",
+      "byte_size": 23930,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 12
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:51.180795+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_013.json",
+      "sha256": "ebf83d104d0a76c7e3add742eb01f25227905fb3538b1c067dcf309d62b1481a",
+      "byte_size": 11725,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 13
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:51.528134+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_014.json",
+      "sha256": "c93b373ba2fa6e1f5d4511f5861ef252fe6e087c2a3dea7f0a071ce621c8605f",
+      "byte_size": 11478,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 14
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:51.916590+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_015.json",
+      "sha256": "cffd7f9bd76eff59096b435a5231754d3233d9518df0f2b45d213fbb80a58d4f",
+      "byte_size": 11536,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 15
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:52.223064+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_016.json",
+      "sha256": "fdf9454759c34e72b4dd9833aa53f0ecdbe0315640bd045c2f78702020524f79",
+      "byte_size": 25858,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 16
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:52.583881+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_017.json",
+      "sha256": "d1842d643ded041aa47ddc941840309db33ca5cba15772ab8f04e48aa67ae41c",
+      "byte_size": 23047,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 17
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:52.946551+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_018.json",
+      "sha256": "b5bab043829aea528983990404c61abb16366cb7f89e490b6165fac72b80034d",
+      "byte_size": 22441,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 18
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:53.292579+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_019.json",
+      "sha256": "6264d38b616db4c6f11333653a7f86fbcd862fe58ea5ac8109389beb508b82ac",
+      "byte_size": 14699,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 19
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:53.664216+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_020.json",
+      "sha256": "1d95cb17cf48e58cfcf91cedf9cc7168a102425df3a5fe683f1e54d55451d29a",
+      "byte_size": 20860,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 20
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:53.985443+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_021.json",
+      "sha256": "add3f05e248eecfd954f1239ce20b462baf6f9689319e31e0b98e4ca5def722d",
+      "byte_size": 18204,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 21
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:54.333115+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_022.json",
+      "sha256": "47f186dabe35aace89037b4ab00cd44a6235e6dab79eafd6df9ccd949d1b604d",
+      "byte_size": 17609,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 22
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:54.688255+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_023.json",
+      "sha256": "192d0a409b5164f2a28ef74a77003c035850df645f8352464fb8e1d168025c3a",
+      "byte_size": 15873,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 23
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:55.010694+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_024.json",
+      "sha256": "edfdee2e07afc446c9cc0d2bb1df0986d385e5e92826beaab579c5c413a73722",
+      "byte_size": 17808,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 24
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:55.369009+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_025.json",
+      "sha256": "17ba4266bfa77c9da0cc4755e16d669906f3b93b40bebc3066f4f39141df5b0d",
+      "byte_size": 13616,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 25
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:55.742302+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_026.json",
+      "sha256": "a54a45b6cea31bdc2bb1e52c37488b80f81344ade9fa17bc48341d0dfa61fcc3",
+      "byte_size": 22030,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 26
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:56.089415+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_027.json",
+      "sha256": "7901f652f1ac121a011ec9f321a811fbc804c6b35f0c88c5a663392e956d785f",
+      "byte_size": 16329,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 27
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:56.429619+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_028.json",
+      "sha256": "a629540e5f3da489a275b45dfb83bd9b4bfefc930048097bd9747ef3df1a6db8",
+      "byte_size": 19173,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 28
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:56.783855+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_029.json",
+      "sha256": "57aab6e1d6a88e986aeefbde56d97a12863be30388b05bdad284cabe646abf32",
+      "byte_size": 13554,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 29
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:57.137488+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_030.json",
+      "sha256": "7c40d87be9a38365468915fd575440b51a82e8dbb41769903228b0e3c7012f23",
+      "byte_size": 11557,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 30
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:57.493611+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_031.json",
+      "sha256": "a3e9158aad32861e2fe5f0e9e6f40fda376fb480a83d86c79373df3c094b054b",
+      "byte_size": 7231,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 31
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:57.840775+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_032.json",
+      "sha256": "276db059d9ea6b051c1ce47433f65e019d1323010061f8ee59ff7f5c4005d7ea",
+      "byte_size": 5395,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 32
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:58.192534+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_033.json",
+      "sha256": "18e96686e67357674261d1b39b2688631a39356d656589b9e3e20c353ddbbd33",
+      "byte_size": 18116,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 33
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:58.537455+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_034.json",
+      "sha256": "99ac576c6f5b34820107157e71ec29ee6a36428746f1c0a2ff3c60c6d59eeb29",
+      "byte_size": 12134,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 34
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:58.879629+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_035.json",
+      "sha256": "54b8714a284c06789711ed3cf79b0ff2c0298c9b5d3a330a089ce3e38f9345d9",
+      "byte_size": 10316,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 35
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:59.231399+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_036.json",
+      "sha256": "7289e842dad83a146c1cc642cd58fba0c32664dd92a0633ff347947011be1af3",
+      "byte_size": 11236,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 36
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:59.577082+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_037.json",
+      "sha256": "ff8cafe1588fcc078545a60e598d917b286a8513bf4024e9b36395aff3a00a04",
+      "byte_size": 16739,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 37
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:33:59.948469+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_038.json",
+      "sha256": "e94c96bb08f17b8c73760d2cd289b421ab587e4aec1148eb1727f72c71f33bb4",
+      "byte_size": 12084,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 38
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:00.310421+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_039.json",
+      "sha256": "e3397085470e4065a0e30e44e94e47715b5a5359501fec9e836c1d6e122d64eb",
+      "byte_size": 15983,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 39
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:00.638494+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_040.json",
+      "sha256": "3dcc9072ea2f62b869202f811ddb71d410c7924400b867826b50b67057524964",
+      "byte_size": 16673,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 40
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:01.006116+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_041.json",
+      "sha256": "5b9a94e9df39aee15bf235f400b659fc5ccd9fd397b8389e0d99f2b586d477b9",
+      "byte_size": 11568,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 41
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:01.333729+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_042.json",
+      "sha256": "5796cf067cf3828f85429c92708a556e5af906d3a24aba7e4acff16f934eecf7",
+      "byte_size": 11819,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 42
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:01.697004+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_043.json",
+      "sha256": "4839142208075cae0d5bd609e4f109c20f904eddd5955f36cca88079c076286f",
+      "byte_size": 13367,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 43
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:02.032870+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_044.json",
+      "sha256": "dbcb16bcf60f589a6bcce1bc62b2762b321eb2eea4954df0d64d214e6ce88aed",
+      "byte_size": 6077,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 44
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:02.369980+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_045.json",
+      "sha256": "bdb0e421a1436dd69f2491329591b588bdc4e131d8feba45fd904c3bc329ace1",
+      "byte_size": 6894,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 45
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:02.717781+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_046.json",
+      "sha256": "00a1b18d0e96e3fd14e92ad1bce8ae8eb9df6cd44e49a16d70a0553e3ccf810b",
+      "byte_size": 8912,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 46
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:03.084919+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_047.json",
+      "sha256": "81191c162fe42816f484feff779d96bdd075a913408632add17dda69cd5c75ef",
+      "byte_size": 7915,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 47
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:03.432579+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_048.json",
+      "sha256": "c468151a7a8c8b48d8ec4abc73c50cec239611a6581d4b62fcdf82b9d79cf8c6",
+      "byte_size": 8015,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 48
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:03.813958+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_049.json",
+      "sha256": "1875c98e38f759445bc305470c86dc3e40745b02ffa5660ec8b31072632275e0",
+      "byte_size": 4484,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 49
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:04.148964+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_050.json",
+      "sha256": "0fa07fd561e2ab5cae4640a1d8704b24de0826ad7b2222e5db6f5ed845a5c5e1",
+      "byte_size": 5981,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 50
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:04.503731+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_051.json",
+      "sha256": "726067f7da5b5a58e72be8c23880655cb0fb86b3d9912c47281250bab3e22757",
+      "byte_size": 6486,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 51
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:04.862416+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_052.json",
+      "sha256": "46003057d4ba31e732b8b8e462ad97f626c6c24346faaa03d1bdba8384690718",
+      "byte_size": 5629,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 52
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:05.200984+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_053.json",
+      "sha256": "a7a578c26a0d59faee4efd6af33d0e87215c540681ee312ab83e06260581fc76",
+      "byte_size": 6371,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 53
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:05.534744+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_054.json",
+      "sha256": "f1fa6e33b22db5ee2a8a83ea41b59ac4ad3e4ace2d8881d58cc4f41f75ec6d39",
+      "byte_size": 6244,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 54
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:05.885982+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_055.json",
+      "sha256": "a49867c16303c041eccf42cd2d9106ceadf3f7dd532f64fc4f62b5d67a77528a",
+      "byte_size": 7015,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 55
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:06.282332+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_056.json",
+      "sha256": "2a686cd6398708fcdc8f3d4809bc7a6e6a3c4e78168fa439d3b29fdbe598ed92",
+      "byte_size": 7908,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 56
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:06.567342+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_057.json",
+      "sha256": "d6f91a1f867cc6dc71d41b947ff59222055d94eaf78cb77c1fafd4693d12fcc0",
+      "byte_size": 8079,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 57
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:06.927659+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_058.json",
+      "sha256": "fa91d80e1b0c43eab026bed0887737c08c280537d352a57881518b41a1c58b6c",
+      "byte_size": 6368,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 58
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:07.282685+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_059.json",
+      "sha256": "5f58e36b639ebaabaffe67a86d43258f92546ed51c8c93e7894baa5bed586ce5",
+      "byte_size": 6621,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 59
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:07.644557+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_060.json",
+      "sha256": "d292a2ae88847f81fa73ec9c4172f1cdeab05dfa061f2a310979d769f728efd5",
+      "byte_size": 4887,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 60
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:07.981198+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_061.json",
+      "sha256": "d7690a5a62523945658330252a7b19ec80b772d65ea8ece9de2f7f418c3e1a0a",
+      "byte_size": 3000,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 61
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:08.332744+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_062.json",
+      "sha256": "0a7584af28a3412157c9b779a9cdea19660d8a8e0028b4a0d07aee4a5a726b0b",
+      "byte_size": 2486,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 62
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:08.684245+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_063.json",
+      "sha256": "320f5a78678b47c6db67b2309fe4584b4a7e48f63d8cd6b25d21ac365a1d35fa",
+      "byte_size": 2517,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 63
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:09.051191+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_064.json",
+      "sha256": "a0d621697e223788eaa70321d86dc3a2d7f9cf913769cddf935e4d0c217a09f7",
+      "byte_size": 3601,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 64
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:09.422652+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_065.json",
+      "sha256": "d3d645aa49b9939d083a6adf63812624e80451439f075359d9c5ae78407cabe7",
+      "byte_size": 4036,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 65
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:09.728961+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_066.json",
+      "sha256": "7d115fa8df6c587a85f277b4814a484c389d276164634e2a6029111af44a9079",
+      "byte_size": 3367,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 66
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:10.093504+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_067.json",
+      "sha256": "6aaed2e39d5be68cb638edce07be41e61e10101c7abfcc2d0baac7d485e174bb",
+      "byte_size": 4845,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 67
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:10.437493+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_068.json",
+      "sha256": "7ab6741d25afce60dd1b09d5817fa8493bc85a2700630fa21a12c0d659523cd8",
+      "byte_size": 5662,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 68
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:10.790962+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_069.json",
+      "sha256": "6d862f31c83d6849fadc824774d34d52006ffc7c31645a5da40ec7c8098937aa",
+      "byte_size": 5065,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 69
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:11.145854+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_070.json",
+      "sha256": "c65620f075ed03c11acf5e4a35ad52004bfd8cf8cfcc09022fe9dfb5afdc4e3c",
+      "byte_size": 4248,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 70
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:11.497585+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_071.json",
+      "sha256": "08d5035044d993413cfdaf4a644ee1a5b29a316bf07a7b03448e3f32333f4054",
+      "byte_size": 3539,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 71
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:11.829843+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_072.json",
+      "sha256": "b000d842c9ee13da3251d35d833c5e3f12b3e06966e09d5773027b3b47c13792",
+      "byte_size": 4542,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 72
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:12.166835+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_073.json",
+      "sha256": "216599fbbc67ddef22f4de6a5babad3ca8fa9135b223eea7ee130f981c6afc70",
+      "byte_size": 3254,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 73
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:12.532505+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_074.json",
+      "sha256": "d145e5018fa102860622004741a4728d6c74403276ef55411c3752afed0efbf4",
+      "byte_size": 5050,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 74
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:12.873479+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_075.json",
+      "sha256": "310f11ba81e32dc3d578e1249531996ed7b12a78496dce912faf2e82693732e4",
+      "byte_size": 3564,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 75
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:13.219591+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_076.json",
+      "sha256": "a3ce1f08d6f5c62145afc55f38280abac97012afee732d2db747fd74b9347625",
+      "byte_size": 4104,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 76
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:13.561599+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_077.json",
+      "sha256": "97813a3d36b8f1757662627240e12c3ec054f83ff64e6c38f99ceb38eaac72f0",
+      "byte_size": 3878,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 77
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:13.945198+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_078.json",
+      "sha256": "36cc9ca5bf8e32df6b89a8db3b61049f27af883cfc9dfb6d963ac4153544ad3d",
+      "byte_size": 3715,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 78
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:14.289598+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_079.json",
+      "sha256": "af9ecff33ebe2e8085759b62263fae615236411eef7126fb8c9f9d1e84c40e3c",
+      "byte_size": 4407,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 79
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:14.644843+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_080.json",
+      "sha256": "1d8b02c768f35cab4809a69730d33dde02e7482c6de0edeb5cee4518d32d7bc8",
+      "byte_size": 3457,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 80
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:15.010841+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_081.json",
+      "sha256": "3acb8ee73c84ee3045726c53e4879b31eac56ea12c060d9919e1d94ff72d6951",
+      "byte_size": 2705,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 81
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:15.409152+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_082.json",
+      "sha256": "f4023d04e5f328758f952df57d6ee16542e6154865888421a947731b7ad4fc26",
+      "byte_size": 1679,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 82
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:15.690914+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_083.json",
+      "sha256": "7bdd63dae09622677af14ad17cb7b701ab7bc18ac972f66c88c9bbbac003721e",
+      "byte_size": 3402,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 83
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:16.039024+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_084.json",
+      "sha256": "f0b5682c6354bf388eb7e3e3f0964c3cd9ad566284565fbb99055628a3246156",
+      "byte_size": 2384,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 84
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:16.389800+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_085.json",
+      "sha256": "95318e75f6dfa3770755a12d734d8a90af491686e0cc94a57c2ee28a53d5cba0",
+      "byte_size": 2214,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 85
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:16.753280+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_086.json",
+      "sha256": "00183dbbefca25ed7a6515d661f5cade436737cc93734d26376710c2c23f2ed9",
+      "byte_size": 1482,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 86
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:17.112673+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_087.json",
+      "sha256": "ac5b0d856434307044e6449056ca764a92ef6db7d7530f1f53a805106362e3e0",
+      "byte_size": 1571,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 87
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:17.440497+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_088.json",
+      "sha256": "3afc1de6063b05e3f6632f04d289aa7712ddc86cf6df1eecf77980b4972796c3",
+      "byte_size": 2029,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 88
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:17.798384+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_089.json",
+      "sha256": "e0c331e3c3a87982f55c9622df3d5e87a709be17f63e324cc759f38d4faa4b1c",
+      "byte_size": 2916,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 89
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:18.137232+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_090.json",
+      "sha256": "1283b7af809fa1189196e82f8bf3df75eac60976f8e709c09fc4a1460daba43a",
+      "byte_size": 1845,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 90
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:18.485880+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_091.json",
+      "sha256": "2ed63683b32461ebd07dc29fc893e122207368d22cc0f32fd71a566a8f6fc844",
+      "byte_size": 1606,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 91
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:18.836572+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_092.json",
+      "sha256": "7b30d120e7a1e1d0c4497cd8558237119a553be967f3f1e9e2868bbe7e86b031",
+      "byte_size": 1768,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 92
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:19.183799+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_093.json",
+      "sha256": "b2eb7b0fa80f5a284bed00a6f9e880a51c4b6dd00bc4111d09d3de2ead78416d",
+      "byte_size": 1088,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 93
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:19.546402+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_094.json",
+      "sha256": "f92e24b1a635feb637b943c618446a849ebfa65db4c1f864346ce57474974b89",
+      "byte_size": 807,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 94
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:19.905973+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_095.json",
+      "sha256": "71dd4f5ca55be77c6ffffb1756ce9ad9615bdf79c7f70132396b6472b7f6152c",
+      "byte_size": 867,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 95
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:20.237447+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_096.json",
+      "sha256": "8e1f4fe4e2f304ccd29811104299c41d5b9f04c177f27091b9a7956cad4ecc1a",
+      "byte_size": 1481,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 96
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:20.588705+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_097.json",
+      "sha256": "c4295c73d7ae6561156735bff91a845937dcd331ce1ace38a1562b5806704d0e",
+      "byte_size": 685,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 97
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:20.936240+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_098.json",
+      "sha256": "9321f606601aad5b28627e61e9c4f5ff28272fdfe969526c52e54c750a7832cf",
+      "byte_size": 1522,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 98
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:21.298424+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_099.json",
+      "sha256": "e583e3f6d752fa2cd3c4cb78617b5e133eff2b72b433152636e597c8e8e8727f",
+      "byte_size": 931,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 99
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:21.637252+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_100.json",
+      "sha256": "99a66d74d1d6a959f97e63951f466529e9e478ba34d7c0b36c07867d8ae0df38",
+      "byte_size": 1145,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 100
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:22.075804+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_101.json",
+      "sha256": "4e04506b71eb5d47f7a4c3fc3dbef1e68846ae54ab7c70ad5a339170bd2cb3e4",
+      "byte_size": 1029,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 101
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:22.343317+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_102.json",
+      "sha256": "86cc3398de0ee297582bf315a2bb130a117eb357feced178abb5a65ae2672c85",
+      "byte_size": 833,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 102
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:22.687045+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_103.json",
+      "sha256": "7a87779013c5228e96fdfc18146cccf9a5c94f0873c907c35f1aaa1b852f47be",
+      "byte_size": 437,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 103
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:23.037750+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_104.json",
+      "sha256": "b50818e50dcddcc5d76b48a5211fd893298d2c7eee8ad538e89c4739d0331cf2",
+      "byte_size": 916,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 104
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:23.388481+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_105.json",
+      "sha256": "1f4cc67d9a40a2b87d55eee5f94a4ac91c0ad87026b86300f833aadee498c6c2",
+      "byte_size": 646,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 105
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:23.738951+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_106.json",
+      "sha256": "61c3a163fbd2ecfb4a936a74835a574ecf69b55e3980a87d5755af1aab70d771",
+      "byte_size": 599,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 106
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:24.095124+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_107.json",
+      "sha256": "6a7663a36167acafa18db99727ab9110fe5fdf30019d5c89b0a661a8329cf899",
+      "byte_size": 665,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 107
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:24.435256+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_108.json",
+      "sha256": "538dda47fa5444a48ca5fbd16afc0a4bfce198fa37eff9df0f753d19627b9543",
+      "byte_size": 425,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 108
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:24.784843+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_109.json",
+      "sha256": "fc9937c47594069880193b8006a8223b0a949eacdb9e750abcf232ff69ca957f",
+      "byte_size": 578,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 109
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:25.151104+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_110.json",
+      "sha256": "be1a4f6ecec1707c8dccf240b78402be7679552b958e2c827b8e2bf6450b82e8",
+      "byte_size": 544,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 110
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:25.522911+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_111.json",
+      "sha256": "744dadffd8f11a7a8b21ccf5c36428cb816a502a62fbcd3f5a9abed081da1072",
+      "byte_size": 618,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 111
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:25.852402+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_112.json",
+      "sha256": "4ebec5373594eb827012ce728b05c1fb7d46c088ffab7a7d0b37a7b6e3be960a",
+      "byte_size": 461,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 112
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:26.263825+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_113.json",
+      "sha256": "cace56fbac0fcec45c943b828225b633ddfef96acc644d051726aaed83c2b8e0",
+      "byte_size": 549,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 113
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:26.555087+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/20/chapter_114.json",
+      "sha256": "c143ccca2d946cd90bca7b313f8b2f2275401a46e70fef32b24773ff929dc38a",
+      "byte_size": 605,
+      "endpoint": "/quran/translations/20",
+      "request_params": {
+        "chapter_number": 114
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:26.873746+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_001.json",
+      "sha256": "b1c2ef291bf5c71d5ac327482ae06496775a5b17dd115f4e071f2c4fe780bd2a",
+      "byte_size": 995,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 1
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:27.258327+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_002.json",
+      "sha256": "bab0e6b668bb1792794fd6470253f40198ec94612b03659719a65afe6a183c28",
+      "byte_size": 122189,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 2
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:27.645911+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_003.json",
+      "sha256": "2547a108f6839bf5aceae32eb4380692ee67512b1e7b6a4c3312eeaa793d1ec1",
+      "byte_size": 69244,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 3
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:27.977696+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_004.json",
+      "sha256": "d7e272ef1ce0562a15af2f310f4809b24634203a66d2b540b608231601deabcd",
+      "byte_size": 71238,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 4
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:28.353828+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_005.json",
+      "sha256": "a1c5a515c4929300718c04ac9404388424f045ccb7413cb7db61d8b32e609090",
+      "byte_size": 53020,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 5
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:28.670568+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_006.json",
+      "sha256": "f4d35c6e6ce706bccf2211b6f35075787ee12c88dc455366b172cc9e0c1e4747",
+      "byte_size": 63117,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 6
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:29.022260+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_007.json",
+      "sha256": "3d0a97cc0c6b9881c01ce1fc2dd53bfde4f19b2dcd1de974863e6101e12987dc",
+      "byte_size": 70001,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 7
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:29.381887+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_008.json",
+      "sha256": "74c44ad99683e93900e0b9a7da72431254eb5b6e0ad711a73cd02dc7020f6f1b",
+      "byte_size": 25547,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 8
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:29.704681+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_009.json",
+      "sha256": "12c4f46be605237eb011fe4c54df8358ba8ea436a16d33602809d1e2f7cc7ab6",
+      "byte_size": 49582,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 9
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:30.072205+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_010.json",
+      "sha256": "20ddfa045b1bba098c7eaf77f3dd997f83df7d541ab756c1270c15542413e846",
+      "byte_size": 35778,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 10
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:30.411000+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_011.json",
+      "sha256": "280ce77836069ba4eb67a8b45be86c72bf71a88adac9d243afd696fb62a2190c",
+      "byte_size": 39222,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 11
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:30.774558+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_012.json",
+      "sha256": "08046bf1bfc8301c8f3b712989001482e7a4c74733ab0c2a0fedb744d0b4da57",
+      "byte_size": 36712,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 12
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:31.118863+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_013.json",
+      "sha256": "16f2dce52df3d20b2d2b7a1851f7d0b7b08df506644f2ba3fec2286da72d4138",
+      "byte_size": 17214,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 13
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:31.459157+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_014.json",
+      "sha256": "e745a162feffe1442b218ccc6e69aced2c5e64c762cd2f4cd0e7ce760ea1ff73",
+      "byte_size": 17222,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 14
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:31.808981+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_015.json",
+      "sha256": "33d1c54a37244dc06bfecf48c91ec32d4f52d3b3ad0c85eaa46a0aeed8a57a4d",
+      "byte_size": 15611,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 15
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:32.154765+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_016.json",
+      "sha256": "f99c513e929ffebfcf3c8233ad772f783af8393a34bfefea9a6a97b193416441",
+      "byte_size": 37698,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 16
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:32.515230+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_017.json",
+      "sha256": "16961f3fb7f0d906bc9d359b73fa4a57c7edd9b308ed0e8ac5aa6dd20e0259f8",
+      "byte_size": 31883,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 17
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:32.862608+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_018.json",
+      "sha256": "aa11ce4078e487b112f5499db1ad1d48a03bc472375436826fbd34ea3bc78888",
+      "byte_size": 32933,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 18
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:33.218442+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_019.json",
+      "sha256": "7a17447765d1987345c105ba556c5eb5128a306b394587a1af27f0ef02656ce2",
+      "byte_size": 20430,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 19
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:33.560800+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_020.json",
+      "sha256": "5e5f6eab29099eeecd8fe33917304925f203257482a02b1d4595b7b11772a0f5",
+      "byte_size": 29496,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 20
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:33.948717+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_021.json",
+      "sha256": "7c551cbc0ec3551c03b8e092c7e0cb228194738f0c12c4daf741c371bbc599a9",
+      "byte_size": 26409,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 21
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:34.268106+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_022.json",
+      "sha256": "b47cb2c8985bd1d902e0567d4cd269972c0a1bf37ba35760fe0e1b877fed771a",
+      "byte_size": 25368,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 22
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:34.653474+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_023.json",
+      "sha256": "d83cb54392180ff9bbc13add49a38ac193fc2d3138866b7fd9a9a6f29500721f",
+      "byte_size": 22912,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 23
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:34.961174+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_024.json",
+      "sha256": "151af7a30ce83de4641fa253e2a38d11881b9fc6d490cbd04f8105572b971b4a",
+      "byte_size": 25163,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 24
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:35.314696+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_025.json",
+      "sha256": "cbe8e646327eea40a1c7174bf9337799f2a5929ddbba49acb5e7c1d1de033738",
+      "byte_size": 18991,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 25
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:35.661871+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_026.json",
+      "sha256": "bf2f9dc1ec4f0890a141d04d2663a1486fb9dd111c90de16ae13c0a792c80b70",
+      "byte_size": 29650,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 26
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:36.009369+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_027.json",
+      "sha256": "a20a296c7165ee5cb57e0b480ca85aae07a5d81bfc9603517c1879c5a2024e87",
+      "byte_size": 23705,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 27
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:36.381449+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_028.json",
+      "sha256": "4a17e1d4261bfa4d0964e516e66abeb25eb8484cab2bb1150ff188592e311d13",
+      "byte_size": 28025,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 28
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:36.736724+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_029.json",
+      "sha256": "857568ef5f69ab47cefa0e97fe5de78f20096f04d24c5049ad642ba15d3ade00",
+      "byte_size": 19884,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 29
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:37.120456+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_030.json",
+      "sha256": "63dca8c1d8046620869081ffbd4455bf76a8c8a6a53dd87f746d66f26d39dd32",
+      "byte_size": 16435,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 30
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:37.407161+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_031.json",
+      "sha256": "97eea0d3a7973a891b8296ecc8370885c41c5031cc43dc4325ee6057173b37f8",
+      "byte_size": 10608,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 31
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:37.773360+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_032.json",
+      "sha256": "c7e1cdb4a9064c41eaea1fd51cc4d4a3d9481fb41ab947c907172d833ec8e4da",
+      "byte_size": 7605,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 32
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:38.108170+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_033.json",
+      "sha256": "be9e8a741cb558058c84728fad1780cd9927bd64478c9edea26596ba21529ec0",
+      "byte_size": 25339,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 33
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:38.463817+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_034.json",
+      "sha256": "43a2b3f82615056042dc022f263f7dadeb3ba8f2094e2f9c9ab6219bf94f216b",
+      "byte_size": 16760,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 34
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:38.828764+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_035.json",
+      "sha256": "2521759f84b4ba13ea7ae2da9c130651c93ac8636910576cc1b79351b7a3b296",
+      "byte_size": 14268,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 35
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:39.166977+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_036.json",
+      "sha256": "c84ad403d5f611faffc1ac01b8be6c4961115eedf51d13fe448fe58fc7c30833",
+      "byte_size": 15055,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 36
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:39.531755+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_037.json",
+      "sha256": "b7a9270fc04730052bf42831f866c7527df06770265e2d54ab20d2093f1bc6fc",
+      "byte_size": 21882,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 37
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:39.862371+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_038.json",
+      "sha256": "60cf19f4aaa897d51e71074a0aa1b999c265cfb720e532f9f5350e4ee6868604",
+      "byte_size": 15906,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 38
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:40.230402+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_039.json",
+      "sha256": "363de5b913f00946bd1761bda477bec148f4531963a82a9bec8d80fa8da63635",
+      "byte_size": 22896,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 39
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:40.566849+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_040.json",
+      "sha256": "7c13a3baa9c7e3eb37c3b5853226c5f00cb149b3e2be0afbf358bd9dac960c48",
+      "byte_size": 24031,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 40
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:40.925864+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_041.json",
+      "sha256": "0804fe2c7ab52d4bd183c3ddddac2ae5bbd59d3317e8b61fc15f8f7e7b9b3900",
+      "byte_size": 15895,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 41
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:41.257301+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_042.json",
+      "sha256": "3ad700ed0d7db56e416b3b9851c5b367b8deb8a1f1cbc0fc2adaaf693082527b",
+      "byte_size": 16673,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 42
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:41.611896+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_043.json",
+      "sha256": "4d98ad810724b34e7428c80ffbf83ef6b302f597cc6518167814b2038aeeaea0",
+      "byte_size": 17986,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 43
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:41.956842+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_044.json",
+      "sha256": "aa7128123cbc24c3a93dc79cd4f5fead7e4b67089f09c442118ebe05a5e2d1c2",
+      "byte_size": 8077,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 44
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:42.309168+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_045.json",
+      "sha256": "fcb714effb111e1a7d5a9618c9268b8f5881938c25c6f44f4485ce13b4b0a06c",
+      "byte_size": 9691,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 45
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:42.718223+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_046.json",
+      "sha256": "21cd384337fc11cac0f8bf915c3657e812315eae48c8a145e14b2803588c407b",
+      "byte_size": 12434,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 46
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:43.010666+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_047.json",
+      "sha256": "1721a4994078b8a21efce311ea1592e4c04ef1a830406ba222d154bf29174489",
+      "byte_size": 11803,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 47
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:43.362986+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_048.json",
+      "sha256": "f0ae3b1927dc6d86dc1c7546f1ae96ac9623e5734db5d9f5ed78d3fb785889fb",
+      "byte_size": 10973,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 48
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:43.733050+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_049.json",
+      "sha256": "12257e195f9f80862a2e7d9f72378a688e15ff393360ebc1ee7c70186b40c63b",
+      "byte_size": 6325,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 49
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:44.070824+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_050.json",
+      "sha256": "1ed01378891c29c13020d03572ade2ef3e2a9ff4c9cd27474d89d9eb67cf0f4b",
+      "byte_size": 8305,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 50
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:44.402895+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_051.json",
+      "sha256": "b818bb0cf346b7224c1039432cb0a2258c484d684560ede879a056c2f49949f8",
+      "byte_size": 8521,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 51
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:44.763738+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_052.json",
+      "sha256": "73a1cb3ba518baeeed6c6df1510be660083658042e895b1ee483ceca00ddc991",
+      "byte_size": 7242,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 52
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:45.120421+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_053.json",
+      "sha256": "ff74a63bb3f7beeb932865546bbc76adf58146f262e1d610d8ee341c11802b42",
+      "byte_size": 8362,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 53
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:45.455233+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_054.json",
+      "sha256": "c0b7801bbc462a4d1d4e7ee6a5aa3271867ad1d606eec03883a0589a5f3ef307",
+      "byte_size": 8468,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 54
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:45.810979+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_055.json",
+      "sha256": "fa2e04e706fe8899ea759a04fb499659b4c21aeadc3cfe36f43761f4ca6b537c",
+      "byte_size": 9745,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 55
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:46.176916+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_056.json",
+      "sha256": "b781ecaa836a3d958152f2878ab55dfaaa8ffca20dad360610ca5c3b222aafed",
+      "byte_size": 9920,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 56
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:46.512807+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_057.json",
+      "sha256": "2bb3eb4ba8bf8adc0df0ec5ae08181e1a901e059c4c939f50bb0530f944b77b4",
+      "byte_size": 11870,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 57
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:46.862441+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_058.json",
+      "sha256": "fdd79dfcab2bf7bfbef3ada92b539c91de36f6b5946ae08fe5d914e4e49dbc44",
+      "byte_size": 9068,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 58
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:47.209912+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_059.json",
+      "sha256": "22412f6c836a3532c3a0c94d5790585a363e9f98ebdcdaa85ee6ad066b8f08cd",
+      "byte_size": 8913,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 59
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:47.571592+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_060.json",
+      "sha256": "1bd3efe69e11a9bc3ba8802deca8726765e283620d26b3cda7a968e38d44c2c3",
+      "byte_size": 6847,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 60
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:47.912368+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_061.json",
+      "sha256": "1776a841759d5cb3a6ab10b5e899c8ce790377babc8bd4e175f8647d6d97a700",
+      "byte_size": 4297,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 61
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:48.271035+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_062.json",
+      "sha256": "c119f27f0e76cd1503a32595332a9db6546c69ae83a32507cd2770a89032ebd0",
+      "byte_size": 3294,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 62
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:48.656663+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_063.json",
+      "sha256": "75c583bf67da48859bb60144e7166166412caa052f2ef1af55e0585930ec45e3",
+      "byte_size": 3856,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 63
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:48.957203+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_064.json",
+      "sha256": "3a7228183f9373bbf9564088e5b2c09687e20f495ff77469ced0a2cc77e28300",
+      "byte_size": 5310,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 64
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:49.309863+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_065.json",
+      "sha256": "04ec4d06407e3ad4e5b149cd050ec1995105c42778e00aa2fd6241aa1a96bcfa",
+      "byte_size": 5741,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 65
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:49.664086+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_066.json",
+      "sha256": "7468d6e587e2e7fb2d7f15b6e13f17db096071660c6dfc7cbfb26d379b7286c0",
+      "byte_size": 5114,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 66
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:50.026317+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_067.json",
+      "sha256": "9f8ddfdf5f691e4aa49cb2c969e3c04bf64e0fc6a961b5a381dad4f1d6c13f20",
+      "byte_size": 6719,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 67
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:50.451676+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_068.json",
+      "sha256": "8332c3a48b0098de718c488d0ebcc6688234ad55d1c76af2aa6b08a490ae2c1d",
+      "byte_size": 7687,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 68
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:50.712014+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_069.json",
+      "sha256": "17ba8ab4452597235d6b39df09afdb73ddcf54f53fe6af8adb8ed3b78521e001",
+      "byte_size": 6569,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 69
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:51.123127+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_070.json",
+      "sha256": "a7ee181cd1cc794fba2deadb84ec606d0a3ead71e416035e429a5c0726171744",
+      "byte_size": 5616,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 70
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:51.418157+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_071.json",
+      "sha256": "b1d340902dee3925d0d08af07e75a5816e6f57e2b3e4e2d2e523b84bb8a38d74",
+      "byte_size": 4978,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 71
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:51.776677+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_072.json",
+      "sha256": "ef252b7c78277f69d7cc3da5886a59fff06a4f25677b5ba4e8ddced437a82986",
+      "byte_size": 6005,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 72
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:52.114240+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_073.json",
+      "sha256": "2a5161f7e341fa04b8388dcc2e83fd4907f2ba09ffb3fe8a5bd6626efff0d2a2",
+      "byte_size": 4386,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 73
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:52.460363+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_074.json",
+      "sha256": "22470cdcaa7115220ba301f4d14958f22da01a6887641a98c70b196de3060817",
+      "byte_size": 6178,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 74
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:52.831378+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_075.json",
+      "sha256": "952b8d35c7c10a43fb3c0f3d24d929e78d0851da7af65de610a2abed00cebdd7",
+      "byte_size": 4390,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 75
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:53.160788+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_076.json",
+      "sha256": "6cbcdb885139bcb6161563ba37f018631fa2cc3d29df66b85e21879e66a65b38",
+      "byte_size": 5564,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 76
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:53.514766+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_077.json",
+      "sha256": "5964fc2c361704968e079b07f26c094e00232e1b446495a1e7908d54199680e5",
+      "byte_size": 5133,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 77
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:53.866967+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_078.json",
+      "sha256": "9930d17ee935db363dc0b88eae6d552081c22fe448572e6f7aa97615a3762bbe",
+      "byte_size": 4442,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 78
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:54.222560+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_079.json",
+      "sha256": "818dff1e4d659eb9d155bda7d57a29047924ca2b24dc75c81c0495b578edebd6",
+      "byte_size": 5053,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 79
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:54.563408+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_080.json",
+      "sha256": "98fcdcf07a18bd8b4c79de1a13e8751cd1f2690ff9d00d72db06c368ba5d829a",
+      "byte_size": 3824,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 80
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:54.926379+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_081.json",
+      "sha256": "a0e8f58092a3dacb00396e77b702891f6c0ee6c39f64727013ccb9578f8dd42f",
+      "byte_size": 3038,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 81
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:55.261901+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_082.json",
+      "sha256": "b69a468ef040ced632a6b27f9791403d96b6b9166661dc4f1f0a0254795810ae",
+      "byte_size": 2121,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 82
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:55.617474+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_083.json",
+      "sha256": "eb9fbe18359895628ecb94f7c0a26f9c2443aa858d2a7e74bf33ea214aa7df8c",
+      "byte_size": 4105,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 83
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:55.972424+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_084.json",
+      "sha256": "5817eb6c65dbe6f5ee5c72d4e6a74249c68ff0a3fff813169e108e99143fb64c",
+      "byte_size": 2948,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 84
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:56.311846+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_085.json",
+      "sha256": "ef3e694c9cbf56f85ca974e1f8abf34e381aba35eb4bf46cfbe2e6e6033c9671",
+      "byte_size": 2809,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 85
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:56.667004+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_086.json",
+      "sha256": "7bde6ad5dc5bb8f6fe90e1eb626fc7ae77673d345ef219706906cd581065a570",
+      "byte_size": 1836,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 86
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:57.055686+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_087.json",
+      "sha256": "a2ca01ce2b90b8c378196a1f386adcc667367989f7bcb5058c933100df5309ef",
+      "byte_size": 2149,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 87
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:57.366130+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_088.json",
+      "sha256": "528a71f32e1fb847ece51f91dc3c6aa23b71477544de6c71558a361301182b44",
+      "byte_size": 2612,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 88
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:57.730515+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_089.json",
+      "sha256": "cd2865ec2970d3302c08655d505bbd22bdf6e9e296c3ed135d83433398ac401a",
+      "byte_size": 3730,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 89
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:58.067010+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_090.json",
+      "sha256": "4ac3b3f2c94184f1c6130a5f2798b88fa1cdd541110abfd116d18e70b526c651",
+      "byte_size": 2128,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 90
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:58.414635+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_091.json",
+      "sha256": "ee869bfd5363f3924b4b1e468b8fedc017f397b584aff829ce33d4e4791d2abe",
+      "byte_size": 1966,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 91
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:58.794447+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_092.json",
+      "sha256": "421d48ae7cbf9d5893ab91bdbeb34b16cdb96a7ced58d8cc2389fe0205675e86",
+      "byte_size": 2204,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 92
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:59.110196+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_093.json",
+      "sha256": "cddf6171f1e82a072610e216e278efcf5fccaa280928e327704e9b5953899c1b",
+      "byte_size": 1348,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 93
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:59.463663+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_094.json",
+      "sha256": "af2965c7b7e4eac05eaa08347d21c318ba963bfc6ea4011bd572340a11b862ca",
+      "byte_size": 941,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 94
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:34:59.816990+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_095.json",
+      "sha256": "646318ff652bf1e802f0e2cc5bae9527426c7e2def6264ad9c6a8e71908ed1cc",
+      "byte_size": 965,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 95
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:00.167228+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_096.json",
+      "sha256": "a6c6cf861c64cca89428ca9897f5d812f65f44f8d0638d6dab2312f729fcf1ca",
+      "byte_size": 2230,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 96
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:00.521018+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_097.json",
+      "sha256": "bf42d4f3b35d89ca37374ebe3a839ea449684d680e1ef0203035311e235f94d8",
+      "byte_size": 746,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 97
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:00.899485+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_098.json",
+      "sha256": "d533cb3a7f8c98c1649795c933ca23a0635b969f4c3dff63ac780c87b00f879a",
+      "byte_size": 1759,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 98
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:01.211413+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_099.json",
+      "sha256": "7365adbb4d2bbea617adff4918b1bff54a75d187f24bb41ad16886e2bee04cc1",
+      "byte_size": 1050,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 99
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:01.581765+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_100.json",
+      "sha256": "4bda8cbf5131a47d1e4446d5889cc74f0631c5a9efa5dc983c5b858479f8b2e8",
+      "byte_size": 1330,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 100
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:01.971387+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_101.json",
+      "sha256": "0471fe5e3a430d10e026f34e2d5bf72e471490548ce84fd923ec9d3a3b4474d7",
+      "byte_size": 1129,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 101
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:02.262202+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_102.json",
+      "sha256": "a7d3a2859c9026cedc0bb2c90461f903287034b5166f8c1b8259e3e02af41003",
+      "byte_size": 1004,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 102
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:02.614950+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_103.json",
+      "sha256": "b37d8fe952e989ca38a30c44daa1b16e3ea91c80caf2406da87760bab2fc33de",
+      "byte_size": 493,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 103
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:02.970831+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_104.json",
+      "sha256": "e454ef031b20d7ccb98bfcbe6379a9cef8077444dfa6d6d20e312c300f43c52b",
+      "byte_size": 1047,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 104
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:03.313801+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_105.json",
+      "sha256": "7fa120750ed9cf1d94b29d0a946c19c55d5c2a81f3af9c66d25c6ac9f0857247",
+      "byte_size": 702,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 105
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:03.709993+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_106.json",
+      "sha256": "83443a70ae39fed5cd101c65ee6493bff8d3de186a46c1a714a1040126858873",
+      "byte_size": 642,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 106
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:04.033255+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_107.json",
+      "sha256": "efeff955bea94b989194c86da84d127b4e62ecd7bd52f887026445d150d35c19",
+      "byte_size": 858,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 107
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:04.361782+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_108.json",
+      "sha256": "a29cc2a395da525f92f7ee774f7724d193e2883d5edea2d47e6483540bb2505d",
+      "byte_size": 512,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 108
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:04.724420+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_109.json",
+      "sha256": "d30fac334af278a9e33032b36dbdde07700b3671a5b91224c65f00f57793f1c4",
+      "byte_size": 944,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 109
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:05.089898+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_110.json",
+      "sha256": "928624b9fdf6236365970e0be1d2a3a0a72495f4c6e2891214d47bf0c0039991",
+      "byte_size": 617,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 110
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:05.432525+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_111.json",
+      "sha256": "fb85e7c8df7a997f668c1fbe61ecaf427cb077ee695ffa5fa5d5ca982b0e8e59",
+      "byte_size": 697,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 111
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:05.767093+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_112.json",
+      "sha256": "d6c9eb838eb08aaf1c48d77063a4ba671742dec69a4cd81bf7aa0df37df69f8f",
+      "byte_size": 513,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 112
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:06.113594+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_113.json",
+      "sha256": "53b8aa58d42057c2dd219b6562e0962a878a902955f68338be9e0fa5731f2271",
+      "byte_size": 720,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 113
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:06.466435+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "quran/quran_foundation/translations/234/chapter_114.json",
+      "sha256": "7892f67a40f20ba19b3115833970a44d22d8c8c08475b13d1dc25390f1736880",
+      "byte_size": 780,
+      "endpoint": "/quran/translations/234",
+      "request_params": {
+        "chapter_number": 114
+      },
+      "http_status": 200,
+      "fetched_at": "2026-07-17T06:35:06.814671+00:00",
+      "reused_existing": false
+    }
+  ]
+}

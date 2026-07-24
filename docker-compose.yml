@@ -1,0 +1,27 @@
+name: islamic-knowledge-core
+
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: ikc_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-islamic_corpus}
+      POSTGRES_USER: ${POSTGRES_USER:-ice_admin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD must be set in .env}
+      # Deterministic text behavior: C collation with UTF-8 storage.
+      # Arabic ordering is handled explicitly with ICU collations at the
+      # column/query level, never left to the OS locale.
+      POSTGRES_INITDB_ARGS: "--locale=C --encoding=UTF8"
+    ports:
+      - "${POSTGRES_PORT:-5433}:5432"
+    volumes:
+      - ikc_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-ice_admin} -d ${POSTGRES_DB:-islamic_corpus}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  ikc_pgdata:

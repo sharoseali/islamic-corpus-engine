@@ -1,0 +1,478 @@
+@import "tailwindcss";
+
+/*
+  Elaaj - "Warm Scholarly Library" design system.
+  Calm, bookish, low eye-strain for long reading sessions.
+  Neither extreme white nor extreme black in either theme.
+*/
+
+:root {
+  /* Light theme (default) - illuminated manuscript on parchment */
+  --bg: #f5efe1;
+  --bg-elevated: #fbf6ea;
+  --surface: #fffdf6;
+  --surface-2: #ece3d0;
+  --text: #211d15;
+  --text-muted: #6a6252;
+  --text-faint: #9a9079;
+  --accent: #1c5c38;
+  --accent-hover: #164a2c;
+  --accent-soft: #e6efe8;
+  --gold: #a9863f;
+  --gold-soft: #ecdfc4;
+  --border: #e3d9c3;
+  --border-strong: #cebfa0;
+  --shadow: 0 1px 2px rgba(60, 48, 24, 0.05), 0 6px 24px rgba(60, 48, 24, 0.06);
+  --radius: 12px;
+
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-serif: var(--font-serif), "EB Garamond", Georgia, serif;
+  --font-arabic: var(--font-amiri), "Times New Roman", serif;
+  --font-naskh: var(--font-naskh), "Noto Naskh Arabic", serif;
+  /* Urdu uses Scheherazade New: the classical Naskh that matches the Amiri
+     look the user wants AND fully covers Urdu-specific letters (ٹ ڈ ڑ ں ے ہ),
+     which Amiri lacks. Amiri/Naskh are fallbacks. */
+  --font-urdu: var(--font-scheherazade), var(--font-amiri), var(--font-naskh), serif;
+}
+
+/*
+  Arabic-script UI. Urdu uses Scheherazade New everywhere (Amiri-style, full
+  Urdu coverage). Arabic uses Amiri (pure Arabic renders perfectly in it).
+  This prevents the per-letter fallback that made Urdu look inconsistent.
+*/
+:root[lang="ur"] body {
+  font-family: var(--font-scheherazade), var(--font-amiri), var(--font-sans);
+  letter-spacing: 0;
+}
+:root[lang="ar"] body {
+  font-family: var(--font-amiri), var(--font-naskh), var(--font-sans);
+  letter-spacing: 0;
+}
+:root[lang="ur"] h1,
+:root[lang="ur"] h2,
+:root[lang="ur"] h3,
+:root[lang="ar"] h1,
+:root[lang="ar"] h2,
+:root[lang="ar"] h3 {
+  font-weight: 700;
+}
+
+/* Latin headings use the Garamond serif for a scholarly, printed-press feel */
+:root[lang="en"] h1,
+:root[lang="en"] h2,
+:root[lang="en"] h3,
+:root[lang="tr"] h1,
+:root[lang="tr"] h2,
+:root[lang="tr"] h3 {
+  font-family: var(--font-serif);
+  letter-spacing: -0.005em;
+}
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+:root[data-theme="dark"] {
+  /* Dark theme - manuscript by lamplight (warm ink-black) */
+  --bg: #17140e;
+  --bg-elevated: #1e1a13;
+  --surface: #211d15;
+  --surface-2: #2b261b;
+  --text: #efe6d3;
+  --text-muted: #b2a88e;
+  --text-faint: #837a64;
+  --accent: #6bb083;
+  --accent-hover: #82c199;
+  --accent-soft: #1e2c24;
+  --gold: #c9a86a;
+  --gold-soft: #2c2617;
+  --border: #322c20;
+  --border-strong: #453d2c;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 28px rgba(0, 0, 0, 0.34);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+.font-arabic {
+  font-family: var(--font-arabic);
+}
+.quran-text {
+  font-family: var(--font-arabic);
+  font-size: 2.05rem;
+  line-height: 2.7;
+  color: var(--text);
+}
+.font-urdu {
+  font-family: var(--font-urdu);
+  line-height: 2.2;
+  font-weight: 400;
+}
+
+/* Surfaces */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.manuscript-card {
+  position: relative;
+}
+.manuscript-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--border-strong);
+  box-shadow: 0 12px 34px rgba(60, 48, 24, 0.12);
+}
+/* Illuminated-manuscript corner flourishes */
+.card-corner {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  color: var(--gold);
+  opacity: 0.85;
+  pointer-events: none;
+}
+.card-corner-tl {
+  top: 11px;
+  inset-inline-start: 11px;
+  border-top: 1.5px solid currentColor;
+  border-inline-start: 1.5px solid currentColor;
+}
+.card-corner-br {
+  bottom: 11px;
+  inset-inline-end: 11px;
+  border-bottom: 1.5px solid currentColor;
+  border-inline-end: 1.5px solid currentColor;
+}
+.manuscript-card:hover .card-corner {
+  opacity: 1;
+}
+/* Girih-patterned section sitting behind the row of cards */
+.cards-section {
+  position: relative;
+  z-index: 1;
+  padding: 20px 0 52px;
+}
+.cards-bg {
+  z-index: 0;
+  opacity: 0.12;
+}
+:root[data-theme="dark"] .cards-bg {
+  opacity: 0.08;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 6px;
+  border: 3px solid var(--bg);
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in {
+  animation: fadeIn 0.35s ease both;
+}
+
+.result-card {
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+}
+.result-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+
+/* Highlight an ayah when arrived at via a search link */
+@keyframes ayahHighlight {
+  0% { background: var(--accent-soft); }
+  100% { background: var(--surface); }
+}
+.ayah-target {
+  animation: ayahHighlight 2.4s ease;
+  scroll-margin-top: 150px;
+}
+
+/* Continuous girih field behind the whole landing page (down to the footer) */
+.home {
+  position: relative;
+}
+.page-girih {
+  z-index: 0;
+  opacity: 0.12;
+}
+:root[data-theme="dark"] .page-girih {
+  opacity: 0.07;
+}
+
+/* Manuscript hero: illuminated, calm, typography-led on parchment.
+   Transparent base so the continuous girih field shows through. */
+.hero {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  background: radial-gradient(92% 62% at 50% -8%, var(--bg-elevated), transparent 74%);
+}
+/* Flanking arches that turn the central mihrab into a mosque facade */
+.hero-sides {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+.hero-side {
+  position: absolute;
+  bottom: 0;
+  height: 92%;
+  width: clamp(200px, 26vw, 360px);
+  color: var(--accent);
+  opacity: 0.4;
+  -webkit-mask-image: linear-gradient(180deg, #000, #000 48%, transparent 86%);
+  mask-image: linear-gradient(180deg, #000, #000 48%, transparent 86%);
+}
+:root[data-theme="dark"] .hero-side {
+  color: var(--gold);
+  opacity: 0.3;
+}
+.hero-side-left {
+  inset-inline-start: 1.5%;
+}
+.hero-side-right {
+  inset-inline-end: 1.5%;
+  transform: scaleX(-1);
+}
+.hero-side-arch {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+@media (max-width: 900px) {
+  .hero-sides {
+    display: none;
+  }
+}
+/* Faint paper grain for a printed feel */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.04;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)'/%3E%3C/svg%3E");
+}
+/* Geometric field: a touch stronger in light (parchment) than in dark */
+.hero-girih {
+  opacity: 0.13;
+}
+:root[data-theme="dark"] .hero-girih {
+  opacity: 0.07;
+}
+/* The content frame: the mihrab is sized to this box and frames the content */
+.hero-frame {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 54px 66px 30px;
+}
+.hero-mihrab {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--accent);
+  opacity: 0.52;
+  pointer-events: none;
+  /* Fade the lower part so the portal dissolves into the wall */
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 52%, transparent 88%);
+  mask-image: linear-gradient(180deg, #000 0%, #000 52%, transparent 88%);
+}
+:root[data-theme="dark"] .hero-mihrab {
+  color: var(--gold);
+  opacity: 0.5;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 10px 4px 4px;
+  animation: fadeUp 0.9s ease 0.1s both;
+}
+/* Soft halo lifts the text off the ornament so lines never mix with words */
+.hero-content::before {
+  content: "";
+  position: absolute;
+  inset: -24px -8px;
+  z-index: -1;
+  background: radial-gradient(62% 58% at 50% 46%, var(--bg) 34%, transparent 78%);
+  pointer-events: none;
+}
+.hero-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+.hero-name-en {
+  font-size: 23px;
+  font-weight: 600;
+  color: var(--gold);
+  letter-spacing: 0.02em;
+}
+.hero-name-dot {
+  color: var(--gold);
+  font-size: 20px;
+}
+.hero-name-ar {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--gold);
+}
+.hero-rule {
+  width: 68px;
+  height: 1px;
+  margin: 0 auto 22px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+.hero-band {
+  position: relative;
+  z-index: 1;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2px 20px 14px;
+}
+
+/* Feature ticker: a quiet marquee of the platform's defining lines */
+.ticker {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-elevated);
+  padding: 13px 0;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 9%,
+    #000 91%,
+    transparent
+  );
+  mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent);
+}
+.ticker-track {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: ticker-scroll 45s linear infinite;
+  will-change: transform;
+}
+.ticker:hover .ticker-track {
+  animation-play-state: paused;
+}
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  padding-inline-end: 4px;
+  font-size: 15px;
+  color: var(--text-muted);
+  letter-spacing: 0.01em;
+}
+.ticker-sep {
+  width: 7px;
+  height: 7px;
+  transform: rotate(45deg);
+  background: var(--gold);
+  opacity: 0.85;
+  display: inline-block;
+  margin: 0 22px;
+  flex: none;
+}
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track {
+    animation: none;
+  }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in,
+  .hero-content {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+/* Rich HTML content (tafsir, translations with footnotes) */
+.rich-text p {
+  margin: 0 0 0.9em;
+}
+.rich-text sup {
+  color: var(--accent);
+  font-size: 0.7em;
+  padding: 0 0.15em;
+  font-weight: 600;
+}
+.rich-text h2,
+.rich-text h3 {
+  color: var(--accent);
+  font-weight: 600;
+  margin: 1.1em 0 0.5em;
+  font-size: 1.05em;
+}

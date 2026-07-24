@@ -1,0 +1,3452 @@
+{
+  "run_id": 5,
+  "source": "qul",
+  "importer": "tafsir.ibn_kathir.qul",
+  "importer_version": "1.0.0",
+  "status": "succeeded",
+  "started_at": "2026-07-20T22:15:31.011664+00:00",
+  "finished_at": "2026-07-20T22:16:08.850892+00:00",
+  "stats": {
+    "superseded_quran_com_editions": {
+      "14": 6205,
+      "160": 2101,
+      "169": 5961
+    },
+    "editions": {
+      "ar:22": {
+        "entries_inserted": 6236,
+        "verse_keys_covered": 6236
+      },
+      "ur:30": {
+        "entries_inserted": 6236,
+        "verse_keys_covered": 6236
+      },
+      "en:35": {
+        "entries_inserted": 6236,
+        "verse_keys_covered": 6236
+      }
+    }
+  },
+  "artifacts": [
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_001.json",
+      "sha256": "fd19ee9a637ced5ea2fec1ace934ded0129f0a2f8d24629932781fc492b519a2",
+      "byte_size": 182061,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/1.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:31.301554+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_002.json",
+      "sha256": "80e3f95e33620cdda7fab759200dba5c3f137330f69b84d368bbfc5a1931c7c1",
+      "byte_size": 6304993,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/2.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:32.556570+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_003.json",
+      "sha256": "b5eb91315c51e67c9eb59d38aca2c09ca567feeb0016589c28168fcea4950b4c",
+      "byte_size": 4400592,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/3.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:33.614467+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_004.json",
+      "sha256": "8da78466525f9e27d4c74ae84cae6f1a75c576fff49718fb95e2f5afce7ce2d1",
+      "byte_size": 4506077,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/4.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:34.558331+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_005.json",
+      "sha256": "56fdef87e741bf892d79baa111d5ec7b300e3d3a5172ad3234adb96e024fbeaf",
+      "byte_size": 3862732,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/5.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:35.399457+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_006.json",
+      "sha256": "c93f54b558ba79bf8629744be0856500911f3b76898c1ff837b5a8c90e16c958",
+      "byte_size": 2249190,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/6.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:35.843298+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_007.json",
+      "sha256": "67b29ecf8d80302fd7a9373c4d45f9ec06cb3a620fdf1dca7321c6e452a92c22",
+      "byte_size": 2019805,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/7.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:36.241656+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_008.json",
+      "sha256": "0768e672bdf304c77406d605ea56025223a543d10a7982a96d165b6d73d176b7",
+      "byte_size": 1148517,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/8.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:36.501218+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_009.json",
+      "sha256": "b2051a79003a4de6969f5064d2d91ac9ab90582786af1964125d9286abe4cccd",
+      "byte_size": 1340859,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/9.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:36.874627+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_010.json",
+      "sha256": "bcb8815b33b09baf78f4f3d4d31b05c484862f656d762a810be980e7d4455be0",
+      "byte_size": 689790,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/10.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:37.030503+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_011.json",
+      "sha256": "2c98c10205aa61210df79e5d53102da533d3105a9bf261c59272fb4c7afea2da",
+      "byte_size": 792805,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/11.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:37.194392+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_012.json",
+      "sha256": "0c3b9d013d146875775c9dac0813cf28b2a0628c36e4d143bf9d4c31a2b009f4",
+      "byte_size": 828199,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/12.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:37.348468+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_013.json",
+      "sha256": "e67177d307deb6a533ec27e96a17b13bb2a0d60d249f6ae9e1e0860be5e3e6ff",
+      "byte_size": 494979,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/13.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:37.477538+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_014.json",
+      "sha256": "d6a6c722a6eb598c033793337e7418d7ef5f9644db1fb3ad6dac86b47c5881fe",
+      "byte_size": 542895,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/14.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:37.610397+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_015.json",
+      "sha256": "1a0f30a778b159a6f8fce7d43a59c56eb568780494b02f5e519105dfa0fe0251",
+      "byte_size": 752027,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/15.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:37.707232+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_016.json",
+      "sha256": "d20d622e885950d710eea07537d795a0776724d4d99f308da778697e12f1dd7a",
+      "byte_size": 831634,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/16.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:37.854260+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_017.json",
+      "sha256": "3baa58337c6985d14a6dcb5d66d8ad5f035dc09e961a264795df0e32d22a07ca",
+      "byte_size": 966794,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/17.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:38.069356+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_018.json",
+      "sha256": "54340d7e75b19d119ac68104e6c6b5388fa358730758fd59b7f9f0304aa55382",
+      "byte_size": 1308672,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/18.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:38.307607+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_019.json",
+      "sha256": "d2d348f3c5e16951ff31cb9abc32377512bbb2d2ddd3783304076c4ec31c0c87",
+      "byte_size": 1178428,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/19.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:38.473138+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_020.json",
+      "sha256": "f5f6c0ee4dd31b3873803191fabdb3a8d994d95bc1d04591a3beb0d4f59d65d6",
+      "byte_size": 1661988,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/20.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:38.704055+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_021.json",
+      "sha256": "81f7f64c5ead8ac70c46ea8c60e700e9726a9078e13cf4c83bb61d3b820d7cea",
+      "byte_size": 1180869,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/21.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:38.883021+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_022.json",
+      "sha256": "ce48a1b9ffd28f72b049dec27c3255e5e845ead1f6ecb5bc95434320e5e0f41a",
+      "byte_size": 815460,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/22.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:39.058279+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_023.json",
+      "sha256": "116de8b10bd40e52b4daedfb95ae0db67e622f913f127bfff42cbf0ba5f62a66",
+      "byte_size": 1426282,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/23.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:39.269748+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_024.json",
+      "sha256": "c0b955a49b0a6620ec4f04fb024dd7d1247f5d1e433a3f0e95f6498f0c80005e",
+      "byte_size": 1115829,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/24.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:39.582071+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_025.json",
+      "sha256": "4265f007d9e56673a188c09e43e83db68d4bc6109105b9328946f4d123ea53a8",
+      "byte_size": 1017101,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/25.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:39.753577+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_026.json",
+      "sha256": "942d78115bc58d7da5ca40befbe3fb1e6a76cfe6f2bc81da1f09ef2bfb41321e",
+      "byte_size": 1924369,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/26.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:39.998354+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_027.json",
+      "sha256": "3bade923b739dcf9094293c8d88ebab232911ac051b006e497111d06c7719a8b",
+      "byte_size": 829439,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/27.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:40.163431+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_028.json",
+      "sha256": "986398a4d6ad8284e1db52da6d19838756276dc7977eef434eff8a3102b2d9bd",
+      "byte_size": 819362,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/28.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:40.331987+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_029.json",
+      "sha256": "5dd2b3839e58535ea7504e4931c8623a60da268923874b72496776e7970a7848",
+      "byte_size": 564937,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/29.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:40.446651+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_030.json",
+      "sha256": "7b380ec49d8a2b14a8d5aa82dab493d640e3a4a87ca4c6ec16e8ce6043934b6b",
+      "byte_size": 762919,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/30.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:40.650635+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_031.json",
+      "sha256": "51a81dc059fda8052ec87c2a1d4a640d03dd05e90a7d3161bc3454960e192c82",
+      "byte_size": 396961,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/31.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:40.799556+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_032.json",
+      "sha256": "d236c9de409e05ee7e77035c1d546479a89c2f8f32dc58aea98e47109ede04f8",
+      "byte_size": 285871,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/32.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:40.890700+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_033.json",
+      "sha256": "d3c965780c336c62d0f8c3b87fc4551aa719f881590a32a359425c95c6670be5",
+      "byte_size": 1322428,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/33.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:41.180109+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_034.json",
+      "sha256": "e5d358fe87255f9eb4bed06687ea41a4a25d5d3215eae589731dbd88845558c5",
+      "byte_size": 629939,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/34.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:41.337371+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_035.json",
+      "sha256": "4f121feac77933c9b2ecf957f2d5901b78c4d46316d6ef309071874e5fb5fd7d",
+      "byte_size": 399832,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/35.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:41.432729+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_036.json",
+      "sha256": "4ddca14937b818c260055be7218e03e87104a1fc78918de618c1f79867f1d27d",
+      "byte_size": 809977,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/36.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:41.545233+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_037.json",
+      "sha256": "880da651b5fc9e9b3e4ba620ff5f1071a7b95e6cc646cfe6dfa607f93f8369d4",
+      "byte_size": 2645206,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/37.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:41.886685+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_038.json",
+      "sha256": "b0b45709a2c388d34ea47fd19f951403b9340c87ee3d142c9d54e89a7f0fc041",
+      "byte_size": 1107101,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/38.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:42.143941+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_039.json",
+      "sha256": "ea78c2bc8659ff4a2e7e899e34871cb3129e3e6a33c0a9b575fac8403d89352b",
+      "byte_size": 784544,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/39.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:42.287829+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_040.json",
+      "sha256": "c8863711b93447d365d40bf212b2ef567ac6afcf6753c79b297fb2c817847304",
+      "byte_size": 781309,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/40.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:42.406083+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_041.json",
+      "sha256": "a0e3d575974be7ab654d4f747c130fe3b351ba82695a4b47938b83880ae17b2b",
+      "byte_size": 652708,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/41.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:42.519821+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_042.json",
+      "sha256": "e40d236a61f2f4af361c6d8ac223c64eb55661de540571c49475b525f31c5ce4",
+      "byte_size": 517805,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/42.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:42.637881+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_043.json",
+      "sha256": "1553966113af6da3c2c2231478bf9b13ee11c7d0ca9f2a5f44c10f9935ffd1a4",
+      "byte_size": 1144546,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/43.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:42.745746+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_044.json",
+      "sha256": "f278a34895d320e1bd3acf4c19da7095308724e27a1334e4593fa8e978018fc6",
+      "byte_size": 1069501,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/44.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:42.862688+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_045.json",
+      "sha256": "94ef6b87bb81d4134952e7959caed6323d28ef0fc0b8ea140bd6ed3890dcf305",
+      "byte_size": 222139,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/45.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:42.950107+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_046.json",
+      "sha256": "1c6f14ee4b104c5012752fb4f49bebf535b2a6058cfd2674eee25516f7a403fe",
+      "byte_size": 746663,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/46.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:43.130544+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_047.json",
+      "sha256": "b21dc682d8b8a67ab146c2a650771f265668f4405593791cb7374355687dddd9",
+      "byte_size": 407317,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/47.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:43.237280+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_048.json",
+      "sha256": "f2197ebb88f88fe0b1c8f2bb9e302a32f8c628b3733589058b64219c270d1546",
+      "byte_size": 583093,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/48.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:43.385640+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_049.json",
+      "sha256": "8099881f5a3b45dc38f7394dbc1ff782fe18abbbededfc6c040c2079c54162d8",
+      "byte_size": 338545,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/49.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:43.476791+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_050.json",
+      "sha256": "65cc9acc862d88c5b3070cd05809f511fa16d82fbce7ef75ec60d64a0e179baf",
+      "byte_size": 665937,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/50.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:43.566725+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_051.json",
+      "sha256": "4b9fa75faa2f0256280274b74caa53f9e4a2e0134bc58630d835b8b506978ab4",
+      "byte_size": 674978,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/51.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:43.649493+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_052.json",
+      "sha256": "45a3a95844e4d8602328ea4665ea483f288ba67054db0a842eed6c14041985b0",
+      "byte_size": 766334,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/52.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:43.731795+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_053.json",
+      "sha256": "ddfefe411892ff564b72520deecbcfb05cdd70df5788752ba1794b63e5f7ef82",
+      "byte_size": 1504662,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/53.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:44.022370+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_054.json",
+      "sha256": "71cf7b07fca64d761730ec2661b11d5bf0f90f1a3b83fac473a5be76ed978a7e",
+      "byte_size": 648094,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/54.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:44.129521+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_055.json",
+      "sha256": "9ab3e70044e77453e229483e31f3f9ce21d304b46677041288ecf276ea7b4f80",
+      "byte_size": 1356609,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/55.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:44.231806+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_056.json",
+      "sha256": "1ad26319f84788877dc45250b5a3ef20b77e48fd96b12cdb0865e1f040601b60",
+      "byte_size": 2803666,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/56.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:44.762575+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_057.json",
+      "sha256": "9c64044c6bf4f2ccc3567a825773491aa9f20a0192ec754125021ddb8721252b",
+      "byte_size": 505241,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/57.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:44.928128+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_058.json",
+      "sha256": "86e748a0e5aa94d1ac9be8d8eb2217d431b13b8110b0a1c317823b5e10b00a80",
+      "byte_size": 332035,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/58.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:45.042109+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_059.json",
+      "sha256": "af1dcc5514ef2c6d787fcd64c30dec34a45d36c27bb1cd7e3c72a70d262e8089",
+      "byte_size": 589628,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/59.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:45.191895+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_060.json",
+      "sha256": "393c4c9723da147a44bba0d7516df89ddc8ea386fb42c26544984d9cda5ee4ba",
+      "byte_size": 265656,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/60.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:45.283657+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_061.json",
+      "sha256": "09acac32ea6cbf66fd00b89fb31e52215a1d836cc4865bbf1dae0940715cd2eb",
+      "byte_size": 186670,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/61.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:45.347081+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_062.json",
+      "sha256": "9f72c3c3c6dec83e28f9213c9b6c0a468008cba99df367d018f0f7af987f31c7",
+      "byte_size": 149880,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/62.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:45.404411+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_063.json",
+      "sha256": "a2f31112caabf74a12ef34b61bd30e3b1d900ddf4ff30e17264c77ce1b6a6aa4",
+      "byte_size": 217571,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/63.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:45.487728+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_064.json",
+      "sha256": "192690007a5e3ad35b1e348be9d9f5c611ae75874711c3bf083792a33455742c",
+      "byte_size": 140677,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/64.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:45.542398+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_065.json",
+      "sha256": "b4a32339fac6e624113ec0ec1b3cdd30f83e3589ff512e2b7fc7b59f3b119b1e",
+      "byte_size": 161210,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/65.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:45.608267+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_066.json",
+      "sha256": "9b138ddfac8be0de4d2719c18cc7183d021b8a8a9010c951e17f371a1dade71e",
+      "byte_size": 385496,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/66.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:45.733496+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_067.json",
+      "sha256": "13a95e26ce177530d3826237843cd66cf986eb1cf8746fd5369089299a0aa922",
+      "byte_size": 234737,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/67.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:45.793970+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_068.json",
+      "sha256": "c46c9b739c947cde8c25fcb621bd0226a54a5b8aa1d31fcbd5640b7930a8dd07",
+      "byte_size": 1026865,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/68.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:45.957279+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_069.json",
+      "sha256": "033bf69c75de8f3df91fb7fd029e7056e0b9221c4ec34580bdcae360306f2f78",
+      "byte_size": 537011,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/69.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:46.044841+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_070.json",
+      "sha256": "fec43cba5683e53af42f3b0a27cbce4fc48d36a278861cc92b6c644ca0ecb29b",
+      "byte_size": 567162,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/70.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:46.120165+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_071.json",
+      "sha256": "7e9912fe0c63601c8d91268cfb7c7747927d203ddf8acab28da918ec9b4ed62e",
+      "byte_size": 324150,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/71.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:46.185532+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_072.json",
+      "sha256": "59dafeab1e39c01ba75dfcdcfa1a49ac837df78437d022fa009ea3f3c31d9b8c",
+      "byte_size": 325235,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/72.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:46.246976+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_073.json",
+      "sha256": "0ff99c16e86832fc85edf8d05c0f11d262fee0ff8ef1fb3453d46f2a49301986",
+      "byte_size": 464353,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/73.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:46.393313+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_074.json",
+      "sha256": "32eb231395701ad6dd1551dfb878fc2b02a61f6382a5fee263beb590601bd006",
+      "byte_size": 1001079,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/74.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:46.480474+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_075.json",
+      "sha256": "7a1bb1e17a83fa5607a4dc622dd8bb0e2b44f18e44f214f0b46368012df2df5d",
+      "byte_size": 779404,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/75.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:46.561525+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_076.json",
+      "sha256": "e9abb6d18af54e99c6ca86884dc7d79f5e1c00cf85809aeae9262ba2f66b9722",
+      "byte_size": 441829,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/76.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:46.639063+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_077.json",
+      "sha256": "cd0fab0faa6abdd74beeb474db3a242cfb08718f1ed53b2d5dc02e7e157b88a1",
+      "byte_size": 382120,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/77.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:46.696915+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_078.json",
+      "sha256": "70c74d1f8975abbb6ee846aa324c6f84fadb35ad7492bff7c66be1db3267b00f",
+      "byte_size": 542868,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/78.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:46.763430+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_079.json",
+      "sha256": "7e561db1e3db3ceec7e4ad08a8dea5723d4ac0b095a6844abe240e034bae1ef7",
+      "byte_size": 403070,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/79.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:46.834205+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_080.json",
+      "sha256": "f9e4b59be7c694cd898d1f93bc7d276de91906b9b84271c0ac758da9bc9ddd97",
+      "byte_size": 697422,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/80.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:46.903586+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_081.json",
+      "sha256": "56f55c89933e39d6629b32cf98d8497d13552d412a6111e5000f52727ce40b6d",
+      "byte_size": 964565,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/81.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:47.114337+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_082.json",
+      "sha256": "b50403f8f311dc07d70638723c20931b73fb0752944714a3d6ab498422988983",
+      "byte_size": 276772,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/82.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:47.187302+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_083.json",
+      "sha256": "4f98228625148ce95c24bbee990d31260bd22e0b3c7039e6d75c9947f1c08cfa",
+      "byte_size": 403837,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/83.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:47.254668+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_084.json",
+      "sha256": "9f70d12c505abe430d0e4dcabc68f12b1257060e7470011463a514cebed60bd6",
+      "byte_size": 473159,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/84.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:47.314209+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_085.json",
+      "sha256": "90dcaade3114f8f6da2e0e8762d8e29105c11dd1967b8a1eeedfee06a1430d36",
+      "byte_size": 690946,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/85.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:47.517070+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_086.json",
+      "sha256": "7095c6086477089b4428be9a314923cacbcd33054b56f2cfac9debb7f0b3e395",
+      "byte_size": 136200,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/86.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:47.578418+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_087.json",
+      "sha256": "31736c149e9451ef65b358c397f4b1d274e9aec3a5617b8faba51dd41c40a997",
+      "byte_size": 372071,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/87.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:47.626943+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_088.json",
+      "sha256": "6cc0a5db2b94e431f3df7efde003518e67e22268d35aa5f76d31f985a9946430",
+      "byte_size": 254388,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/88.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:47.686827+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_089.json",
+      "sha256": "5caef4c8e176266b5d0dbb0904864ec6d46b93bb843a2f8d64768c7d048b7fcc",
+      "byte_size": 868328,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/89.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:47.913657+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_090.json",
+      "sha256": "d523390e92407e44833a4b7987930f6d267304589f2aa4ec7c557b2818675f31",
+      "byte_size": 411394,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/90.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:47.985442+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_091.json",
+      "sha256": "03b7ee0233149bb186909ef9dfc5962b901ada69aefcbca6de333b45118fa374",
+      "byte_size": 225924,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/91.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:48.042440+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_092.json",
+      "sha256": "0e2f9e99fc54ac71ffcbcf65f8b0cce58b05c4090a953483840d94df519cfab2",
+      "byte_size": 434476,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/92.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:48.100927+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_093.json",
+      "sha256": "e7bc3e659eddcaec4b7d77d2930e73921d5de9659b31a4b0c288ac3b58d4fc4d",
+      "byte_size": 355646,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/93.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:48.166459+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_094.json",
+      "sha256": "1dff41b5f54c3d2610915d64be9c394ed2a8bb4a4939289e08c4e9f707e05193",
+      "byte_size": 197395,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/94.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:48.221702+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_095.json",
+      "sha256": "7e415ebd0f42a7db211de1cd1fb9f47bef5304563852070829fdbbe8fd5c2563",
+      "byte_size": 76499,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/95.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:48.268284+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_096.json",
+      "sha256": "035340be68e2dd67da214f2872ea101591940fa7827a4bc2c23491d78924fbac",
+      "byte_size": 238982,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/96.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:48.319815+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_097.json",
+      "sha256": "687846307ff49655be6dc7efae7f0c65e3edccd8d25b25d4a96e4f3bdca003de",
+      "byte_size": 375803,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/97.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:48.471161+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_098.json",
+      "sha256": "47761d73b4a7f67df86a118d0519927e0614085223c704b96043b6f93feea0fb",
+      "byte_size": 117247,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/98.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:48.539952+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_099.json",
+      "sha256": "28d434d41a2d20bf5d71b59ddefe05d7d1aae08192edb87f1cefcd5cdfe74007",
+      "byte_size": 262803,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/99.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:48.648441+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_100.json",
+      "sha256": "f9c82f920e04cbd3fc6020a73b3778a9aa9572dae07e2171968bf6694dbeabc7",
+      "byte_size": 164378,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/100.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:48.707680+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_101.json",
+      "sha256": "ffa48c0976d8dacf12b66e91e4a8f0e2a4a8eec1bece6a1d5f7b3896c332b23b",
+      "byte_size": 184068,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/101.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:48.767093+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_102.json",
+      "sha256": "4c8751c5cb619e6329b6a2370e52244e713b2c064402caa3fd1f31fdd36ead71",
+      "byte_size": 295435,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/102.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:48.885516+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_103.json",
+      "sha256": "61cb31b3c39a9a9c6a905ba55f0cd89470a0faf571cbefa35a9fb48fd72819c0",
+      "byte_size": 20325,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/103.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:48.941676+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_104.json",
+      "sha256": "7e1cc01ae3348f5e9f821a97354fc3a74da47bde0d272461975e831aa828d3e1",
+      "byte_size": 60222,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/104.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:48.985229+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_105.json",
+      "sha256": "499a7a637ea85dc66e82ca9c93c81ed696497f08c70023741b6d15ff0b33bfd2",
+      "byte_size": 228608,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/105.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:49.103669+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_106.json",
+      "sha256": "6210f213ee6fb5b3cde7b9d7506e7f636d927b3344e898ba30e11aab0e7eedb2",
+      "byte_size": 42967,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/106.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:49.158311+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_107.json",
+      "sha256": "d4f6ec63fb28a41cd3374071e87f1d8559e8ec4f2333a914a250e3bcd4c8aece",
+      "byte_size": 184453,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/107.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:49.210790+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_108.json",
+      "sha256": "bb378f851598afdf4bebe8b88777d74a9d046758c321e229854ed68d6f7b06fd",
+      "byte_size": 116832,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/108.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:49.287162+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_109.json",
+      "sha256": "0c42b87324629b355b54bf9b3f69d07af73264e43eabe80cf1ec68739d83d7f1",
+      "byte_size": 102243,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/109.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:49.340014+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_110.json",
+      "sha256": "3a95b4263f7e375e9118b753447da54952160a71a46f345be1df09c99cb1b178",
+      "byte_size": 81162,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/110.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:49.388685+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_111.json",
+      "sha256": "447a468b098b686e6092c09fdc95921437aa70e3da4d8ee57d5c1d9adbb6ea84",
+      "byte_size": 97628,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/111.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:49.438472+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_112.json",
+      "sha256": "0350535c8bf66e84202258872eb47446b6644d6274153c69caf12b31907f081e",
+      "byte_size": 269343,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/112.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:49.539517+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_113.json",
+      "sha256": "ac484b9ce99757d1f8b474252f5da1063ab77f923ae77d96166a7ecf031689d6",
+      "byte_size": 241468,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/113.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:49.656683+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/ar-tafsir-ibn-kathir/surah_114.json",
+      "sha256": "f28e871f2adf657b4b360591c86405c71eca5c9db3ff14cf4caa10b378eb5169",
+      "byte_size": 130353,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/ar-tafsir-ibn-kathir/114.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:49.724197+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_001.json",
+      "sha256": "048317d6d07144e53caf4095be6f3b86da7c7bde06595342a2f56d385f1d6924",
+      "byte_size": 232493,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/1.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:49.828882+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_002.json",
+      "sha256": "bf3e1bd328d4d67e6aec4d3917138f4f20cb803175a05a94ac8f6915c9b3b3e8",
+      "byte_size": 3343413,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/2.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:50.285966+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_003.json",
+      "sha256": "686b0a45f663f14f26a89a20330275f9d7f01a433f138e8b34f1b2b2e2377f5f",
+      "byte_size": 2376481,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/3.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:50.747157+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_004.json",
+      "sha256": "b7a033cfaebc62d006204be502690ec84befb9a640269d8ca4d7a55cafae606a",
+      "byte_size": 2009167,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/4.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:51.071138+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_005.json",
+      "sha256": "bff692efabd009e7ee7432d788cbe41a15a508569777d593e529df606f61e74c",
+      "byte_size": 1855719,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/5.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:51.372374+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_006.json",
+      "sha256": "e7f204342d6121a426b641f0285ef8fdade07522f0f69f85f1b93d1c5fed5a2f",
+      "byte_size": 1514746,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/6.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:51.609788+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_007.json",
+      "sha256": "2f65f522dcf52c6ab0960909012d0a50baa33b42488feb482e2362397a0f9773",
+      "byte_size": 1289422,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/7.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:51.839578+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_008.json",
+      "sha256": "ea61faf26ff1dd303ed43ba895a9e2a761201021fefe108f8a306cd85b6568fa",
+      "byte_size": 798390,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/8.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:52.007771+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_009.json",
+      "sha256": "7b4f422a45506b904decb31f95e918c9fa05d88720a81603559be4ff29ccd685",
+      "byte_size": 892587,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/9.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:52.183762+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_010.json",
+      "sha256": "2ae255137e9c4303de384bb1311c9265da1d9f2ed78a134f07aa3bb0552ae7e0",
+      "byte_size": 495789,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/10.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:52.308390+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_011.json",
+      "sha256": "8d6380f4540919661441948c04af392f2ed7664dfe9547f513b659c91a40d1a5",
+      "byte_size": 485842,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/11.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:52.413034+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_012.json",
+      "sha256": "0ea58a1710b4d47d776a2a0f424f9b5521104160b7ac58128bbd57c17d9f9bb3",
+      "byte_size": 560954,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/12.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:52.517819+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_013.json",
+      "sha256": "b26d4fa7c274d95e1047aad37e1d5c75184254616b08ae711fa2e04ad4074642",
+      "byte_size": 302958,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/13.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:52.658427+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_014.json",
+      "sha256": "767619b85bc9fefb56d0713c34be00f54f2372051a5115a93df1048568440224",
+      "byte_size": 355089,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/14.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:52.746718+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_015.json",
+      "sha256": "eb111868f10d14ee43e6afd7eed001d0aa5c493b2504e2388eaecb5bbb7f7814",
+      "byte_size": 416833,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/15.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:52.825610+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_016.json",
+      "sha256": "9e7ab9fd88201453a702699475ff0c0c981df9bf54f7f6c4598214048210bab1",
+      "byte_size": 591381,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/16.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:52.941914+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_017.json",
+      "sha256": "a66d5c7d4714418e99f11034026beed6301cbfaab592be69bb09aa462b4b9bd5",
+      "byte_size": 764671,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/17.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:53.114826+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_018.json",
+      "sha256": "934397c64762188d94d342a5789bc50d74d630c87b805551194bbd52c338bb9f",
+      "byte_size": 748559,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/18.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:53.235379+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_019.json",
+      "sha256": "d52e6ee1e7aa6c02f24d1746cd72b1c350c2b62b8f87d48e4b6f62754618fa0b",
+      "byte_size": 673541,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/19.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:53.349006+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_020.json",
+      "sha256": "37520b8dbf6c9a083b256172301459b36fc20253d6291e744c64ca0d9463e0cf",
+      "byte_size": 976560,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/20.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:53.523787+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_021.json",
+      "sha256": "af5edc34e73252fcf79e183b99922cdf3fd8ba5fb8a0ed5207199bae7f756622",
+      "byte_size": 768368,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/21.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:53.655669+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_022.json",
+      "sha256": "96cfc406e9f1e40c1d45fcab8a8985f8b7deea3fa7aab0e17d57aecdb5a33839",
+      "byte_size": 492660,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/22.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:53.779043+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_023.json",
+      "sha256": "c383f07a519b2b3d095ac32de68fe6510c248d911540e929a7e05116c512b32c",
+      "byte_size": 802594,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/23.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:53.877080+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_024.json",
+      "sha256": "011c1ba84122f016373f98c81b81f092f92fe564dcf827afb6e73f2fa71cdaea",
+      "byte_size": 622592,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/24.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:54.020134+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_025.json",
+      "sha256": "345d172a2d46c4eaa17fd47e9d3d1f21925185931f09ede80ac9fd4d4e458feb",
+      "byte_size": 686625,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/25.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:54.120324+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_026.json",
+      "sha256": "baa14f1c5d4bb4f663fb307360ae0e52f15c067ce3b6e4fc1f06bf643c9d1317",
+      "byte_size": 1390388,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/26.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:54.239751+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_027.json",
+      "sha256": "763e7271d1cb3bfc766c6a01ce52a4376bbc0bce33caae8bc5b136f97f030b2c",
+      "byte_size": 573412,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/27.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:54.374518+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_028.json",
+      "sha256": "165a00afefe6ca599a870d623cde3da2f35154b1a19902aa621b8261bbbe81db",
+      "byte_size": 557149,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/28.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:54.478932+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_029.json",
+      "sha256": "01a1bcd05279165b52701e747b6e16d7414b31993408a63763ffc70e185bee4b",
+      "byte_size": 323637,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/29.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:54.571827+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_030.json",
+      "sha256": "3f4f27c3036a77bc2442e9970f5abe95d2c4fe68e2c5e8befb4f75144f21c588",
+      "byte_size": 524268,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/30.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:54.705705+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_031.json",
+      "sha256": "54bd276ce8f39118ae6347612ffeb4b111ef45857f8f0d46c77ea5f251a1cff8",
+      "byte_size": 261760,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/31.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:54.805996+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_032.json",
+      "sha256": "e2a5d120315ad4feceb83d68bf1a1a69a4afe3bcc4718c6606556107a1903c43",
+      "byte_size": 172806,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/32.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:54.871006+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_033.json",
+      "sha256": "dcc7f0aa89bf76181d5c0eb49ef2b7a30e3184fd37388060ab142f59b8bc0933",
+      "byte_size": 751967,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/33.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:54.990753+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_034.json",
+      "sha256": "19aa8a747a1335a8c462afe6c044d45210bd54248dd281a524379354cabad97f",
+      "byte_size": 346708,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/34.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:55.090229+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_035.json",
+      "sha256": "187f83f83d9e8ca4c5fb97c5c57f6562b38b5e70e3192de32e79490812fb6ef9",
+      "byte_size": 197211,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/35.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:55.163083+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_036.json",
+      "sha256": "f826440ecbdd470059a1526a83b62ad1c52981a360bda151dbbf526dc2166405",
+      "byte_size": 518071,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/36.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:55.249174+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_037.json",
+      "sha256": "2ebbbbefa6d5f303e08dc10846a48579d8aa9f7896d0e652204f326f385ef311",
+      "byte_size": 1559044,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/37.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:55.434723+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_038.json",
+      "sha256": "08db5f4be9283bc3f0aa9ec9e67be8a2bd379e6b3b1e5ca14edc342fa5434147",
+      "byte_size": 648723,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/38.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:55.566052+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_039.json",
+      "sha256": "dc9266da3def229fc60bdb32aef0152901df3085c92ad824bfed03bc07f25327",
+      "byte_size": 586996,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/39.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:55.664159+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_040.json",
+      "sha256": "619b1bfde0d78008e9b47968773d3f0fd66ae1d6f294b699b73736e1b0af2add",
+      "byte_size": 637185,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/40.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:55.768252+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_041.json",
+      "sha256": "97e9dd299bed75710e770fbb33f374158222cd24f6049a3cc079edc21e91f6bb",
+      "byte_size": 435012,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/41.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:55.849494+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_042.json",
+      "sha256": "6788333f78fe5d57767a6e96dd8fb5ffdf15be2a532d45f7413ea7b1908ce139",
+      "byte_size": 269183,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/42.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:55.931308+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_043.json",
+      "sha256": "5de2468ef0da6ac4c5b1b402d3aaf65352faf05eb24e82f5c25661772a003bb6",
+      "byte_size": 496752,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/43.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:56.010574+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_044.json",
+      "sha256": "6fee2137c75e267c09381e7fc67839d9c696ab62f5a8e9d26c4e3ba99b02d892",
+      "byte_size": 395268,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/44.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:56.094902+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_045.json",
+      "sha256": "06f4a5bf8f852a4d0a954f743de125d4b3fefaae0de6d1a2546075a7bb7e89c6",
+      "byte_size": 140174,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/45.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:56.157821+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_046.json",
+      "sha256": "679e9244b976ed0601ee0a7b054a501269536da2a1b6f467d0a493eaba2d3b1e",
+      "byte_size": 317599,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/46.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:56.239561+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_047.json",
+      "sha256": "302c361ba98f48b9a39f38ef7735109fa8d22a56136c9c91ac42df4dfeb64149",
+      "byte_size": 211282,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/47.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:56.309240+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_048.json",
+      "sha256": "7f7c518d2e1c06e82f59d5116a7fd47cc3764e7fc7900ad446f5b0a2d924ee6b",
+      "byte_size": 276710,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/48.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:56.396745+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_049.json",
+      "sha256": "149a3d5b43af15041df1b0dc3ae3c7b359008fe5a38d207d641d936cba5d9b67",
+      "byte_size": 179383,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/49.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:56.466666+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_050.json",
+      "sha256": "41add4c7405941070410406007d735e109ceea925c81a712b4dc6d8f0314daeb",
+      "byte_size": 414903,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/50.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:56.531915+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_051.json",
+      "sha256": "1ed7ac04a012941fb87ce8568c7e4714e75d31dbd38a2e37679a49f5cf4f7c4a",
+      "byte_size": 430650,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/51.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:56.609907+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_052.json",
+      "sha256": "5f7ec007089b19774f43d80e0dd0dff3938a0e3b8208e78cb2d4f0ccb1d80b23",
+      "byte_size": 295728,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/52.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:56.679970+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_053.json",
+      "sha256": "bb99f687618087c24d07fd5ed5e82019c0f1deb6d7a67c1be74134ce7a732b93",
+      "byte_size": 723491,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/53.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:56.811127+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_054.json",
+      "sha256": "9aac8f23c570e4894fe3a507876d4b5d0f3decb24d9f22af1e6645d9bea7256a",
+      "byte_size": 302419,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/54.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:56.892269+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_055.json",
+      "sha256": "e840d8a25128511e9f393fad0f5e56a80e683412479bedf5a85d040d39283b5d",
+      "byte_size": 487763,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/55.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:56.968218+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_056.json",
+      "sha256": "ffb9efcc52185402cf2d924c377cfe097c01336c756582d900aa8e7be831539a",
+      "byte_size": 1014321,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/56.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.062688+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_057.json",
+      "sha256": "b4ac7e682c0c45fa2196ecfe0866f0e567d7b7008398dc6642bba789991c897d",
+      "byte_size": 262411,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/57.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.161013+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_058.json",
+      "sha256": "18ee08dd0cc1e6a220b0f7190806dd404b0ec0ae365809d2a9e1af6f494460cf",
+      "byte_size": 147466,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/58.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.225513+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_059.json",
+      "sha256": "ef5e8ce3d047102c5f013d94b6d1204d564131cccdc1dd537fa45014fd013f9b",
+      "byte_size": 377968,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/59.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.294000+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_060.json",
+      "sha256": "f6fb050bc0104c9017290e6aa75ab28307a98866bbf77a91de3978bb15ebc071",
+      "byte_size": 181720,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/60.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.363454+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_061.json",
+      "sha256": "f5c973894350494d4beb9ef2c56afe3f4f7aea48078a1d9bf358850167272d5a",
+      "byte_size": 139877,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/61.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.421390+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_062.json",
+      "sha256": "eca67810b863309e68711b902de471024627083036e9af28dd6381cf8f8b856f",
+      "byte_size": 90846,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/62.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.473288+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_063.json",
+      "sha256": "476af9b59b6f07dfcb3540a6dd188b893e2a32127db5b265cff72131ac9de19f",
+      "byte_size": 110605,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/63.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.526217+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_064.json",
+      "sha256": "189995a866bd5d9270698a67fc3145bb292ce11e79a33a379205554512e799e3",
+      "byte_size": 72781,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/64.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.571094+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_065.json",
+      "sha256": "598df80e295b1984fa87fb81691e1cbd17f098e122c7d7dff2dc0fcfb0f9e64e",
+      "byte_size": 111738,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/65.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.628614+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_066.json",
+      "sha256": "940d4042e2202a4c862d704ee563dadd9ab5da99305c610dbccf09776c0f32eb",
+      "byte_size": 144130,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/66.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.681848+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_067.json",
+      "sha256": "d339c317309c8789e2012581e27f6a5be8d74304098bba32c5d95782d049b697",
+      "byte_size": 168657,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/67.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.737994+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_068.json",
+      "sha256": "62069ba50582e1954fa9ff5d46c5d45432e86b4a5748edaffe549cfd5fb9a021",
+      "byte_size": 470595,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/68.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.805430+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_069.json",
+      "sha256": "9e3d1def71b2ce39fd82b289811a55fa299b2da5b05aba543cbd9a9f2d2abf9b",
+      "byte_size": 327542,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/69.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.873119+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_070.json",
+      "sha256": "24470e3bb1fab1d6c0790e2b72bb7f46ec7eb3c4cd120d16f6815e28bb7b5dd5",
+      "byte_size": 388435,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/70.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:57.943438+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_071.json",
+      "sha256": "a318cde3bb9806c03e7115712fd2fb719af7de89a2c4efbfea5d022ecc23fe05",
+      "byte_size": 178380,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/71.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.007129+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_072.json",
+      "sha256": "7b7f065022e7c571ab0d1f1b476387946b835edcf0545ea5e613bbb89d5ca5cd",
+      "byte_size": 194051,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/72.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.064710+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_073.json",
+      "sha256": "0db2990df9393f20af7da6b5873adeac012ef0a66b0b56f6f8229703f5d05aa0",
+      "byte_size": 203914,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/73.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.120964+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_074.json",
+      "sha256": "ada9328cd5ec3836d105144165c7f01aa7ff5c66755dc23afc25f21d04e5dcac",
+      "byte_size": 528750,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/74.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.183501+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_075.json",
+      "sha256": "c567c5cb78d7db65e25f3567a3e36d8614976b13be7099430189bdbc1450e328",
+      "byte_size": 299185,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/75.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.254541+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_076.json",
+      "sha256": "b7d04f6841ef896cc8cc340ab0f9d0a78867b27a11a89c22131e54a5c7740260",
+      "byte_size": 274631,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/76.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.316199+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_077.json",
+      "sha256": "852da9efe2a128b19ed303531ca7db0498403341797a4c53adfc1f2848371d74",
+      "byte_size": 313124,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/77.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.375561+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_078.json",
+      "sha256": "e634d92c82e1ea4cc2974df2825d56e2b25ba5c13fc87e6c60ee6df69d176010",
+      "byte_size": 230908,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/78.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.440133+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_079.json",
+      "sha256": "7c7cd86efad76c07e49b22e0bda9eddf423126fc1cfc42a2dc49fae4066b4569",
+      "byte_size": 266647,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/79.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.500253+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_080.json",
+      "sha256": "c1cd65863e7468bb06ac8ae48c8c4604e98ff6331d71661518225c636a94bf5e",
+      "byte_size": 369812,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/80.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.555216+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_081.json",
+      "sha256": "bf33dbf514e67c1944f80dc974f62be7b3acc81f6cd87dc654e1d4c1aface0a0",
+      "byte_size": 391569,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/81.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.619063+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_082.json",
+      "sha256": "25fb088f7dc655191a4134806d7663eee7f74242f3cfee3d0359edc009ef3427",
+      "byte_size": 154794,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/82.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.671482+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_083.json",
+      "sha256": "c101736a17b1785ed50009dafba028447c1eeb72fa3bd102c88f058450dfd2ed",
+      "byte_size": 250563,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/83.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.731487+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_084.json",
+      "sha256": "25c19a6e13008b843d4b048bf69b0f788cdad233d96f4a105de2c52d0a780042",
+      "byte_size": 132608,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/84.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.787701+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_085.json",
+      "sha256": "1f3556960bd4b1f74dd04247a5802f549baf69157e52f55228fe2796c19187c6",
+      "byte_size": 237922,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/85.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.860593+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_086.json",
+      "sha256": "e2be14dcabfa87d5bf471ff49d248e5118b6cf7eac4c24670ff240035a2596b9",
+      "byte_size": 70680,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/86.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.916301+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_087.json",
+      "sha256": "2cf2a1b0da85aa3fee32d33c3b5a3868033ceb49c2bd7273041b86975ff1270c",
+      "byte_size": 112589,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/87.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:58.961638+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_088.json",
+      "sha256": "1165efd43a81e8ff8a756e5caad076df18330cad80705afc8c4ed5b74b61b4c0",
+      "byte_size": 163241,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/88.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.007648+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_089.json",
+      "sha256": "4f5c898c2a52cc20c2c8f69f87e47d524f99209e66701e958d9d0861b63e20c8",
+      "byte_size": 475060,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/89.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.066696+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_090.json",
+      "sha256": "c39e7f54ca9bfb0a368f292031b1d63dc4571b83aa0c75bbbf3602110a8d3c00",
+      "byte_size": 216864,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/90.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.129134+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_091.json",
+      "sha256": "09f8cf2622e4e20aa17fc1a6c5382e50f484ae2a3533b8bc7f96f7dbf45e8ff6",
+      "byte_size": 172920,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/91.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.179891+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_092.json",
+      "sha256": "6f83ae7d195196bdd4e2f9b2d87329d1e80a008dbfb2fc48fb2ec108ce37b84b",
+      "byte_size": 250325,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/92.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.228794+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_093.json",
+      "sha256": "d59467469503b17d4833601c9111a763b8f6d4ebe9f24febf2fbcbe7b011dc58",
+      "byte_size": 115108,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/93.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.282712+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_094.json",
+      "sha256": "cf47e93c8c0fd145677e3b4129c001dc0c9aa1f0e6419d0e58b47c7180d4cbb7",
+      "byte_size": 159011,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/94.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.328915+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_095.json",
+      "sha256": "f5ca5962ec20b6b8a3e98078109bb513fc01f1e8f3a91051ec9490dffeb80fac",
+      "byte_size": 52835,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/95.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.374446+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_096.json",
+      "sha256": "49f0f5a4271755059855d634e538d367492972ab2d79531350cf3c77262f09f1",
+      "byte_size": 105871,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/96.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.420160+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_097.json",
+      "sha256": "3e770c5f014aa2108ec3ce4441884ebb55d054c0e870e5caf9f98a416dd24dda",
+      "byte_size": 284833,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/97.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.511413+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_098.json",
+      "sha256": "17d34dbcf5c66b25c72040e607e2ce09c8025e0c6993c55359d05d8cdbc3521f",
+      "byte_size": 95090,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/98.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.563772+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_099.json",
+      "sha256": "966700bc34dc0437f7b5378671a35fa44235141d81aa9a931f9c325b8ce74fd5",
+      "byte_size": 148091,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/99.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.612762+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_100.json",
+      "sha256": "4f13d08e7ef4e72989495baba77314a1268d433c01a3cb5a28251c917f555560",
+      "byte_size": 112524,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/100.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.662252+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_101.json",
+      "sha256": "9107eb6e6d3432926fa1335d24c712a21e6480f6bde6bf08bd2554ebee22538e",
+      "byte_size": 71230,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/101.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.708321+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_102.json",
+      "sha256": "e7c1a4fccdb233b408de29cc71efbc97453aeb24393933c9dd23a0fa7eda09b9",
+      "byte_size": 162523,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/102.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.752401+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_103.json",
+      "sha256": "a43ed8f98aeb0e52a68587aa999dc7be0fb7964c5975787bd7b3fbe7d08a5f9f",
+      "byte_size": 12402,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/103.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.798186+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_104.json",
+      "sha256": "ab2d17ab2f654bea457993fb605f179140d8b3610c6d8ef84e96fe1072bc0fec",
+      "byte_size": 35382,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/104.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.838782+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_105.json",
+      "sha256": "dd94036684169c3baffb3651abbbda087068bd46779a649e80d56499fc3d99d6",
+      "byte_size": 143818,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/105.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.890156+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_106.json",
+      "sha256": "93b98663a5addc09b34344cb3023ecd2e5560ba3f07cb3125e45dd518788c8b7",
+      "byte_size": 28055,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/106.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.943861+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_107.json",
+      "sha256": "f5f3bcb7f0f5b6450a69667d4b1070d72e8b449c6bd9ad5884407fef499683ba",
+      "byte_size": 87923,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/107.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:15:59.987695+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_108.json",
+      "sha256": "fad86312c2e7e3b04a1b53470297f4d0275843cef07b37d9e2d1c076cdd51bcf",
+      "byte_size": 55296,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/108.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:00.033581+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_109.json",
+      "sha256": "45a5b8ec6072e8de5b8ab62c9642b2651ef34c7472b60bea43c8151fd85ab9e5",
+      "byte_size": 78585,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/109.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:00.079773+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_110.json",
+      "sha256": "005601b4c0f873114e4bbca6b087ff2db77115c63b3a3c33af2ccdfce5e3d5fd",
+      "byte_size": 49692,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/110.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:00.123237+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_111.json",
+      "sha256": "91b5381ae23ab6a68a54a3e2773e8b3fdebccace58c886df6e12a2ebf78acfb3",
+      "byte_size": 67498,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/111.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:00.170181+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_112.json",
+      "sha256": "e78f12355b8a52173ffe70b5ef44f8c870b972da89fac4128fc1dca16e22621e",
+      "byte_size": 126791,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/112.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:00.213641+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_113.json",
+      "sha256": "ac13080c7efc4af33d61931f1d9263e1da8f6ae013a720ede986cb73f107ce91",
+      "byte_size": 112703,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/113.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:00.258557+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/tafseer-ibn-e-kaseer-urdu/surah_114.json",
+      "sha256": "b5b07c78e7efd277913b249b0e082dfaea949b9fbe02a3449e97965715a9fd19",
+      "byte_size": 80289,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/tafseer-ibn-e-kaseer-urdu/114.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:00.300709+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_001.json",
+      "sha256": "15cb644bb765c185f88ba8d985a76da1be6e1ec370461d98da7f81fd1baeae9a",
+      "byte_size": 203604,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/1.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:00.367064+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_002.json",
+      "sha256": "1c6a11363c73466443b72286a7183359bf1dbd9f6a2d1e4001380e73ef6d52c8",
+      "byte_size": 2488900,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/2.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:00.603428+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_003.json",
+      "sha256": "01ee47781dc7a04664be026979ff3fcd80ca685681e52e3392f521ca882a9d41",
+      "byte_size": 1792648,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/3.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:00.805259+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_004.json",
+      "sha256": "7c007042309ab11173eea54239fe721fa5c541e03540391b70d3ce06ec77797e",
+      "byte_size": 1554896,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/4.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:01.015767+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_005.json",
+      "sha256": "811136c3e6143743e3c97a99a20c0779cfd89fa71f353f19de4627ba99215f10",
+      "byte_size": 1279044,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/5.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:01.172575+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_006.json",
+      "sha256": "d0d26ebb0276a14a7d8b10ddc18bf2dfab43e97e07116304b0f4d973bb066124",
+      "byte_size": 1244853,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/6.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:01.329495+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_007.json",
+      "sha256": "dbeb22910bdf612a83a36ceccbe6b057b039deb90bff5fbf6e36bded4cdf8383",
+      "byte_size": 1042778,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/7.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:01.490398+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_008.json",
+      "sha256": "a47922395c0440c68e702fc1983091fb13dcbeb2738ace37e53d9239c572ee33",
+      "byte_size": 484308,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/8.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:01.596356+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_009.json",
+      "sha256": "f9bdec7071ea869843a5bde9eb17989589108685a43076c3f536e7b7e5d392a0",
+      "byte_size": 595485,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/9.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:01.691812+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_010.json",
+      "sha256": "218c6901d862c407553bcdf664b11f8606a00d042613d88bea27a8de98f4c96d",
+      "byte_size": 495237,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/10.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:01.828840+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_011.json",
+      "sha256": "ff16c2cd1b0ca4f23b8320ef991382f02dc1c79e9412d96c7dffb3b5c3555cd2",
+      "byte_size": 527899,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/11.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:01.928729+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_012.json",
+      "sha256": "3fbea342c3be1e520718c6985ecc97bb58d98b19d38330465cf72a402ffd4c78",
+      "byte_size": 454738,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/12.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:02.023727+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_013.json",
+      "sha256": "09906bb39160418dc1cd54d46b12571eb14793a2f6592e739f0f3ce033e2a9fd",
+      "byte_size": 247154,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/13.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:02.129049+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_014.json",
+      "sha256": "a5372113e1db948cddd8f6083c5a3509b6db4f4d46b18c869a7c5b9d23275033",
+      "byte_size": 333127,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/14.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:02.221300+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_015.json",
+      "sha256": "1c2578739b4bd650b2a9dc98b5f1b6cc9b43ad329b28ecf06333ffeeb5357043",
+      "byte_size": 382324,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/15.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:02.297133+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_016.json",
+      "sha256": "3fb1327b05196febcab713efff6e0b22d113b93abeb64ff2f7c8184a2f24dccd",
+      "byte_size": 577387,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/16.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:02.397873+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_017.json",
+      "sha256": "c7935404b98676939bc739f4047ce7b6fe2b2feb1733864b4ea4d310047ca03c",
+      "byte_size": 616516,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/17.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:02.536882+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_018.json",
+      "sha256": "e963179279b4f980802399de4d9377d9eb992edb520463f73ed11d304ec954cb",
+      "byte_size": 646825,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/18.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:02.648086+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_019.json",
+      "sha256": "d57c4af72c16da90682a7b02339d5d023c30a6d7fc7b32f8d3cfa5280d0f5f25",
+      "byte_size": 615125,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/19.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:02.757511+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_020.json",
+      "sha256": "730f62c6435079d86979b1a824b6da7bec93c5ba10b835ff31a5485f9bc32f14",
+      "byte_size": 841511,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/20.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:02.864747+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_021.json",
+      "sha256": "067d7172a9221fa87fde0cd43d105c14791f6fc04eb337ddce53991cf159519a",
+      "byte_size": 674089,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/21.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:02.965171+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_022.json",
+      "sha256": "830f23ca22958a3d72a10493970d6528c6d16b988d1c2e4c914ae79192fa9501",
+      "byte_size": 440344,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/22.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:03.064713+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_023.json",
+      "sha256": "8992f62670d1b36cafa6009786122564dda363fb381873213d2a32c2a3617cda",
+      "byte_size": 780463,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/23.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:03.143749+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_024.json",
+      "sha256": "f419e628fe2a5aecd964032049afc338098cb26800f3300e9132695c802e0c97",
+      "byte_size": 482156,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/24.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:03.270162+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_025.json",
+      "sha256": "0ade06dd8037bd94ec9b5ab3ad60827c2603252f3583437e9b73a0a28d9a8e0b",
+      "byte_size": 516686,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/25.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:03.348109+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_026.json",
+      "sha256": "4e7da9f33eb8f2806695ba30b95aa645a3b09d0560d3d33f2d9c863a1ef99ead",
+      "byte_size": 1254809,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/26.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:03.446477+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_027.json",
+      "sha256": "94dae219d4b613c0ead73e991fb943edeeffb3f5cc8e8fdfc5e267b956d2cf3f",
+      "byte_size": 524725,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/27.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:03.577550+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_028.json",
+      "sha256": "526056b28234e9e5b16213cc7f5ed2aabff04ed7d32c918f584b468b2d62f2df",
+      "byte_size": 514785,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/28.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:03.681572+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_029.json",
+      "sha256": "ef54acdb36cec704a1c80e46be32c46f5551e6869f3b4f2f1d49a61f05569fb9",
+      "byte_size": 323640,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/29.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:03.771118+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_030.json",
+      "sha256": "3774e97e94fd6b677765d61f0f707c471a0b814068525adf246bfddc3195fce6",
+      "byte_size": 317126,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/30.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:03.837702+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_031.json",
+      "sha256": "493eed7244323cc5b1f1d3e058a0d8fc384626172031ad8822a8abcdb6e5bd1c",
+      "byte_size": 138070,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/31.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:03.906066+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_032.json",
+      "sha256": "5fae40a702c1edeff876a89360be629e71778d023e6ab223c7911f8e331d577c",
+      "byte_size": 137913,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/32.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:03.968845+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_033.json",
+      "sha256": "6767462eab6c6db73062ba3665b6adb7fdf73860889b0f500fd131e004710b24",
+      "byte_size": 508605,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/33.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:04.053388+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_034.json",
+      "sha256": "bfdd011f847937a3a3562c5ea89a1f4f85ba25695d42eb70319bd3d7ac54566f",
+      "byte_size": 359376,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/34.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:04.146667+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_035.json",
+      "sha256": "e9f524e19bea2ff5555c64f66a2fe0875a057bc44d24cb3bcdc653ab268f3fda",
+      "byte_size": 216893,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/35.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:04.214176+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_036.json",
+      "sha256": "5487a64c098336e83c72909bb3fe58c05cd1038c82fedabac808e4b85c44f1f1",
+      "byte_size": 481137,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/36.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:04.301938+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_037.json",
+      "sha256": "8c1265d0fb8a654321f21a5bc34e2a952327d218498f0c2dc857ad10831979c3",
+      "byte_size": 1285249,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/37.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:04.409625+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_038.json",
+      "sha256": "ad0fad791b6cd4ca58953f399c8327f3854ab264b8d2a7f4dbf9e61e6033ee24",
+      "byte_size": 549928,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/38.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:04.501909+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_039.json",
+      "sha256": "a65ba3f9dd50a90b4839be2d9f34627e68a0d114a530b6c0975aaaedc31ef045",
+      "byte_size": 522004,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/39.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:04.584003+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_040.json",
+      "sha256": "0ede7438d73aad8d04b9dc7dd938532670ea5776942c12f8bfe846e2075fae47",
+      "byte_size": 527105,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/40.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:04.672447+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_041.json",
+      "sha256": "87c9d4536265e176caa53f1c7ec1a1f76a7ad7b9f285f505dcd0a429a722d7e5",
+      "byte_size": 355860,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/41.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:04.743790+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_042.json",
+      "sha256": "43d7b51117648aa2d014ea30fa48872c06bd6ae9a3e233161dce5333cf032dde",
+      "byte_size": 296959,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/42.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:04.815460+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_043.json",
+      "sha256": "a00ef798dfedc1f682a2ba2333cbc95b792f3321ad387dffa349b28d92330e61",
+      "byte_size": 720306,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/43.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:04.885255+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_044.json",
+      "sha256": "be040643ce34a409bd2c8949e5efddd77a7cee26afd18478ae524856eed4247d",
+      "byte_size": 516453,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/44.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:04.965643+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_045.json",
+      "sha256": "d7f5a60080d90cdb5f95c516e81d1f211397364069633b58985dcc3cd6621e70",
+      "byte_size": 203780,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/45.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:05.042390+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_046.json",
+      "sha256": "729359388545087e89ecc04f75daf36e3ae01ffad86cc5b40b03cc17539272e9",
+      "byte_size": 292325,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/46.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:05.119119+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_047.json",
+      "sha256": "0898838f1acb8150a40819bc1475b4d692fa6631613ca26e199994092e8ac5bb",
+      "byte_size": 285941,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/47.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:05.197300+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_048.json",
+      "sha256": "0555650a3cd59d7c5cc8913d276e5944081ad7005e3e279805fdba37ba28ad09",
+      "byte_size": 294605,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/48.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:05.300862+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_049.json",
+      "sha256": "f7c84803d08ca4e0155ffe41e43ceeea443d0c4219cd0e046b7ca8f753376055",
+      "byte_size": 167009,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/49.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:05.364209+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_050.json",
+      "sha256": "95967e5f12462cebae3c3f58d9e4120e92bba5afea1dc441d5714e79d317d1b3",
+      "byte_size": 374804,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/50.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:05.425225+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_051.json",
+      "sha256": "517bdec93f14c5e3e1156ed2454a32ada31bb2bdd7bd6958b6a609eed829ee71",
+      "byte_size": 387623,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/51.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:05.493534+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_052.json",
+      "sha256": "a79799ba104240615c6a22b071ce96bc0f8d0e81a571923d8975a123b32b63f9",
+      "byte_size": 414095,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/52.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:05.561239+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_053.json",
+      "sha256": "ab6d462b2f78248391d521bcf138a886e4c4d9cf72f60361b49c488ac450ef7d",
+      "byte_size": 582314,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/53.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:05.630919+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_054.json",
+      "sha256": "8b3718f6b9edda431a2fa23eeee51f10eed89e0afba0dc20519620d60be0029a",
+      "byte_size": 370623,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/54.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:05.699324+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_055.json",
+      "sha256": "9ec58e7ee55d4bcf460b4933292f41d10635c742e66a91b1f7699c102988d88e",
+      "byte_size": 597064,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/55.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:05.770157+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_056.json",
+      "sha256": "0effccfaa3e2e5f6da7a0267676bf55dbf8d09a020e784f1502c7ebf80997dd6",
+      "byte_size": 1068577,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/56.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:05.859238+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_057.json",
+      "sha256": "063d5fd25d23cc0c2a98fe691f035770ee47e3f529572ee483a69d42dded0c7f",
+      "byte_size": 277937,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/57.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:05.952174+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_058.json",
+      "sha256": "d13e1bb9c1e7a81f39405e9f4ece3f21bde19d26faeb98ac78a9b1c266c0789e",
+      "byte_size": 174714,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/58.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.014997+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_059.json",
+      "sha256": "10b7c658887bfd58d2066d082c02bb5e00eb6e2bf50e889a78a3ba226673bfa7",
+      "byte_size": 307152,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/59.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.071372+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_060.json",
+      "sha256": "5ec2e7ad38555c810847276acbd5ac7256ceb94bc87564e2297b6228dd927b0a",
+      "byte_size": 133676,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/60.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.130116+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_061.json",
+      "sha256": "366481bc7486ce1dc9d609c361cfe85b3e8318f736254bc089b5a3dbfa68603f",
+      "byte_size": 79597,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/61.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.177250+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_062.json",
+      "sha256": "5c6cde03e17eb754390e4b76dcd125a0d4b867e5a172bd19b12b7dec9be63ae4",
+      "byte_size": 109420,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/62.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.226894+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_063.json",
+      "sha256": "71063a7279d74948080f2a4e93252620533e35b319d2659228f90e1cfd4a043f",
+      "byte_size": 89145,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/63.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.272254+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_064.json",
+      "sha256": "434cbefcfc29d613f1e8a9944121ccf15c0dbaae23aee1f775a45897d7f37da0",
+      "byte_size": 106243,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/64.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.322458+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_065.json",
+      "sha256": "9df17c9357e1bde28c39591951ddb693bd15993fdedf3e299b9a19cd32915743",
+      "byte_size": 85809,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/65.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.371503+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_066.json",
+      "sha256": "518eabff5bdaad0faa9546d26b94fccb04e05b9bc97eb69d3e1bffa849b99850",
+      "byte_size": 149048,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/66.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.422938+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_067.json",
+      "sha256": "c1ef8865809417d5f7429906ac667da2ee90d81e230024f64ecf84bcf04d924d",
+      "byte_size": 202126,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/67.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.479317+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_068.json",
+      "sha256": "2224af8d24ebb89d671338a4b93c03d8c91ad8d7053771c128e7fd55621d8cec",
+      "byte_size": 459436,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/68.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.536441+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_069.json",
+      "sha256": "6ea26756fde8dd87e676830fb6e26fa1c5a667d2c99c794304c6eb305917f4a3",
+      "byte_size": 351897,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/69.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.599368+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_070.json",
+      "sha256": "5f9a3a7316179995ca9153f879af4756145588ec6c67bec5c6dbc4377dd30f6c",
+      "byte_size": 461094,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/70.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.657409+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_071.json",
+      "sha256": "30b1efa44b7720ddc905702cf563e10f4e5469a96d5a71dec05af123acb84e61",
+      "byte_size": 243962,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/71.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.723196+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_072.json",
+      "sha256": "07cbedcf4fb0807b0b52f138814efe579e227ec97099b2dbe6c486673fbfed78",
+      "byte_size": 243547,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/72.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.775535+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_073.json",
+      "sha256": "a04bbfcb24a0100cb9bf6f2b32d1fa77a94b6078be76624a2e0507437656f225",
+      "byte_size": 282071,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/73.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.832778+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_074.json",
+      "sha256": "69d25d3e2fd1c1d2d8b103ab00afaeab0cf3989710a477e6f07d19211ca19e09",
+      "byte_size": 478926,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/74.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.891308+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_075.json",
+      "sha256": "11f1fa1bb98082998aac1a6c710d6146feb4261120790911e79980ccc6c94fa6",
+      "byte_size": 514209,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/75.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:06.956306+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_076.json",
+      "sha256": "6c7f609912224d60568cba635e3775e875bcadd8a82cccfcc54e6433fbbbe8ef",
+      "byte_size": 306904,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/76.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.016947+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_077.json",
+      "sha256": "fe9c343c06890acf4e4a6c933efbab417eac9127b17876c27c066abca89b52e5",
+      "byte_size": 334458,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/77.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.071406+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_078.json",
+      "sha256": "e559f15d441ae070688c751e210d4f535ae05e72087ffa5fd89124629bfdb206",
+      "byte_size": 395708,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/78.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.130700+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_079.json",
+      "sha256": "e80b87bc036b7ab3cce0eb1c07b12eed85352a66d8cbb852fbf2cc5b807dbf3e",
+      "byte_size": 402813,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/79.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.189760+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_080.json",
+      "sha256": "5e3e01b57865d259fdf60e55626f2e13acd16334986b3a139f904442623ddfd4",
+      "byte_size": 335672,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/80.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.250048+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_081.json",
+      "sha256": "8de7f153b7150bcdfccec331fcd0e2153138ab7d8f868b39d2cddd03ae173f47",
+      "byte_size": 411910,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/81.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.305902+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_082.json",
+      "sha256": "f9c54656dae63fe6c9165121e0b5a6943d4363bdbdfcd77d34a7a6b6ddd27c7d",
+      "byte_size": 142578,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/82.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.361037+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_083.json",
+      "sha256": "ff8c1b02aa88d55c6eb267e38a035d5a01bd381be544e029f1ad6397f9edc9d0",
+      "byte_size": 258122,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/83.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.408587+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_084.json",
+      "sha256": "38057721f085ac711ac6ed07ba9ab706b955fe7abc9dbe8a430ca377fcba5487",
+      "byte_size": 199514,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/84.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.464805+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_085.json",
+      "sha256": "1d5cf0176444cb454eeff48c0fc7e6680dcca5bee14e5cc4a600656b27e8fb6d",
+      "byte_size": 323652,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/85.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.521682+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_086.json",
+      "sha256": "e9d29c8e48b9d24e2d5221ae664990c7f06084f94101edc73416cc888522df9f",
+      "byte_size": 86872,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/86.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.572837+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_087.json",
+      "sha256": "b48db7a88856f43a584a01511844f38c4acee5eb6425fe9a3559970c53189c49",
+      "byte_size": 224663,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/87.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.624188+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_088.json",
+      "sha256": "71c1515cca5d7ce84eb0d9cc7903e1d9ea11c8ebcd0255eeaed5736c9e6c486d",
+      "byte_size": 152807,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/88.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.671096+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_089.json",
+      "sha256": "4aeb71c8aec74ba22d65391b46baf218c0209a85726b9eea844c14fd27219187",
+      "byte_size": 274162,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/89.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.722716+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_090.json",
+      "sha256": "7f0375442a093148dd289eef8f593349e63eea07af2c1b9a597cdf040d853966",
+      "byte_size": 402934,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/90.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.778832+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_091.json",
+      "sha256": "ba2441e09fff8d60a4422d1232434b4fc73b0f12bed836ece9c749f668710a0f",
+      "byte_size": 142689,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/91.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.835124+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_092.json",
+      "sha256": "bda1f5c79867d4079d43681a814bbc39529cdf89fb012224c7b854e1105e2279",
+      "byte_size": 228165,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/92.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.889895+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_093.json",
+      "sha256": "69be77de9f7449c0e90266c15758136a7cdb7ac49307fa481842bfd2bbeccd0a",
+      "byte_size": 140838,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/93.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.937189+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_094.json",
+      "sha256": "3ce5f37d8257d62145efe49caba36f836d775b6a56adf83012c204b851803675",
+      "byte_size": 36331,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/94.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:07.982348+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_095.json",
+      "sha256": "7144c8380b88a5d68f799cd4058fb7c5818b2d1f89a465935d4c68317d654035",
+      "byte_size": 53427,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/95.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.021685+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_096.json",
+      "sha256": "a9c576576c2b3d1bdca6b2c2436c6e887a385a3e4c2b0a4ae5bf3c47d78dc8ee",
+      "byte_size": 125889,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/96.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.063501+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_097.json",
+      "sha256": "556409c53ff8e7d49aea5ebe5d57252c84536ace37474c9a03ff4cdfa662b2c7",
+      "byte_size": 79098,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/97.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.112462+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_098.json",
+      "sha256": "2336159311766e40fb1c4a82290f13551e43c2b5d9f5960c39e2a5e1d2ed8cd2",
+      "byte_size": 52731,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/98.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.162707+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_099.json",
+      "sha256": "6a75ec2042da3efb846e96d0e9af7f862f3aaddff6588ec73929d25b6077e30a",
+      "byte_size": 129211,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/99.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.206816+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_100.json",
+      "sha256": "1cc1de57e19935f4b17503c0a5fd132bc582e63de0c153eea290ec51c68593c4",
+      "byte_size": 70878,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/100.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.254422+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_101.json",
+      "sha256": "0ee738c7dd680e84e7d06abe10ec6c9cfa3843275707c381fc03e8d486bd2eec",
+      "byte_size": 80635,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/101.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.300741+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_102.json",
+      "sha256": "776a8cde96dde81969cb6a34d10a539964d2676e21e933d5c70de45ab01a3640",
+      "byte_size": 84739,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/102.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.345779+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_103.json",
+      "sha256": "307a1cc0d78c6ff1f5ae1e31331ca8d6bf4d1fb8c4a72229cc723e65888dac54",
+      "byte_size": 11871,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/103.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.383669+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_104.json",
+      "sha256": "e5f1c9915c87a539884b2cecca9f6037c5818d2f2ff124dbd036f401047dc3b9",
+      "byte_size": 39315,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/104.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.420503+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_105.json",
+      "sha256": "a0836a8565ca045713ef23400b12fb63558ec17b793d91358a9903bfc9a79acf",
+      "byte_size": 116423,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/105.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.464005+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_106.json",
+      "sha256": "020e31a9fde687a322e9d5ebba66da13fbacde06b1bd945cc798fba8de5a02de",
+      "byte_size": 22343,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/106.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.506680+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_107.json",
+      "sha256": "f917e6e916edce4eabd917f95b8e3ddf9119ad0985f61e4107b126da2bc636a3",
+      "byte_size": 50886,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/107.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.547898+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_108.json",
+      "sha256": "58feea40e6addb1e1efe727beee19079a2571a6f5841147e8af626c38f699129",
+      "byte_size": 32877,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/108.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.588635+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_109.json",
+      "sha256": "e6de9fbe80c8a2c413873f6f52667414d41c95a93b0d5d2f5a52ae11426c41fd",
+      "byte_size": 39573,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/109.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.628360+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_110.json",
+      "sha256": "344b2d3eeeec22c151ff57c108c607aedce5156231c7c5631233c3ad379bbd57",
+      "byte_size": 23127,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/110.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.672585+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_111.json",
+      "sha256": "6857b66e3fe4ad8d20347a953494f92e6ad227be8f27342fb67caea057b08291",
+      "byte_size": 44748,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/111.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.715533+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_112.json",
+      "sha256": "5237093f64130b59ef02582a3c167c4f9334b71076e9eb7102b80c4fac711a34",
+      "byte_size": 66647,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/112.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.759553+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_113.json",
+      "sha256": "e60a258aee47364e315b9ce42d13d46639b1c89349741a24e473efe6c8834f26",
+      "byte_size": 65303,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/113.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.802145+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "tafsir/qul/ibn-kathir/en-tafisr-ibn-kathir/surah_114.json",
+      "sha256": "9c38dd511ccfc04d7bc32e6716d3cd31af506b663c7913032be0640f8eac08ce",
+      "byte_size": 35373,
+      "endpoint": "https://cdn.jsdelivr.net/gh/spa5k/tafsir_api@5bbe0895543219f9ec3fe4ee808acce701a7bb4a/tafsir/en-tafisr-ibn-kathir/114.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-20T22:16:08.840343+00:00",
+      "reused_existing": false
+    }
+  ]
+}

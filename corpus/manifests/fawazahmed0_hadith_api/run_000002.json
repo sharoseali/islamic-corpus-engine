@@ -1,0 +1,72 @@
+{
+  "run_id": 2,
+  "source": "fawazahmed0_hadith_api",
+  "importer": "hadith.mirror",
+  "importer_version": "1.0.0",
+  "status": "failed",
+  "started_at": "2026-07-17T18:25:41.851751+00:00",
+  "finished_at": "2026-07-17T18:26:13.028567+00:00",
+  "stats": null,
+  "artifacts": [
+    {
+      "relative_path": "hadith/fawazahmed0/ara-bukhari.min.json",
+      "sha256": "f887d8724f75fb6e1d5d29342a173af5346ad9b933173c85e6e3cb570063ea33",
+      "byte_size": 9409647,
+      "endpoint": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@df57907be35291c91ad6a6691180e22ca9920784/editions/ara-bukhari.min.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-17T18:25:47.541750+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "hadith/fawazahmed0/urd-bukhari.min.json",
+      "sha256": "e9edbb3119ce1fc8a7422132c263ee76ddf4de3d448152de5868e2ce72d2e449",
+      "byte_size": 9584861,
+      "endpoint": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@df57907be35291c91ad6a6691180e22ca9920784/editions/urd-bukhari.min.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-17T18:25:52.208871+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "hadith/fawazahmed0/eng-bukhari.min.json",
+      "sha256": "60f8dfcf2cb8bcd2c8e281be68d912ee153e0fc4d02ad317d33c532d3814a04f",
+      "byte_size": 4821289,
+      "endpoint": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@df57907be35291c91ad6a6691180e22ca9920784/editions/eng-bukhari.min.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-17T18:25:55.474895+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "hadith/fawazahmed0/ara-muslim.min.json",
+      "sha256": "2cb296f3455ff8a3da9f6a0ca3de75da675788b2fb446ad316df297838e48217",
+      "byte_size": 8329204,
+      "endpoint": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@df57907be35291c91ad6a6691180e22ca9920784/editions/ara-muslim.min.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-17T18:26:05.973499+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "hadith/fawazahmed0/urd-muslim.min.json",
+      "sha256": "f4df8f12a57e0d14b93829aae8885072f7f04b5ca2703f8fa90b99cd7624bdcf",
+      "byte_size": 7301659,
+      "endpoint": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@df57907be35291c91ad6a6691180e22ca9920784/editions/urd-muslim.min.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-17T18:26:09.632503+00:00",
+      "reused_existing": false
+    },
+    {
+      "relative_path": "hadith/fawazahmed0/eng-muslim.min.json",
+      "sha256": "b5a04a66206b2cfaab18e2439ed2efeb824c6e179627e36a883dc060c03d4960",
+      "byte_size": 3940216,
+      "endpoint": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@df57907be35291c91ad6a6691180e22ca9920784/editions/eng-muslim.min.json",
+      "request_params": null,
+      "http_status": 200,
+      "fetched_at": "2026-07-17T18:26:12.978070+00:00",
+      "reused_existing": false
+    }
+  ]
+}
