@@ -1,0 +1,50 @@
+name: Deploy (production)
+
+# There is no production server yet, so this workflow is manual-only
+# (workflow_dispatch) and will never fire by accident.
+#
+# When the production server is ready:
+#   1. Uncomment the `push` trigger below so a merge into main deploys
+#      automatically.
+#   2. Replace the placeholder step with the real deploy steps (SSH / rsync /
+#      docker compose) and add the required secrets in the repo settings
+#      (Settings > Secrets and variables > Actions), for example:
+#      SSH_HOST, SSH_USER, SSH_KEY.
+#   3. Optionally add `environment: production` to the job to require a manual
+#      approval before each deploy.
+
+on:
+  workflow_dispatch: {}
+  # push:
+  #   branches: [main]
+
+# Never run two production deploys at once, and never cancel one midway.
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy to production
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Placeholder (no server configured yet)
+        run: |
+          echo "No production server is configured yet."
+          echo "Fill in the real deploy steps in .github/workflows/deploy.yml"
+          echo "once the server and its secrets are ready."
+
+      # Example to adapt when the server exists (uncomment and fill in):
+      # - name: Deploy over SSH
+      #   uses: appleboy/ssh-action@v1
+      #   with:
+      #     host: ${{ secrets.SSH_HOST }}
+      #     username: ${{ secrets.SSH_USER }}
+      #     key: ${{ secrets.SSH_KEY }}
+      #     script: |
+      #       cd /srv/elaaj
+      #       git pull origin main
+      #       docker compose up -d --build
+      #       docker compose exec -T api alembic upgrade head
