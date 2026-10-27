@@ -1,5 +1,6 @@
-# Python Virtual Environments
+# Python Virtual Environments (any name; qlib/ is the one on the original dev PC)
 venv/
+.venv/
 qlib/
 
 # Python

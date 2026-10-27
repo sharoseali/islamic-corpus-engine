@@ -9,7 +9,7 @@ and are skipped; 37:130 is written as two tokens by quran.com and counted
 as one word by the corpus. Any other disagreement between the two word
 counts stops the import.
 
-Run:  qlib/bin/python -m app.pipelines.quran.morphology
+Run:  python -m app.pipelines.quran.morphology
 """
 
 import io
