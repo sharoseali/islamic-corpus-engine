@@ -4,6 +4,7 @@ import { isLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import { api } from "@/lib/api";
 import { Container, PageTitle } from "@/components/ui";
+import { ScopedSearch } from "@/components/scoped-search";
 
 export default async function TafsirIndex({
   params,
@@ -18,6 +19,7 @@ export default async function TafsirIndex({
   return (
     <Container className="fade-in">
       <PageTitle title={dict.tafsir.title} subtitle={dict.tafsir.intro} />
+      <ScopedSearch scope="tafsir" />
       <p style={{ color: "var(--text-faint)", marginTop: -18, marginBottom: 24, fontSize: 14 }}>
         {dict.tafsir.by_ibn_kathir} · {dict.tafsir.select_surah}
       </p>

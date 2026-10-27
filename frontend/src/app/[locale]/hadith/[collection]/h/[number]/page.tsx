@@ -9,10 +9,13 @@ import { HadithCard } from "@/components/hadith-card";
 
 export default async function HadithPermalink({
   params,
+  searchParams,
 }: {
   params: Promise<{ locale: string; collection: string; number: string }>;
+  searchParams: Promise<{ hl?: string }>;
 }) {
   const { locale, collection, number } = await params;
+  const { hl } = await searchParams;
   if (!isLocale(locale)) notFound();
 
   const hadith = await api
@@ -56,6 +59,7 @@ export default async function HadithPermalink({
         collectionName={collName}
         collectionKey={collection}
         dict={dict}
+        highlight={hl || undefined}
       />
     </Container>
   );

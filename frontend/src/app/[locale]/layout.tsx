@@ -14,6 +14,7 @@ import { getDictionary } from "@/i18n/dictionaries";
 import { Providers } from "@/components/providers";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { InlineScript } from "@/components/inline-script";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 // Scholarly display serif (Garamond) for Latin headings, like an academic press.
@@ -75,10 +76,11 @@ export default async function LocaleLayout({
       lang={locale}
       dir={dir(locale)}
       data-scroll-behavior="smooth"
+      suppressHydrationWarning
       className={`${inter.variable} ${garamond.variable} ${amiri.variable} ${nastaliq.variable} ${naskh.variable} ${scheherazade.variable}`}
     >
       <head>
-        <script dangerouslySetInnerHTML={{ __html: THEME_INIT }} />
+        <InlineScript html={THEME_INIT} />
       </head>
       <body>
         <Providers locale={locale} dict={dict}>

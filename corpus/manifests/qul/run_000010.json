@@ -1,0 +1,54 @@
+{
+  "run_id": 10,
+  "source": "qul",
+  "importer": "quran.morphology",
+  "importer_version": "1.0.0",
+  "status": "failed",
+  "started_at": "2026-10-26T23:46:42.540888+00:00",
+  "finished_at": "2026-10-26T23:46:42.541461+00:00",
+  "stats": null,
+  "artifacts": [
+    {
+      "relative_path": "qul/morphology/word-root.db.zip",
+      "sha256": "a85c325c669fdf3295f8c150f9fbe780391ec9fc3c29b2c8b37b93083038db69",
+      "byte_size": 472972,
+      "endpoint": "https://qul.tarteel.ai/resources/morphology",
+      "request_params": {
+        "resource": "Word root",
+        "file": "word-root.db.zip",
+        "format": "sqlite"
+      },
+      "http_status": 200,
+      "fetched_at": "2026-10-26T23:46:41.794893+00:00",
+      "reused_existing": true
+    },
+    {
+      "relative_path": "qul/morphology/word-lemma.db.zip",
+      "sha256": "8fd431f0b765d9a66e8ad584edbfc19bb2c62091bb1809a97666e47648f4a356",
+      "byte_size": 736040,
+      "endpoint": "https://qul.tarteel.ai/resources/morphology",
+      "request_params": {
+        "resource": "Word lemma",
+        "file": "word-lemma.db.zip",
+        "format": "sqlite"
+      },
+      "http_status": 200,
+      "fetched_at": "2026-10-26T23:46:41.825961+00:00",
+      "reused_existing": true
+    },
+    {
+      "relative_path": "qul/morphology/word-stem.db.zip",
+      "sha256": "57992661ebd776d2400fb129562ab931a7ea2211a8cd5b757d72e59556924784",
+      "byte_size": 960429,
+      "endpoint": "https://qul.tarteel.ai/resources/morphology",
+      "request_params": {
+        "resource": "Word stem",
+        "file": "word-stem.db.zip",
+        "format": "sqlite"
+      },
+      "http_status": 200,
+      "fetched_at": "2026-10-26T23:46:41.863147+00:00",
+      "reused_existing": true
+    }
+  ]
+}

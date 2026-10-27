@@ -45,14 +45,19 @@ def get_chapter_verses(
     tafsir: str | None = Query(
         None, description="comma-separated tafsir edition ids"
     ),
+    from_ayah: int | None = Query(None, ge=1, description="first ayah of the range"),
+    to_ayah: int | None = Query(None, ge=1, description="last ayah of the range"),
     db: Session = Depends(get_db),
 ) -> list[VerseDetailOut]:
     if db.get(Chapter, chapter_id) is None:
         raise HTTPException(404, "Chapter not found")
 
-    verses = db.scalars(
-        select(Verse).where(Verse.chapter_id == chapter_id).order_by(Verse.verse_number)
-    ).all()
+    stmt = select(Verse).where(Verse.chapter_id == chapter_id)
+    if from_ayah is not None:
+        stmt = stmt.where(Verse.verse_number >= from_ayah)
+    if to_ayah is not None:
+        stmt = stmt.where(Verse.verse_number <= to_ayah)
+    verses = db.scalars(stmt.order_by(Verse.verse_number)).all()
     verse_ids = [v.id for v in verses]
 
     translation_ids = _parse_ids(translations)

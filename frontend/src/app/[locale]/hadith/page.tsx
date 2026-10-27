@@ -5,6 +5,7 @@ import { getDictionary } from "@/i18n/dictionaries";
 import { api } from "@/lib/api";
 import { collectionName } from "@/lib/localize";
 import { Container, PageTitle, Badge } from "@/components/ui";
+import { ScopedSearch } from "@/components/scoped-search";
 
 export default async function HadithIndex({
   params,
@@ -19,6 +20,7 @@ export default async function HadithIndex({
   return (
     <Container className="fade-in">
       <PageTitle title={dict.hadith.title} subtitle={dict.tagline} />
+      <ScopedSearch scope="hadith" />
       <div style={{ display: "grid", gap: 14, gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", paddingBottom: 20 }}>
         {collections.map((c) => (
           <Link

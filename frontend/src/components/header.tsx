@@ -54,7 +54,7 @@ export function Header() {
       >
         <Link
           href={`/${locale}`}
-          style={{ display: "flex", alignItems: "center", gap: 10, marginInlineEnd: "auto" }}
+          style={{ display: "flex", alignItems: "center", gap: 10, marginInlineEnd: "auto", flex: "none" }}
         >
           <span
             aria-hidden
@@ -74,14 +74,14 @@ export function Header() {
             ع
           </span>
           <span
-            className={locale === "en" || locale === "tr" ? "font-serif" : ""}
+            className={`site-brand-name${locale === "en" || locale === "tr" ? " font-serif" : ""}`}
             style={{ fontWeight: 600, fontSize: 20, letterSpacing: "0.01em" }}
           >
             {dict.app_name}
           </span>
         </Link>
 
-        <nav style={{ display: "flex", alignItems: "center", gap: 2 }}>
+        <nav className="site-nav" style={{ display: "flex", alignItems: "center", gap: 2 }}>
           {nav.map((item) => (
             <Link
               key={item.href}
@@ -105,7 +105,7 @@ export function Header() {
           ))}
         </nav>
 
-        <div style={{ display: "flex", alignItems: "center", gap: 6, marginInlineStart: 8 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 6, marginInlineStart: 8, flex: "none" }}>
           <div style={{ position: "relative" }}>
             <button
               onClick={() => setLangOpen((v) => !v)}

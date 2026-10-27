@@ -126,3 +126,113 @@ class VerseTranslation(Base):
 
     verse: Mapped[Verse] = relationship(back_populates="translations")
     resource: Mapped[TranslationResource] = relationship(back_populates="translations")
+
+
+# -- Morphology (Quranic Arabic Corpus via QUL) -------------------------------
+#
+# Every word of the Quran with its root, lemma and stem, aligned by position
+# to verses.text_uthmani. Scholarly reference data, imported from archived
+# files like everything else; never edited here.
+
+
+class Root(Base):
+    """A root (usually three letters) shared by a family of words."""
+
+    __tablename__ = "roots"
+    __table_args__ = {"schema": SCHEMA_QURAN}
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)  # QUL root id
+    letters: Mapped[str] = mapped_column(String(8), index=True)  # "صبر"
+    letters_spaced: Mapped[str] = mapped_column(String(16))  # "ص ب ر" as published
+    buckwalter: Mapped[str | None] = mapped_column(String(16))
+    words_count: Mapped[int | None] = mapped_column(Integer)
+    uniq_words_count: Mapped[int | None] = mapped_column(Integer)
+    raw_artifact_id: Mapped[int] = mapped_column(
+        BigInteger, ForeignKey(f"{SCHEMA_METADATA}.raw_artifacts.id")
+    )
+
+
+class Lemma(Base):
+    """Dictionary form of a word (vocalised, plus a bare-letter form)."""
+
+    __tablename__ = "lemmas"
+    __table_args__ = {"schema": SCHEMA_QURAN}
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)  # QUL lemma id
+    text: Mapped[str] = mapped_column(String(64))
+    text_clean: Mapped[str] = mapped_column(String(64), index=True)
+    raw_artifact_id: Mapped[int] = mapped_column(
+        BigInteger, ForeignKey(f"{SCHEMA_METADATA}.raw_artifacts.id")
+    )
+
+
+class Stem(Base):
+    """Word stem (the word without its attached particles and affixes)."""
+
+    __tablename__ = "stems"
+    __table_args__ = {"schema": SCHEMA_QURAN}
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)  # QUL stem id
+    text: Mapped[str] = mapped_column(String(64))
+    text_clean: Mapped[str] = mapped_column(String(64), index=True)
+    raw_artifact_id: Mapped[int] = mapped_column(
+        BigInteger, ForeignKey(f"{SCHEMA_METADATA}.raw_artifacts.id")
+    )
+
+
+class Word(Base):
+    """One word of the Uthmani text at its 1-based position in the verse."""
+
+    __tablename__ = "words"
+    __table_args__ = (
+        UniqueConstraint("verse_id", "position", name="uq_word_position"),
+        {"schema": SCHEMA_QURAN},
+    )
+
+    id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    verse_id: Mapped[int] = mapped_column(
+        ForeignKey(f"{SCHEMA_QURAN}.verses.id"), index=True
+    )
+    position: Mapped[int] = mapped_column(SmallInteger)
+    text_uthmani: Mapped[str] = mapped_column(Text)
+    text_normalized: Mapped[str] = mapped_column(String(64), index=True)
+    root_id: Mapped[int | None] = mapped_column(
+        ForeignKey(f"{SCHEMA_QURAN}.roots.id"), index=True
+    )
+    lemma_id: Mapped[int | None] = mapped_column(
+        ForeignKey(f"{SCHEMA_QURAN}.lemmas.id"), index=True
+    )
+    stem_id: Mapped[int | None] = mapped_column(
+        ForeignKey(f"{SCHEMA_QURAN}.stems.id"), index=True
+    )
+    raw_artifact_id: Mapped[int] = mapped_column(
+        BigInteger, ForeignKey(f"{SCHEMA_METADATA}.raw_artifacts.id")
+    )
+
+    verse: Mapped[Verse] = relationship()
+    root: Mapped[Root | None] = relationship()
+    lemma: Mapped[Lemma | None] = relationship()
+    stem: Mapped[Stem | None] = relationship()
+
+
+class AyahTheme(Base):
+    """A theme or topic covering a range of ayat (QUL "Ayah theme", English).
+
+    Reference data for browsing and for topic search; never shown as if it
+    were part of the Quran text."""
+
+    __tablename__ = "ayah_themes"
+    __table_args__ = {"schema": SCHEMA_QURAN}
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    chapter_id: Mapped[int] = mapped_column(
+        ForeignKey(f"{SCHEMA_QURAN}.chapters.id"), index=True
+    )
+    ayah_from: Mapped[int] = mapped_column(SmallInteger)
+    ayah_to: Mapped[int] = mapped_column(SmallInteger)
+    theme: Mapped[str] = mapped_column(Text)
+    keywords: Mapped[str | None] = mapped_column(Text)
+    total_ayahs: Mapped[int | None] = mapped_column(SmallInteger)
+    raw_artifact_id: Mapped[int] = mapped_column(
+        BigInteger, ForeignKey(f"{SCHEMA_METADATA}.raw_artifacts.id")
+    )

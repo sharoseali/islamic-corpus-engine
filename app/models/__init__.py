@@ -2,8 +2,19 @@
 
 from app.models.hadith import Hadith, HadithBook, HadithCollection, HadithText
 from app.models.provenance import ImportRun, RawArtifact, Source
-from app.models.quran import Chapter, TranslationResource, Verse, VerseTranslation
-from app.models.search import SearchDocument, SearchIndexState
+from app.models.quran import (
+    AyahTheme,
+    Chapter,
+    Lemma,
+    Root,
+    Stem,
+    TranslationResource,
+    Verse,
+    VerseTranslation,
+    Word,
+)
+from app.models.search import SearchDocument, SearchIndexState, SearchVocabulary
+from app.models.search_chunks import EmbeddingState, SearchChunk
 from app.models.tafsir import TafsirEdition, TafsirEntry, TafsirWork
 
 __all__ = [
@@ -12,6 +23,11 @@ __all__ = [
     "RawArtifact",
     "Chapter",
     "Verse",
+    "Root",
+    "Lemma",
+    "Stem",
+    "Word",
+    "AyahTheme",
     "TranslationResource",
     "VerseTranslation",
     "HadithCollection",
@@ -21,4 +37,9 @@ __all__ = [
     "TafsirWork",
     "TafsirEdition",
     "TafsirEntry",
+    "SearchDocument",
+    "SearchIndexState",
+    "SearchVocabulary",
+    "SearchChunk",
+    "EmbeddingState",
 ]

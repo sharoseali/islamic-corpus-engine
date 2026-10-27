@@ -78,15 +78,65 @@ export type SearchHit = {
   source_row_id: number;
   text: string;
   score: number;
-  match: "fulltext" | "fuzzy";
+  match: "fulltext" | "partial" | "fuzzy" | "semantic";
   ref: Record<string, unknown>;
+  snippet?: string | null;
+  snippet_start?: number | null;
+  snippet_end?: number | null;
 };
 
 export type SearchResponse = {
   query: string;
   language_code: string;
+  mode?: string;
+  offset?: number;
   total: number;
+  counts?: { quran?: number; hadith?: number; tafsir?: number };
   hits: SearchHit[];
+};
+
+export type VerseHit = {
+  verse_key: string;
+  chapter_id: number;
+  verse_number: number;
+  chapter_name_simple: string;
+  chapter_name_arabic: string;
+  text_uthmani: string;
+  translation_text: string | null;
+  translation_resource: string | null;
+  translation_language: string | null;
+  matched_in: string[];
+  score: number;
+  matched_words: number[];
+};
+
+export type MorphologyTerm = {
+  word: string;
+  kind: "root" | "form";
+  label: string;
+  verses: number;
+  words: number;
+};
+
+export type AyahThemeHit = {
+  theme: string;
+  chapter_id: number;
+  chapter_name_simple: string;
+  chapter_name_arabic: string;
+  ayah_from: number;
+  ayah_to: number;
+};
+
+export type QuranSearchResponse = {
+  query: string;
+  languages: string[];
+  order: string;
+  offset: number;
+  total: number;
+  semantic_extra: number;
+  morphology: MorphologyTerm[];
+  themes: AyahThemeHit[];
+  items: VerseHit[];
 };
 
 export type ResourceInfo = {

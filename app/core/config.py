@@ -44,6 +44,40 @@ class Settings(BaseSettings):
     SUNNAH_API_KEY: str = ""
     SUNNAH_API_BASE: str = "https://api.sunnah.com/v1"
 
+    # --- Speech-to-text (voice search, offline Whisper) ---
+    # Model size: tiny, base, small, medium, large-v3. Larger is more
+    # accurate for Urdu/Arabic but slower on CPU.
+    WHISPER_MODEL: str = "small"
+    WHISPER_DEVICE: str = "cpu"
+    WHISPER_COMPUTE_TYPE: str = "int8"
+
+    # --- Semantic search (open-source embedding + reranker, CPU, offline) ---
+    # Models are downloaded once into EMBEDDING_CACHE_DIR and pinned by
+    # checksum in search.embedding_state. e5 models need the "query: " and
+    # "passage: " prefixes, added by app.services.embeddings.
+    EMBEDDING_MODEL: str = "intfloat/multilingual-e5-large"
+    # Plain directory under EMBEDDING_CACHE_DIR holding model.onnx + tokenizer.
+    EMBEDDING_MODEL_DIR: str = "e5-large-fp32"
+    RERANKER_MODEL: str = "BAAI/bge-reranker-v2-m3-int8"
+    # "cpu" (default; the int8 reranker only runs its quantised layers on
+    # the CPU anyway) or "cuda" for a full-precision reranker on a GPU with
+    # room beside the embedding model.
+    RERANKER_DEVICE: str = "cpu"
+    # Optional plain directory under EMBEDDING_CACHE_DIR holding the reranker
+    # (tokenizer files + onnx/model.onnx); empty: fastembed's own cache.
+    RERANKER_MODEL_DIR: str = ""
+    EMBEDDING_CACHE_DIR: str = "corpus/cache/models"
+    EMBEDDING_THREADS: int = 16  # onnxruntime intra-op threads
+    # "auto": use the GPU when onnxruntime-gpu and a CUDA device are present
+    # (full precision, no TF32), otherwise the CPU. "cuda" requires the GPU,
+    # "cpu" never touches it.
+    EMBEDDING_DEVICE: str = "auto"
+    # Directory laid out like pip's "nvidia" namespace package (cublas/lib,
+    # cudnn/lib, ...) to load the CUDA libraries from, e.g. those of another
+    # Python environment on the same machine. Empty: use this environment's
+    # own nvidia-*-cu12 packages.
+    EMBEDDING_CUDA_LIB_DIR: str = ""
+
     @computed_field  # type: ignore[prop-decorator]
     @property
     def database_url(self) -> str:

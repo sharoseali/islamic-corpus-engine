@@ -3,6 +3,7 @@
 import type { HadithListItem } from "@/lib/types";
 import type { Dictionary } from "@/i18n/dictionaries";
 import { CopyButton } from "./copy-button";
+import { highlightLang, highlightText } from "@/lib/highlight";
 
 const LANG_LABEL: Record<string, string> = { ar: "العربية", ur: "اردو", en: "English" };
 
@@ -13,11 +14,14 @@ export function HadithCard({
   collectionName,
   collectionKey,
   dict,
+  highlight,
 }: {
   hadith: HadithListItem;
   collectionName: string;
   collectionKey: string;
   dict: Dictionary;
+  // Query to highlight (set when arriving from a search result).
+  highlight?: string;
 }) {
   // Explicit gradings (present in future collections) take priority; for
   // the two Ṣaḥīḥ collections, authenticity is established by inclusion.
@@ -70,6 +74,7 @@ export function HadithCard({
 
       {hadith.texts.map((t) => {
         const rtl = t.language_code === "ar" || t.language_code === "ur";
+        const hlLang = highlight ? highlightLang(highlight, t.language_code) : null;
         return (
           <div key={t.language_code} style={{ marginBottom: 16 }}>
             <div
@@ -102,7 +107,7 @@ export function HadithCard({
                 color: "var(--text)",
               }}
             >
-              {t.text}
+              {hlLang ? highlightText(t.text, highlight, hlLang) : t.text}
             </p>
           </div>
         );

@@ -4,6 +4,7 @@ import { isLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import { api } from "@/lib/api";
 import { Container, PageTitle, Badge } from "@/components/ui";
+import { ScopedSearch } from "@/components/scoped-search";
 
 export default async function QuranIndex({
   params,
@@ -18,6 +19,7 @@ export default async function QuranIndex({
   return (
     <Container className="fade-in">
       <PageTitle title={dict.quran.title} subtitle={dict.tagline} />
+      <ScopedSearch scope="quran" />
       <div
         style={{
           display: "grid",
