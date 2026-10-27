@@ -1,18 +1,21 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { useI18n } from "./providers";
+import { highlightHtml, highlightLang, highlightText } from "@/lib/highlight";
 import { api } from "@/lib/api";
 import { verseAnchor } from "@/lib/localize";
 import type { ResourceInfo, VerseDetail } from "@/lib/types";
 import { CopyButton } from "./copy-button";
+import { ElaajLoader } from "./elaaj-loader";
 
 const stripHtml = (s: string) =>
   s.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 
-// Sensible defaults per UI language. 0 = no translation (Arabic-only view,
-// used for Arabic and Turkish locales, which read the Arabic source).
-const DEFAULT_TRANSLATION: Record<string, number> = { en: 20, ur: 234, ar: 0, tr: 0 };
+// Sensible defaults per UI language. 0 = no translation (Arabic-only view
+// for the Arabic locale). Turkish reads the Diyanet translation (id 77).
+const DEFAULT_TRANSLATION: Record<string, number> = { en: 20, ur: 234, ar: 0, tr: 77 };
 const DEFAULT_TAFSIR: Record<string, number> = { en: 35, ur: 30, ar: 22, tr: 22 };
 
 export function QuranReader({
@@ -29,6 +32,8 @@ export function QuranReader({
   initialShowTafsir?: boolean;
 }) {
   const { locale, dict } = useI18n();
+  // Search results link here with ?hl=<query>: highlight the matched words.
+  const hl = useSearchParams().get("hl") ?? "";
   const [translationId, setTranslationId] = useState(
     DEFAULT_TRANSLATION[locale] ?? 20,
   );
@@ -128,11 +133,7 @@ export function QuranReader({
         </div>
       )}
 
-      {!verses && (
-        <p style={{ textAlign: "center", color: "var(--text-muted)", padding: 40 }}>
-          {dict.common.loading}
-        </p>
-      )}
+      {!verses && <ElaajLoader />}
 
       {verses?.map((v) => {
         const tafsirEntry = v.tafsir[0];
@@ -181,7 +182,7 @@ export function QuranReader({
 
             {/* Arabic ayah */}
             <p dir="rtl" className="quran-text" style={{ margin: "0 0 16px", textAlign: "right" }}>
-              {v.text_uthmani}
+              {hl && highlightLang(hl, "ar") ? highlightText(v.text_uthmani, hl, "ar") : v.text_uthmani}
             </p>
 
             {/* Translation */}
@@ -203,7 +204,12 @@ export function QuranReader({
                       t.language_code === "ur" ? "var(--text)" : "var(--text-muted)",
                     lineHeight: t.language_code === "ur" ? 2.1 : rtl ? 2.2 : 1.7,
                   }}
-                  dangerouslySetInnerHTML={{ __html: t.text }}
+                  dangerouslySetInnerHTML={{
+                    __html:
+                      hl && highlightLang(hl, t.language_code)
+                        ? highlightHtml(t.text, hl, highlightLang(hl, t.language_code) as string)
+                        : t.text,
+                  }}
                 />
               );
             })}

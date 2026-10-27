@@ -5,6 +5,27 @@ services:
     image: pgvector/pgvector:pg16
     container_name: ikc_postgres
     restart: unless-stopped
+    # Parallel index builds and parallel queries exchange data through
+    # /dev/shm, which Docker caps at 64 MB by default.
+    shm_size: "4gb"
+    # Memory for a 3 GB vector index and its HNSW rebuilds; the defaults
+    # (128 MB shared buffers, 64 MB maintenance memory) are far too small.
+    command:
+      - postgres
+      - -c
+      - shared_buffers=4GB
+      - -c
+      - effective_cache_size=12GB
+      - -c
+      - maintenance_work_mem=2GB
+      - -c
+      - work_mem=32MB
+      - -c
+      - max_parallel_maintenance_workers=4
+      - -c
+      - max_parallel_workers_per_gather=4
+      - -c
+      - jit=off
     environment:
       POSTGRES_DB: ${POSTGRES_DB:-islamic_corpus}
       POSTGRES_USER: ${POSTGRES_USER:-ice_admin}

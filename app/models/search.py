@@ -33,12 +33,6 @@ class SearchDocument(Base):
             "doc_type", "source_row_id", "language_code", name="doc_identity"
         ),
         Index("ix_search_documents_tsv", "tsv", postgresql_using="gin"),
-        Index(
-            "ix_search_documents_trgm",
-            "text_normalized",
-            postgresql_using="gin",
-            postgresql_ops={"text_normalized": "gin_trgm_ops"},
-        ),
         Index("ix_search_documents_type_lang", "doc_type", "language_code"),
         {"schema": SCHEMA_SEARCH},
     )
@@ -72,3 +66,24 @@ class SearchIndexState(Base):
     document_count: Mapped[int] = mapped_column(Integer)
     # counts of canonical rows at build time, per doc_type
     corpus_fingerprint: Mapped[dict] = mapped_column(JSONB)
+
+
+class SearchVocabulary(Base):
+    """Every lexeme of the keyword index per language, with its document
+    count. Trigram-indexed so a misspelled query word can be matched against
+    the words that actually occur, instead of scanning document texts."""
+
+    __tablename__ = "vocabulary"
+    __table_args__ = (
+        Index(
+            "ix_search_vocabulary_trgm",
+            "lexeme",
+            postgresql_using="gin",
+            postgresql_ops={"lexeme": "gin_trgm_ops"},
+        ),
+        {"schema": SCHEMA_SEARCH},
+    )
+
+    language_code: Mapped[str] = mapped_column(String(8), primary_key=True)
+    lexeme: Mapped[str] = mapped_column(Text, primary_key=True)
+    ndoc: Mapped[int] = mapped_column(Integer, nullable=False)

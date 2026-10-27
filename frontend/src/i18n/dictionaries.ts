@@ -22,6 +22,8 @@ export type Dictionary = {
     tafsir: string;
     match_exact: string;
     match_fuzzy: string;
+    match_partial: string;
+    match_semantic: string;
     searching: string;
     prompt: string;
   };
@@ -55,6 +57,66 @@ export type Dictionary = {
     intro: string;
     by_ibn_kathir: string;
     select_surah: string;
+  };
+  input_tools: {
+    recording: string;
+    transcribing: string;
+    voice_failed: string;
+    keyboard: string;
+    keyboard_urdu: string;
+    keyboard_arabic: string;
+    keyboard_english: string;
+    voice: string;
+    voice_stop: string;
+    listening: string;
+    voice_lang: string;
+    voice_unsupported: string;
+    voice_insecure: string;
+    voice_denied: string;
+    voice_no_speech: string;
+    close: string;
+    space: string;
+    backspace: string;
+    clear: string;
+  };
+  results: {
+    all_results: string;
+    search_in_quran: string;
+    search_in_hadith: string;
+    search_in_tafsir: string;
+    order_mushaf: string;
+    order_relevance: string;
+    load_more: string;
+    no_more: string;
+    matched_in_arabic: string;
+    matched_in_translation: string;
+    by_meaning: string;
+    by_meaning_extra: string;
+    open_reader: string;
+    open_tafsir: string;
+    sahih_collection: string;
+    ayat_count: string;
+    root: string;
+    word_form: string;
+    by_root: string;
+    by_word_form: string;
+    words_count: string;
+    topics: string;
+    hadith_count: string;
+    passages_count: string;
+    showing: string;
+    exact_word_matches: string;
+    languages: string;
+  };
+  reader: {
+    ayat_range: string;
+    jump_to_ayah: string;
+    previous: string;
+    next: string;
+    back_to_top: string;
+    highlighted_from_search: string;
+    go: string;
+    page_label: string;
   };
   common: {
     theme_light: string;
@@ -99,6 +161,8 @@ const en: Dictionary = {
     tafsir: "Tafsir",
     match_exact: "exact",
     match_fuzzy: "similar",
+    match_partial: "related",
+    match_semantic: "by meaning",
     searching: "Searching…",
     prompt: "Enter a word or phrase to search the corpus.",
   },
@@ -132,6 +196,66 @@ const en: Dictionary = {
     intro: "Classical Quranic exegesis, aligned verse by verse.",
     by_ibn_kathir: "By Hafiz Ibn Kathir",
     select_surah: "Select a Surah",
+  },
+  input_tools: {
+    recording: "Recording… tap the mic again to finish",
+    transcribing: "Writing out your words…",
+    voice_failed: "Could not turn the recording into text. Please try again.",
+    keyboard: "On-screen keyboard",
+    keyboard_urdu: "Urdu",
+    keyboard_arabic: "Arabic",
+    keyboard_english: "English",
+    voice: "Speak to search",
+    voice_stop: "Stop listening",
+    listening: "Listening… speak now",
+    voice_lang: "Voice language",
+    voice_unsupported: "This browser cannot record audio. Please use a current version of Chrome, Edge, Firefox or Safari.",
+    voice_insecure: "Voice input needs a secure connection. Open the site on localhost or over HTTPS.",
+    voice_denied: "Microphone access was blocked. Allow it in your browser settings.",
+    voice_no_speech: "No speech was heard. Please try again.",
+    close: "Close",
+    space: "Space",
+    backspace: "Backspace",
+    clear: "Clear",
+  },
+  results: {
+    all_results: "All results",
+    search_in_quran: "Search in the Quran",
+    search_in_hadith: "Search in Hadith",
+    search_in_tafsir: "Search in Tafsir",
+    order_mushaf: "Mushaf order",
+    order_relevance: "Relevance",
+    load_more: "Load more",
+    no_more: "End of results",
+    matched_in_arabic: "matched in Arabic",
+    matched_in_translation: "matched in translation",
+    by_meaning: "by meaning",
+    by_meaning_extra: "more by meaning",
+    root: "Root",
+    word_form: "Word form",
+    by_root: "by root",
+    by_word_form: "word form",
+    words_count: "words",
+    topics: "Topics (Quran themes, English)",
+    open_reader: "Open in reader",
+    open_tafsir: "Read tafsir",
+    sahih_collection: "Sahih collection",
+    ayat_count: "ayat",
+    hadith_count: "hadith",
+    passages_count: "passages",
+    showing: "Showing",
+    exact_word_matches: "exact word matches",
+    languages: "Languages",
+  },
+  reader: {
+    ayat_range: "Ayat {from} to {to} of {total}",
+    jump_to_ayah: "Go to ayah",
+    previous: "Previous",
+    next: "Next",
+    back_to_top: "Back to top",
+    highlighted_from_search: "Highlighted: matches for “{q}”",
+    go: "Go",
+    page_label: "Page {page} of {pages}",
   },
   common: {
     theme_light: "Light",
@@ -182,6 +306,8 @@ const ur: Dictionary = {
     tafsir: "تفسیر",
     match_exact: "عین مطابق",
     match_fuzzy: "ملتا جلتا",
+    match_partial: "جزوی مطابقت",
+    match_semantic: "معنوی مطابقت",
     searching: "تلاش جاری ہے…",
     prompt: "ذخیرے میں تلاش کے لیے کوئی لفظ یا فقرہ لکھیں۔",
   },
@@ -215,6 +341,66 @@ const ur: Dictionary = {
     intro: "قرآن کی کلاسیکی تفسیر، آیت بہ آیت۔",
     by_ibn_kathir: "از حافظ ابنِ کثیر",
     select_surah: "سورت منتخب کریں",
+  },
+  input_tools: {
+    recording: "ریکارڈنگ جاری ہے… ختم کرنے کے لیے مائیک دوبارہ دبائیں",
+    transcribing: "آپ کے الفاظ لکھے جا رہے ہیں…",
+    voice_failed: "ریکارڈنگ کو تحریر میں نہیں بدلا جا سکا۔ دوبارہ کوشش کریں۔",
+    keyboard: "آن اسکرین کی بورڈ",
+    keyboard_urdu: "اردو",
+    keyboard_arabic: "عربی",
+    keyboard_english: "انگریزی",
+    voice: "بول کر تلاش کریں",
+    voice_stop: "سننا بند کریں",
+    listening: "سن رہا ہے… اب بولیں",
+    voice_lang: "آواز کی زبان",
+    voice_unsupported: "یہ براؤزر آواز ریکارڈ نہیں کر سکتا۔ کروم، ایج، فائرفاکس یا سفاری کا تازہ ورژن استعمال کریں۔",
+    voice_insecure: "آواز سے تلاش کے لیے محفوظ کنکشن ضروری ہے۔ سائٹ localhost یا HTTPS پر کھولیں۔",
+    voice_denied: "مائیکروفون کی اجازت نہیں ملی۔ براؤزر کی ترتیبات میں اجازت دیں۔",
+    voice_no_speech: "کوئی آواز سنائی نہیں دی۔ دوبارہ کوشش کریں۔",
+    close: "بند کریں",
+    space: "خالی جگہ",
+    backspace: "مٹائیں",
+    clear: "سب صاف کریں",
+  },
+  results: {
+    all_results: "تمام نتائج",
+    search_in_quran: "قرآن میں تلاش کریں",
+    search_in_hadith: "حدیث میں تلاش کریں",
+    search_in_tafsir: "تفسیر میں تلاش کریں",
+    order_mushaf: "مصحف کی ترتیب",
+    order_relevance: "مطابقت",
+    load_more: "مزید دکھائیں",
+    no_more: "نتائج ختم",
+    matched_in_arabic: "عربی متن میں ملا",
+    matched_in_translation: "ترجمے میں ملا",
+    by_meaning: "معنی کے اعتبار سے",
+    by_meaning_extra: "مزید معنوی نتائج",
+    root: "مادہ",
+    word_form: "لفظی صورت",
+    by_root: "مادے سے",
+    by_word_form: "لفظی صورت",
+    words_count: "الفاظ",
+    topics: "موضوعات (قرآنی مضامین، انگریزی)",
+    open_reader: "قرآن میں کھولیں",
+    open_tafsir: "تفسیر پڑھیں",
+    sahih_collection: "صحیح مجموعہ",
+    ayat_count: "آیات",
+    hadith_count: "احادیث",
+    passages_count: "اقتباسات",
+    showing: "دکھائے جا رہے ہیں",
+    exact_word_matches: "لفظی مطابقت",
+    languages: "زبانیں",
+  },
+  reader: {
+    ayat_range: "آیت {from} تا {to}، کل {total}",
+    jump_to_ayah: "آیت پر جائیں",
+    previous: "پچھلا",
+    next: "اگلا",
+    back_to_top: "اوپر جائیں",
+    highlighted_from_search: "نمایاں: “{q}” کے مطابق الفاظ",
+    go: "جائیں",
+    page_label: "صفحہ {page} از {pages}",
   },
   common: {
     theme_light: "روشن",
@@ -265,6 +451,8 @@ const ar: Dictionary = {
     tafsir: "التفسير",
     match_exact: "مطابق",
     match_fuzzy: "مشابه",
+    match_partial: "مطابقة جزئية",
+    match_semantic: "مطابقة بالمعنى",
     searching: "جارٍ البحث…",
     prompt: "أدخل كلمة أو عبارة للبحث في المدونة.",
   },
@@ -298,6 +486,66 @@ const ar: Dictionary = {
     intro: "تفسير كلاسيكي للقرآن، آية بآية.",
     by_ibn_kathir: "للحافظ ابن كثير",
     select_surah: "اختر سورة",
+  },
+  input_tools: {
+    recording: "جارٍ التسجيل… اضغط على الميكروفون مرة أخرى للإنهاء",
+    transcribing: "جارٍ تحويل كلامك إلى نص…",
+    voice_failed: "تعذّر تحويل التسجيل إلى نص. حاول مرة أخرى.",
+    keyboard: "لوحة المفاتيح على الشاشة",
+    keyboard_urdu: "الأردية",
+    keyboard_arabic: "العربية",
+    keyboard_english: "الإنجليزية",
+    voice: "ابحث بالصوت",
+    voice_stop: "إيقاف الاستماع",
+    listening: "جارٍ الاستماع… تحدّث الآن",
+    voice_lang: "لغة الصوت",
+    voice_unsupported: "هذا المتصفح لا يستطيع تسجيل الصوت. استخدم إصدارًا حديثًا من Chrome أو Edge أو Firefox أو Safari.",
+    voice_insecure: "الإدخال الصوتي يحتاج إلى اتصال آمن. افتح الموقع عبر localhost أو HTTPS.",
+    voice_denied: "تم حظر الوصول إلى الميكروفون. اسمح به من إعدادات المتصفح.",
+    voice_no_speech: "لم يُسمع أي كلام. حاول مرة أخرى.",
+    close: "إغلاق",
+    space: "مسافة",
+    backspace: "حذف",
+    clear: "مسح الكل",
+  },
+  results: {
+    all_results: "كل النتائج",
+    search_in_quran: "ابحث في القرآن",
+    search_in_hadith: "ابحث في الحديث",
+    search_in_tafsir: "ابحث في التفسير",
+    order_mushaf: "ترتيب المصحف",
+    order_relevance: "الأكثر صلة",
+    load_more: "عرض المزيد",
+    no_more: "نهاية النتائج",
+    matched_in_arabic: "وردت في النص العربي",
+    matched_in_translation: "وردت في الترجمة",
+    by_meaning: "بالمعنى",
+    by_meaning_extra: "المزيد بالمعنى",
+    root: "الجذر",
+    word_form: "صيغة الكلمة",
+    by_root: "بالجذر",
+    by_word_form: "بالصيغة",
+    words_count: "كلمة",
+    topics: "الموضوعات (مواضيع الآيات، بالإنجليزية)",
+    open_reader: "افتح في المصحف",
+    open_tafsir: "اقرأ التفسير",
+    sahih_collection: "مجموعة صحيحة",
+    ayat_count: "آية",
+    hadith_count: "حديث",
+    passages_count: "مقطع",
+    showing: "يُعرض",
+    exact_word_matches: "مطابقة لفظية",
+    languages: "اللغات",
+  },
+  reader: {
+    ayat_range: "الآيات {from} إلى {to} من {total}",
+    jump_to_ayah: "الانتقال إلى آية",
+    previous: "السابق",
+    next: "التالي",
+    back_to_top: "العودة للأعلى",
+    highlighted_from_search: "مميّز: الكلمات المطابقة لـ “{q}”",
+    go: "انتقل",
+    page_label: "الصفحة {page} من {pages}",
   },
   common: {
     theme_light: "فاتح",
@@ -348,6 +596,8 @@ const tr: Dictionary = {
     tafsir: "Tefsir",
     match_exact: "birebir",
     match_fuzzy: "benzer",
+    match_partial: "kısmi eşleşme",
+    match_semantic: "anlamca ilgili",
     searching: "Aranıyor…",
     prompt: "Külliyatta aramak için bir kelime veya ifade girin.",
   },
@@ -381,6 +631,66 @@ const tr: Dictionary = {
     intro: "Klasik Kur'an tefsiri, ayet ayet.",
     by_ibn_kathir: "Hafız İbn Kesir",
     select_surah: "Bir Sure seçin",
+  },
+  input_tools: {
+    recording: "Kaydediliyor… bitirmek için mikrofona tekrar dokunun",
+    transcribing: "Sözleriniz yazıya dökülüyor…",
+    voice_failed: "Kayıt yazıya dönüştürülemedi. Lütfen tekrar deneyin.",
+    keyboard: "Ekran klavyesi",
+    keyboard_urdu: "Urduca",
+    keyboard_arabic: "Arapça",
+    keyboard_english: "İngilizce",
+    voice: "Sesle ara",
+    voice_stop: "Dinlemeyi durdur",
+    listening: "Dinleniyor… şimdi konuşun",
+    voice_lang: "Ses dili",
+    voice_unsupported: "Bu tarayıcı ses kaydedemiyor. Lütfen Chrome, Edge, Firefox veya Safari'nin güncel bir sürümünü kullanın.",
+    voice_insecure: "Sesli giriş güvenli bağlantı gerektirir. Siteyi localhost veya HTTPS üzerinden açın.",
+    voice_denied: "Mikrofon erişimi engellendi. Tarayıcı ayarlarından izin verin.",
+    voice_no_speech: "Ses algılanmadı. Lütfen tekrar deneyin.",
+    close: "Kapat",
+    space: "Boşluk",
+    backspace: "Sil",
+    clear: "Temizle",
+  },
+  results: {
+    all_results: "Tüm sonuçlar",
+    search_in_quran: "Kur'an'da ara",
+    search_in_hadith: "Hadiste ara",
+    search_in_tafsir: "Tefsirde ara",
+    order_mushaf: "Mushaf sırası",
+    order_relevance: "İlgililik",
+    load_more: "Daha fazla",
+    no_more: "Sonuçların sonu",
+    matched_in_arabic: "Arapça metinde bulundu",
+    matched_in_translation: "çeviride bulundu",
+    by_meaning: "anlamca",
+    by_meaning_extra: "anlamca daha fazla",
+    root: "Kök",
+    word_form: "Kelime biçimi",
+    by_root: "kökten",
+    by_word_form: "kelime biçimi",
+    words_count: "kelime",
+    topics: "Konular (ayet temaları, İngilizce)",
+    open_reader: "Okuyucuda aç",
+    open_tafsir: "Tefsiri oku",
+    sahih_collection: "Sahih koleksiyon",
+    ayat_count: "ayet",
+    hadith_count: "hadis",
+    passages_count: "bölüm",
+    showing: "Gösterilen",
+    exact_word_matches: "kelime eşleşmesi",
+    languages: "Diller",
+  },
+  reader: {
+    ayat_range: "{total} ayetten {from}-{to} arası",
+    jump_to_ayah: "Ayete git",
+    previous: "Önceki",
+    next: "Sonraki",
+    back_to_top: "Başa dön",
+    highlighted_from_search: "Vurgulanan: “{q}” eşleşmeleri",
+    go: "Git",
+    page_label: "Sayfa {page}/{pages}",
   },
   common: {
     theme_light: "Açık",

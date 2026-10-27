@@ -64,6 +64,9 @@ jobs:
       - name: Type-check
         run: npx --no-install tsc --noEmit
 
-      # NOTE: a full `next build` is intentionally omitted for now. The pages
-      # fetch content from the backend API at build time, which is not reachable
-      # in CI. Add a build job once the API can be seeded or reached from CI.
+      # No page is prerendered at build time (see src/app/[locale]/layout.tsx),
+      # so the production build needs no API and proves the Docker image builds.
+      - name: Production build
+        run: npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"

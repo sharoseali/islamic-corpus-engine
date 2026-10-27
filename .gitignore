@@ -40,3 +40,6 @@ build/
 corpus/original/
 corpus/temp/
 corpus/cache/
+
+# Release bundles (database dump + models), built by scripts/release_bundle.sh
+release/

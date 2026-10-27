@@ -1,0 +1,20 @@
+# Reverse proxy for the Elaaj stack. SITE_ADDRESS comes from .env
+# (a domain name = automatic HTTPS; ":80" = plain HTTP on an IP address).
+{$SITE_ADDRESS}
+
+encode zstd gzip
+
+# Voice search uploads short audio clips; keep request bodies small.
+request_body {
+	max_size 25MB
+}
+
+# API calls go straight to the backend. Only /api/v1 is exposed; the
+# interactive docs and everything else on the API stay internal.
+handle /api/v1/* {
+	reverse_proxy api:8400
+}
+
+handle {
+	reverse_proxy web:3400
+}

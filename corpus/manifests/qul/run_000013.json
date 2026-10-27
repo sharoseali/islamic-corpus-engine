@@ -1,0 +1,30 @@
+{
+  "run_id": 13,
+  "source": "qul",
+  "importer": "quran.ayah_themes",
+  "importer_version": "1.0.0",
+  "status": "succeeded",
+  "started_at": "2026-10-27T00:11:17.939882+00:00",
+  "finished_at": "2026-10-27T00:11:17.981629+00:00",
+  "stats": {
+    "themes": 2098,
+    "surahs_covered": 114,
+    "ayat_covered": 12400
+  },
+  "artifacts": [
+    {
+      "relative_path": "qul/topics/ayah-themes.db.zip",
+      "sha256": "334ffb553d7542657272504f5297b0255123f85fee3fe1a74577fcf605ef2185",
+      "byte_size": 96106,
+      "endpoint": "https://qul.tarteel.ai/resources/ayah-theme",
+      "request_params": {
+        "resource": "Ayah theme",
+        "file": "ayah-themes.db.zip",
+        "format": "sqlite"
+      },
+      "http_status": 200,
+      "fetched_at": "2026-10-27T00:11:17.945646+00:00",
+      "reused_existing": true
+    }
+  ]
+}

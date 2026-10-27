@@ -11,6 +11,7 @@ translations. Deterministic and idempotent: re-runs reuse archived bytes and
 upsert identical rows.
 """
 
+import hashlib
 import json
 
 from app.core.config import get_settings
@@ -21,7 +22,10 @@ from app.pipelines.quran.client import QuranFoundationClient
 # quran.com translation editions to import (extendable):
 #   20  = Saheeh International (English)   - quran.com default English
 #   234 = Fatah Muhammad Jalandhari (Urdu) - quran.com default Urdu
-TRANSLATION_IDS = (20, 234)
+#   77  = Diyanet Isleri (Turkish)         - official Turkish Directorate text
+TRANSLATION_IDS = (20, 234, 77)
+
+LANGUAGE_CODES = {"english": "en", "urdu": "ur", "turkish": "tr"}
 
 VERSES_PER_PAGE = 50
 VERSE_FIELDS = "text_uthmani"
@@ -38,15 +42,30 @@ class QuranImporter(BaseImporter):
     )
     source_attribution = "Quran.com / Quran.Foundation"
     importer_name = "quran.core"
-    importer_version = "1.0.0"
+    importer_version = "1.1.0"  # 1.1: Turkish (Diyanet) translation added
 
-    def __init__(self, session, corpus_root="corpus"):
+    def __init__(self, session, corpus_root="corpus", only_translations: tuple[int, ...] | None = None):
         super().__init__(session, corpus_root)
         self.client = QuranFoundationClient(get_settings())
+        # When set, chapters and verses are taken from the database (already
+        # imported) and only these translation editions are fetched.
+        self.only_translations = only_translations
 
     # ------------------------------------------------------------------ #
 
     def execute(self) -> dict:
+        if self.only_translations:
+            verse_ids_by_chapter = self._verse_ids_from_db()
+            resources = self._import_translation_resources(self.only_translations)
+            translations_total = self._import_translations(
+                verse_ids_by_chapter, self.only_translations
+            )
+            return {
+                "chapters": len(verse_ids_by_chapter),
+                "verses": sum(len(v) for v in verse_ids_by_chapter.values()),
+                "translation_resources": len(resources),
+                "verse_translations": translations_total,
+            }
         chapters = self._import_chapters()
         verse_ids_by_chapter, verses_total = self._import_verses(chapters)
         resources = self._import_translation_resources()
@@ -57,6 +76,19 @@ class QuranImporter(BaseImporter):
             "translation_resources": len(resources),
             "verse_translations": translations_total,
         }
+
+    def _verse_ids_from_db(self) -> dict[int, list[int]]:
+        rows = self.session.execute(
+            Verse.__table__.select()
+            .with_only_columns(Verse.chapter_id, Verse.id)
+            .order_by(Verse.chapter_id, Verse.verse_number)
+        )
+        out: dict[int, list[int]] = {}
+        for chapter_id, verse_id in rows:
+            out.setdefault(chapter_id, []).append(verse_id)
+        if len(out) != 114:
+            raise ValueError("Verses must be imported before translations-only runs")
+        return out
 
     # ------------------------------------------------------------------ #
 
@@ -146,25 +178,29 @@ class QuranImporter(BaseImporter):
             self.session.flush()
         return verse_ids_by_chapter, total
 
-    def _import_translation_resources(self) -> list[int]:
+    def _import_translation_resources(self, resource_ids=TRANSLATION_IDS) -> list[int]:
         response = self.client.get("/resources/translations")
+        # The catalogue is a live listing that legitimately changes as the
+        # source adds editions, so each distinct version is archived under
+        # its own content hash instead of overwriting one path.
+        digest = hashlib.sha256(response.content).hexdigest()[:12]
         artifact = self.archive_bytes(
-            f"{ARCHIVE_BASE}/resources/translations.json",
+            f"{ARCHIVE_BASE}/resources/translations.{digest}.json",
             response.content,
             endpoint="/resources/translations",
             http_status=response.status_code,
         )
         by_id = {t["id"]: t for t in response.json()["translations"]}
         imported = []
-        for resource_id in TRANSLATION_IDS:
+        for resource_id in resource_ids:
             meta = by_id.get(resource_id)
             if meta is None:
                 raise ValueError(f"Translation resource {resource_id} not offered by source")
             self.session.merge(
                 TranslationResource(
                     id=resource_id,
-                    language_code={"english": "en", "urdu": "ur"}.get(
-                        meta["language_name"], meta["language_name"][:8]
+                    language_code=LANGUAGE_CODES.get(
+                        meta["language_name"].lower(), meta["language_name"][:8]
                     ),
                     name=meta["name"],
                     author_name=meta.get("author_name"),
@@ -176,9 +212,11 @@ class QuranImporter(BaseImporter):
         self.session.flush()
         return imported
 
-    def _import_translations(self, verse_ids_by_chapter: dict[int, list[int]]) -> int:
+    def _import_translations(
+        self, verse_ids_by_chapter: dict[int, list[int]], resource_ids=TRANSLATION_IDS
+    ) -> int:
         total = 0
-        for resource_id in TRANSLATION_IDS:
+        for resource_id in resource_ids:
             for chapter_id, verse_ids in verse_ids_by_chapter.items():
                 params = {"chapter_number": chapter_id}
                 response = self.client.get(
@@ -222,10 +260,24 @@ class QuranImporter(BaseImporter):
 
 
 def _main() -> None:
+    import argparse
+
     from app.db.session import SessionLocal
 
+    parser = argparse.ArgumentParser(description="Import Quran text and translations from quran.com")
+    parser.add_argument(
+        "--translations",
+        type=int,
+        nargs="+",
+        metavar="RESOURCE_ID",
+        help="import only these translation editions, reusing imported verses",
+    )
+    args = parser.parse_args()
+
     with SessionLocal() as session:
-        importer = QuranImporter(session)
+        importer = QuranImporter(
+            session, only_translations=tuple(args.translations) if args.translations else None
+        )
         run = importer.run_import()
         print(f"Import run {run.id}: {run.status}")
         print(json.dumps(run.stats, indent=2))

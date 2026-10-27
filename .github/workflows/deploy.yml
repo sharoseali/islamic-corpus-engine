@@ -1,22 +1,23 @@
 name: Deploy (production)
 
-# There is no production server yet, so this workflow is manual-only
-# (workflow_dispatch) and will never fire by accident.
+# Deploys the main branch to the production server over SSH: pull, rebuild
+# the images, restart the stack, apply migrations, check health.
 #
-# When the production server is ready:
-#   1. Uncomment the `push` trigger below so a merge into main deploys
-#      automatically.
-#   2. Replace the placeholder step with the real deploy steps (SSH / rsync /
-#      docker compose) and add the required secrets in the repo settings
-#      (Settings > Secrets and variables > Actions), for example:
-#      SSH_HOST, SSH_USER, SSH_KEY.
-#   3. Optionally add `environment: production` to the job to require a manual
-#      approval before each deploy.
+# Required repository secrets (Settings > Secrets and variables > Actions):
+#   SSH_HOST     server address
+#   SSH_USER     login user (owns the checkout, member of the docker group)
+#   SSH_KEY      private key whose public half is in that user's
+#                authorized_keys
+# Optional: SSH_PORT (22), DEPLOY_PATH (/srv/elaaj).
+#
+# Until SSH_HOST is set the job does nothing and ends green, so merging to
+# main is safe before the server exists. Add protection rules to the
+# "production" environment to require a manual approval per deploy.
 
 on:
   workflow_dispatch: {}
-  # push:
-  #   branches: [main]
+  push:
+    branches: [main]
 
 # Never run two production deploys at once, and never cancel one midway.
 concurrency:
@@ -27,24 +28,46 @@ jobs:
   deploy:
     name: Deploy to production
     runs-on: ubuntu-latest
+    environment: production
+    env:
+      SSH_HOST: ${{ secrets.SSH_HOST }}
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Placeholder (no server configured yet)
+      - name: Check that a server is configured
+        id: server
         run: |
-          echo "No production server is configured yet."
-          echo "Fill in the real deploy steps in .github/workflows/deploy.yml"
-          echo "once the server and its secrets are ready."
+          if [ -z "$SSH_HOST" ]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::No SSH_HOST secret is set; nothing to deploy to yet."
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
 
-      # Example to adapt when the server exists (uncomment and fill in):
-      # - name: Deploy over SSH
-      #   uses: appleboy/ssh-action@v1
-      #   with:
-      #     host: ${{ secrets.SSH_HOST }}
-      #     username: ${{ secrets.SSH_USER }}
-      #     key: ${{ secrets.SSH_KEY }}
-      #     script: |
-      #       cd /srv/elaaj
-      #       git pull origin main
-      #       docker compose up -d --build
-      #       docker compose exec -T api alembic upgrade head
+      - name: Deploy over SSH
+        if: steps.server.outputs.configured == 'true'
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_PORT || 22 }}
+          command_timeout: 40m
+          script: |
+            set -euo pipefail
+            cd "${{ secrets.DEPLOY_PATH || '/srv/elaaj' }}"
+            git fetch --prune origin
+            git checkout -q main
+            git reset -q --hard origin/main
+            echo "deploying $(git rev-parse --short HEAD)"
+            docker compose -f docker-compose.prod.yml build --pull
+            docker compose -f docker-compose.prod.yml up -d --remove-orphans
+            docker compose -f docker-compose.prod.yml exec -T api alembic upgrade head
+            for i in $(seq 1 30); do
+              if docker compose -f docker-compose.prod.yml exec -T api python -c \
+                "import urllib.request as u; u.urlopen('http://127.0.0.1:8400/api/v1/health', timeout=5)" 2>/dev/null; then
+                echo "api healthy"; break
+              fi
+              [ "$i" = 30 ] && { echo "api did not become healthy"; docker compose -f docker-compose.prod.yml logs --tail=50 api; exit 1; }
+              sleep 5
+            done
+            docker image prune -f >/dev/null
+            docker compose -f docker-compose.prod.yml ps
