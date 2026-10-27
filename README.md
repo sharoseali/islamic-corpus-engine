@@ -38,8 +38,12 @@ The authentic corpus and the platform to read and search it are in place.
 **Corpus (stored verbatim, checksummed, with full provenance):**
 
 - **The Quran**, all 114 surahs and 6,236 ayat in the Uthmani script, from the
-  Quran Foundation API (quran.com), with English (Saheeh International) and
-  Urdu (Fatah Muhammad Jalandhari) translations aligned ayah by ayah.
+  Quran Foundation API (quran.com), with English (Saheeh International), Urdu
+  (Fatah Muhammad Jalandhari) and Turkish (Diyanet) translations aligned ayah
+  by ayah.
+- **Quranic morphology**: every one of the 77,432 words of the Quran with its
+  root, lemma and stem (the Quranic Arabic Corpus, via QUL), aligned word by
+  word to our text, plus 2,098 ayah themes in English.
 - **Sahih al-Bukhari** and **Sahih Muslim**, complete, in Arabic (with full
   chains of narration), Urdu, and English, organized by book (kitab).
 - **Tafsir Ibn Kathir**, complete for all 6,236 ayat, in Arabic, Urdu, and
@@ -49,8 +53,16 @@ The authentic corpus and the platform to read and search it are in place.
 
 - A PostgreSQL database with domain schemas (quran, hadith, tafsir, search,
   metadata) and a provenance chain on every record.
-- A search engine over the whole corpus: ranked full-text search with a
-  fuzzy fallback for typos, in Arabic, Urdu, and English, diacritic-insensitive.
+- A search engine over the whole corpus (88,009 passages) that combines
+  three methods: ranked full-text search in Arabic, Urdu and English
+  (diacritic-insensitive, aware of Uthmani spelling, with a spelling
+  fallback for typos); meaning-based retrieval over 209,446 passage
+  embeddings stored in PostgreSQL (pgvector); and a cross-encoder reranker
+  that re-orders the best candidates. For the Quran, Arabic words are also
+  found by root and dictionary form (صبر lists every form of ص ب ر, with the
+  matching words marked). The models are open source and run locally;
+  nothing a model produces is ever shown as content: models only choose and
+  order passages that exist verbatim in the corpus.
 - A read-only JSON API (FastAPI) serving the corpus and search.
 - A multilingual reading interface (Next.js) in English, Urdu, Arabic, and
   Turkish, with right-to-left support, light and dark themes tuned for long
@@ -66,10 +78,16 @@ Open the app and you can:
   to book (kitab) to individual hadith, each with its Arabic chain of
   narration, translation, reference number, and an authenticity mark.
 - **Read Tafsir Ibn Kathir** for any ayah in Arabic, Urdu, or English.
-- **Search across everything** in one place. The search understands the
-  language of your query: an Arabic-script query finds Arabic (and Urdu)
-  content, and results carry a precise reference and link straight to the
-  ayah, hadith, or tafsir passage they come from.
+- **Search across everything** in one place, by words or by meaning. The
+  search understands the language of your query: an Arabic-script query
+  finds Arabic (and Urdu) content, and results carry a precise reference and
+  link straight to the ayah, hadith, or tafsir passage they come from.
+  Exact matches come first, then passages that match by meaning, each
+  marked as such. The Quran tab lists every ayah containing the word, by
+  root or word form, and English queries also surface matching ayah themes.
+- **Type or speak the query.** An on-screen Urdu and Arabic keyboard, and
+  voice input (the browser's speech engine where available, otherwise an
+  offline Whisper model on the server).
 - **Copy any passage** with one click. The copy keeps the original script and
   font and appends the source reference, so it can be pasted and shared with
   the citation intact.
@@ -82,14 +100,23 @@ Open the app and you can:
 
 - **Database:** PostgreSQL 16 (run via Docker), with pgvector and pg_trgm.
 - **Backend:** Python, SQLAlchemy, Alembic migrations, FastAPI.
+- **Search models (open source, offline):** `intfloat/multilingual-e5-large`
+  embeddings and the `BAAI/bge-reranker-v2-m3` reranker through ONNX
+  Runtime, on the CPU or an NVIDIA GPU; `faster-whisper` for voice input.
 - **Frontend:** Next.js (App Router) with TypeScript.
 - **Importers:** deterministic pipelines that fetch from a source, checksum
   and archive the raw response, and load it with full provenance.
+- **Deployment:** Docker images for the API and the frontend, a production
+  compose stack behind Caddy (automatic HTTPS), and a release bundle that
+  carries the database and the models to a server.
 
 ## Running the platform
 
 See [docs/RUNNING.md](docs/RUNNING.md) for step-by-step instructions to start
-the database, the API, and the web interface.
+the database, the API, and the web interface. For a server, the same three
+parts run as Docker containers behind Caddy (automatic HTTPS), with the
+database and models shipped as a release bundle:
+[docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 ## Roadmap
 
@@ -112,8 +139,9 @@ here the plan is to widen the sources and then deepen the analysis.
 ## Sources and attribution
 
 - Quran text, translations, and tafsir routing: Quran Foundation / quran.com.
-- Tafsir Ibn Kathir (complete, three languages): Quranic Universal Library
-  (QUL) by Tarteel AI.
+- Tafsir Ibn Kathir (complete, three languages), the word-by-word
+  morphology (Quranic Arabic Corpus) and the ayah themes: Quranic Universal
+  Library (QUL) by Tarteel AI.
 - Sahih al-Bukhari and Sahih Muslim: interim mirror pending official
   sunnah.com access, stored with provenance and slated for verification
   against the official source.

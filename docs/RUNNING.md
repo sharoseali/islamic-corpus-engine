@@ -178,3 +178,11 @@ Surfaces:
 - `/{locale}/hadith` → `/{collection}` → `/{book}` - hadith browser
 - `/{locale}/tafsir` → `/{surah}` - Tafsir Ibn Kathir reader
 - `/{locale}/search` - unified search
+
+## Production deployment
+
+The server runs the same three parts as Docker containers behind Caddy
+(automatic HTTPS), built from `Dockerfile`, `frontend/Dockerfile` and
+`docker-compose.prod.yml`. The database and the models are shipped as a
+release bundle (`scripts/release_bundle.sh`) so nothing is recomputed on
+the server. Step by step: `docs/DEPLOYMENT.md`.

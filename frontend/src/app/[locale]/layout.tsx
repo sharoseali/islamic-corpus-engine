@@ -53,8 +53,12 @@ export const metadata: Metadata = {
     "An authenticated corpus of Quran, Hadith, and Tafsir with full provenance.",
 };
 
-export function generateStaticParams() {
-  return LOCALES.map((locale) => ({ locale }));
+// No page is prerendered at build time: the build must not depend on the
+// API being reachable (CI, Docker images). Every page renders on its first
+// visit and is then cached and revalidated (see lib/api.ts). Unknown locales
+// return 404 through the isLocale check below.
+export function generateStaticParams(): { locale: string }[] {
+  return [];
 }
 
 const THEME_INIT = `(function(){try{var t=localStorage.getItem('elaaj-theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();`;
@@ -93,5 +97,5 @@ export default async function LocaleLayout({
   );
 }
 
-export const dynamicParams = false;
 void DEFAULT_LOCALE;
+void LOCALES;

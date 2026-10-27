@@ -1,0 +1,21 @@
+# Only the backend sources go into the API image (see Dockerfile).
+.git
+.github
+.vscode
+.claude
+qlib/
+venv/
+frontend/
+corpus/
+release/
+logs/
+docs/
+tests/
+database/
+config/
+.env
+.env.*
+**/__pycache__
+**/*.py[cod]
+*.log
+*.md

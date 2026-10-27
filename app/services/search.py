@@ -30,6 +30,7 @@ from dataclasses import dataclass, field
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 
+from app.core.config import get_settings
 from app.services import embeddings
 
 from app.services.text_normalize import PG_STEMMED, normalize, query_tsquery, term_tsquery, ts_config
@@ -88,8 +89,8 @@ _SEMANTIC_CHUNKS = 120
 _HNSW_EF_SEARCH = 400
 # Reciprocal rank fusion constant (Cormack et al.).
 _RRF_K = 60
-# How many fused candidates the reranker re-orders.
-_RERANK_TOP = 24
+# How many fused candidates the reranker re-orders: RERANK_CANDIDATES
+# (0 turns the reranker off, for servers without a GPU).
 # Keyword hits longer than this get a passage-sized snippet.
 _SNIPPET_CHARS = 1200
 
@@ -363,7 +364,10 @@ class SearchService:
         return out
 
     def _rerank(self, query: str, hits: list[SearchHit]) -> list[SearchHit]:
-        top, rest = hits[:_RERANK_TOP], hits[_RERANK_TOP:]
+        depth = get_settings().RERANK_CANDIDATES
+        if depth <= 0:
+            return hits
+        top, rest = hits[:depth], hits[depth:]
         passages = [self._passage_for(h) for h in top]
         try:
             scores = embeddings.rerank(query, passages)

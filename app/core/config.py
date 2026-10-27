@@ -23,6 +23,10 @@ class Settings(BaseSettings):
     APP_NAME: str = "Islamic Knowledge Core"
     APP_ENV: Literal["development", "staging", "production"] = "development"
     LOG_LEVEL: str = "INFO"
+    # Browser origins allowed to call the API directly (comma-separated).
+    # The production site calls the API through its own origin (the
+    # frontend forwards /api/v1), so this only matters for development.
+    CORS_ORIGINS: str = "http://localhost:3400,http://127.0.0.1:3400"
 
     # --- PostgreSQL ---
     POSTGRES_HOST: str = "localhost"
@@ -68,6 +72,9 @@ class Settings(BaseSettings):
     RERANKER_MODEL_DIR: str = ""
     EMBEDDING_CACHE_DIR: str = "corpus/cache/models"
     EMBEDDING_THREADS: int = 16  # onnxruntime intra-op threads
+    # How many fused candidates the reranker re-orders per query. The time
+    # grows with this number; 0 turns the reranker off (CPU-only servers).
+    RERANK_CANDIDATES: int = 24
     # "auto": use the GPU when onnxruntime-gpu and a CUDA device are present
     # (full precision, no TF32), otherwise the CPU. "cuda" requires the GPU,
     # "cpu" never touches it.
