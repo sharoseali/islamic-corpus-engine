@@ -5,7 +5,7 @@ theme, "Ayah by Ayah", English) into corpus/original/qul/topics/. Each row
 names a theme for a range of ayat of one surah. Rows whose range does not
 exist in the canonical text are refused.
 
-Run:  qlib/bin/python -m app.pipelines.quran.themes
+Run:  python -m app.pipelines.quran.themes
 """
 
 import io
