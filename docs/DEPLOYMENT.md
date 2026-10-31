@@ -72,6 +72,15 @@ CPU server.
   HTTPS. Without one, `SITE_ADDRESS=:80` serves plain HTTP on the IP
   address; browsers then refuse the microphone (voice search needs HTTPS).
 
+### Sharing a server that already runs nginx
+
+If ports 80 and 443 are taken by an nginx (or apache) serving other sites,
+keep that server as the front door: in `.env` set `HTTP_PORT=127.0.0.1:8090`
+and `HTTPS_PORT=127.0.0.1:8453` so the Elaaj stack binds only to loopback,
+then add the site from `deploy/nginx-elaaj.conf.example` (proxy to
+127.0.0.1:8090) and let certbot manage its certificate as for the other
+sites. Everything else in this guide stays the same.
+
 ## 2. One-time server setup
 
 ```bash
